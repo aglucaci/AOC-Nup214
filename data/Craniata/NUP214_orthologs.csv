@@ -1,0 +1,518 @@
+Gene ID,Gene symbol,Description,Scientific name,Common name,RefSeq Transcript accessions,RefSeq Protein accessions,SPARCLE ID,Curation Status,RefseqSelect,Default sequence
+8021,NUP214,nucleoporin 214,Homo sapiens,human,NM_005085.4,NP_005076.3,,curated,RefseqSelect,default-seq
+227720,Nup214,nucleoporin 214,Mus musculus,house mouse,NM_001408097.1,NP_001395026.1,,curated,RefseqSelect,default-seq
+296634,Nup214,nucleoporin 214,Rattus norvegicus,Norway rat,NM_001168559.1,NP_001162031.1,,curated,RefseqSelect,default-seq
+427760,NUP214,nucleoporin 214,Gallus gallus,chicken,XM_040649366.2,XP_040505300.1,,model,,default-seq
+464807,NUP214,nucleoporin 214,Pan troglodytes,chimpanzee,XM_016961887.3,XP_016817376.1,,model,,default-seq
+608534,NUP214,nucleoporin 214,Canis lupus familiaris,dog,XM_038678260.1,XP_038534188.1,,model,,default-seq
+722421,NUP214,nucleoporin 214,Macaca mulatta,Rhesus monkey,XM_015116545.2,XP_014972031.1,,model,,default-seq
+784219,NUP214,nucleoporin 214,Bos taurus,cattle,XM_005213418.4,XP_005213475.2,,model,,default-seq
+100013666,NUP214,nucleoporin 214,Monodelphis domestica,gray short-tailed opossum,XM_007475163.2,XP_007475225.1,,model,,default-seq
+100069634,NUP214,nucleoporin 214,Equus caballus,horse,XM_023629552.1,XP_023485320.1,,model,,default-seq
+100075403,NUP214,nucleoporin 214,Ornithorhynchus anatinus,platypus,XM_029062477.2,XP_028918310.1,,model,,default-seq
+100145463,nup214,nucleoporin 214,Xenopus tropicalis,tropical clawed frog,XM_002936191.5,XP_002936237.1,,model,,default-seq
+100155564,NUP214,nucleoporin 214,Sus scrofa,pig,XM_005660529.3,XP_005660586.1,,model,,default-seq
+100232127,NUP214,nucleoporin 214,Taeniopygia guttata,zebra finch,XM_012578331.4,XP_012433785.4,,model,,default-seq
+100355984,NUP214,nucleoporin 214,Oryctolagus cuniculus,rabbit,XM_008249052.3,XP_008247274.1,,model,,default-seq
+100400586,NUP214,nucleoporin 214,Callithrix jacchus,white-tufted-ear marmoset,XM_035260640.2,XP_035116531.1,,model,,default-seq
+100442200,NUP214,nucleoporin 214,Pongo abelii,Sumatran orangutan,XM_024252122.2,XP_024107890.2,,model,,default-seq
+100529857,nup214,nucleoporin 214,Danio rerio,zebrafish,XM_017356400.2,XP_017211889.1,,model,,default-seq
+100551176,NUP214,nucleoporin 214,Meleagris gallopavo,turkey,XM_010720905.3,XP_010719207.1,,model,,default-seq
+100603488,NUP214,nucleoporin 214,Nomascus leucogenys,northern white-cheeked gibbon,XM_030818049.1,XP_030673909.1,,model,,default-seq
+100670029,NUP214,nucleoporin 214,Loxodonta africana,African savanna elephant,XM_010587555.2,XP_010585857.1,,model,,default-seq
+100695952,nup214,nucleoporin 214,Oreochromis niloticus,Nile tilapia,XM_005459466.4,XP_005459523.4,,model,,default-seq
+100729364,Nup214,nucleoporin 214,Cavia porcellus,domestic guinea pig,XM_013153255.2,XP_013008709.1,,model,,default-seq
+100752558,Nup214,nucleoporin 214,Cricetulus griseus,Chinese hamster,XM_007653290.4,XP_007651480.1,,model,,default-seq
+100913204,NUP214,nucleoporin 214,Sarcophilus harrisii,Tasmanian devil,XM_031954852.1,XP_031810712.1,,model,,default-seq
+100966801,NUP214,nucleoporin 214,Otolemur garnettii,small-eared galago,XM_023516114.1,XP_023371882.1,,model,,default-seq
+100967814,NUP214,nucleoporin 214,Pan paniscus,pygmy chimpanzee,XM_003822383.5,XP_003822431.2,,model,,default-seq
+101004751,NUP214,nucleoporin 214,Papio anubis,olive baboon,XM_031654644.1,XP_031510504.1,,model,,default-seq
+101048784,NUP214,nucleoporin 214,Saimiri boliviensis,Bolivian squirrel monkey,XM_010341412.1,XP_010339714.1,,model,,default-seq
+101071502,nup214,nucleoporin 214,Takifugu rubripes,torafugu,XM_011604539.2,XP_011602841.2,,model,,default-seq
+101099000,NUP214,nucleoporin 214,Felis catus,domestic cat,XM_023242861.2,XP_023098629.1,,model,,default-seq
+101114502,NUP214,nucleoporin 214,Ovis aries,sheep,XM_012161056.4,XP_012016446.3,,model,,default-seq
+101139346,NUP214,nucleoporin 214,Gorilla gorilla gorilla,western lowland gorilla,XM_031007714.2,XP_030863574.2,,model,,default-seq
+101170858,nup214,nucleoporin 214,Oryzias latipes,Japanese medaka,XM_011481722.3,XP_011480024.1,,model,,default-seq
+101279973,NUP214,nucleoporin 214,Orcinus orca,killer whale,XM_033426936.2,XP_033282827.1,,model,,default-seq
+101332456,NUP214,nucleoporin 214,Tursiops truncatus,common bottlenose dolphin,XM_019920186.2,XP_019775745.2,,model,,default-seq
+101342921,LOC101342921,nucleoporin 214,Trichechus manatus latirostris,Florida manatee,XM_023730817.1,XP_023586585.1,,model,,default-seq
+101368862,NUP214,nucleoporin 214,Odobenus rosmarus divergens,Pacific walrus,XM_004392451.2,XP_004392508.1,,model,,default-seq
+101389514,LOC101389514,nucleoporin 214,Ceratotherium simum simum,southern white rhinoceros,XM_014781963.1,XP_014637449.1,,model,,default-seq
+101426328,NUP214,nucleoporin 214,Dasypus novemcinctus,nine-banded armadillo,XM_004468030.2,XP_004468087.1,,model,,default-seq
+101487745,nup214,nucleoporin 214,Maylandia zebra,zebra mbuna,XM_004549585.4,XP_004549642.2,,model,,default-seq
+101523386,NUP214,nucleoporin 214,Ochotona princeps,American pika,XM_004593681.1,XP_004593738.1,,model,,default-seq
+101537748,NUP214,nucleoporin 214,Sorex araneus,European shrew,XM_055140152.1,XP_054996127.1,,model,,default-seq
+101564648,Nup214,nucleoporin 214,Octodon degus,degu,XM_023700311.1,XP_023556079.1,,model,,default-seq
+101595813,Nup214,nucleoporin 214,Jaculus jaculus,lesser Egyptian jerboa,XM_045149901.1,XP_045005836.1,,model,,default-seq
+101636969,NUP214,nucleoporin 214,Condylura cristata,star-nosed mole,XM_012721410.1,XP_012576864.1,,model,,default-seq
+101659361,NUP214,nucleoporin 214,Echinops telfairi,small Madagascar hedgehog,XM_045288498.1,XP_045144433.1,,model,,default-seq
+101688383,NUP214,nucleoporin 214,Mustela putorius furo,domestic ferret,XM_013058628.2,XP_012914082.1,,model,,default-seq
+101722062,Nup214,nucleoporin 214,Heterocephalus glaber,naked mole-rat,XM_004849095.3,XP_004849152.2,,model,,default-seq
+101794724,NUP214,nucleoporin 214,Anas platyrhynchos,mallard,XM_038188009.1,XP_038043937.1,,model,,default-seq
+101817884,NUP214,nucleoporin 214,Ficedula albicollis,Collared flycatcher,XM_005055573.2,XP_005055630.1,,model,,default-seq
+101827647,Nup214,nucleoporin 214,Mesocricetus auratus,golden hamster,XM_013126431.3,XP_012981885.1,,model,,default-seq
+101865169,NUP214,nucleoporin 214,Macaca fascicularis,crab-eating macaque,XM_005580615.3,XP_005580672.2,,model,,default-seq
+101879356,LOC101879356,nucleoporin 214,Melopsittacus undulatus,budgerigar,XM_034067458.1,XP_033923349.1,,model,,default-seq
+101919400,NUP214,nucleoporin 214,Falco peregrinus,peregrine falcon,XM_005231203.4,XP_005231260.2,,model,,default-seq
+101933880,NUP214,nucleoporin 214,Chrysemys picta,Painted turtle,XM_008169152.3,XP_008167374.1,,model,,default-seq
+101957504,Nup214,nucleoporin 214,Ictidomys tridecemlineatus,thirteen-lined ground squirrel,XM_013356741.3,XP_013212195.1,,model,,default-seq
+101986046,Nup214,nucleoporin 214,Microtus ochrogaster,prairie vole,XM_005346089.3,XP_005346146.1,,model,,default-seq
+102019520,Nup214,nucleoporin 214,Chinchilla lanigera,long-tailed chinchilla,XM_005408354.2,XP_005408411.1,,model,,default-seq
+102031442,NUP214,nucleoporin 214,Geospiza fortis,medium ground-finch,XM_014307122.1,XP_014162597.1,,model,,default-seq
+102058677,NUP214,nucleoporin 214,Falco cherrug,Saker falcon,XM_055720404.1,XP_055576379.1,,model,,default-seq
+102065615,NUP214,nucleoporin 214,Zonotrichia albicollis,white-throated sparrow,XM_005495229.3,XP_005495286.1,,model,,default-seq
+102091705,NUP214,nucleoporin 214,Columba livia,rock pigeon,XM_013370612.2,XP_013226066.1,,model,,default-seq
+102100368,NUP214,nucleoporin 214,Pseudopodoces humilis,Tibetan ground-tit,XM_005527285.2,XP_005527342.1,,model,,default-seq
+102185190,NUP214,nucleoporin 214,Capra hircus,goat,XM_018055995.1,XP_017911484.1,,model,,default-seq
+102198642,nup214,nucleoporin 214,Pundamilia nyererei,,XM_013909135.1,XP_013764589.1,,model,,default-seq
+102217374,nup214,nucleoporin 214,Xiphophorus maculatus,southern platyfish,XM_023338115.1,XP_023193883.1,,model,,default-seq
+102251677,NUP214,nucleoporin 214,Myotis brandtii,Brandt's bat,XM_014529882.1,XP_014385368.1,,model,,default-seq
+102288310,NUP214,nucleoporin 214,Bos mutus,wild yak,XM_005902770.2,XP_005902832.1,,model,,default-seq
+102356271,NUP214,nucleoporin 214,Latimeria chalumnae,coelacanth,XM_014485361.1,XP_014340847.1,,model,,default-seq
+102404152,NUP214,nucleoporin 214,Bubalus bubalis,water buffalo,XM_025261864.3,XP_025117649.3,,model,,default-seq
+102434367,NUP214,nucleoporin 214,Myotis lucifugus,little brown bat,XM_023746731.1,XP_023602499.1,,model,,default-seq
+102462032,NUP214,nucleoporin 214,Pelodiscus sinensis,Chinese soft-shelled turtle,XM_006128397.2,XP_006128459.2,,model,,default-seq
+102494195,NUP214,nucleoporin 214,Tupaia chinensis,Chinese tree shrew,XM_006164333.3,XP_006164395.1,,model,,default-seq
+102520268,NUP214,nucleoporin 214,Camelus ferus,Wild Bactrian camel,XM_032478678.1,XP_032334569.1,,model,,default-seq
+102527807,NUP214,nucleoporin 214,Vicugna pacos,alpaca,XM_015249818.2,XP_015105304.1,,model,,default-seq
+102568058,NUP214,nucleoporin 214,Alligator mississippiensis,American alligator,XM_006260013.3,XP_006260075.1,,model,,default-seq
+102683889,nup214,nucleoporin 214,Lepisosteus oculatus,spotted gar,XM_015367229.1,XP_015222715.1,,model,,default-seq
+102762682,NUP214,nucleoporin 214,Myotis davidii,,XM_015567742.1,XP_015423228.1,,model,,default-seq
+102796559,nup214,nucleoporin 214,Neolamprologus brichardi,,XM_035906921.1,XP_035762814.1,,model,,default-seq
+102833188,NUP214,nucleoporin 214,Chrysochloris asiatica,Cape golden mole,XM_006834991.1,XP_006835054.1,,model,,default-seq
+102865551,NUP214,nucleoporin 214,Elephantulus edwardii,Cape elephant shrew,XM_006892442.1,XP_006892504.1,,model,,default-seq
+102896624,NUP214,nucleoporin 214,Pteropus alecto,black flying fox,XM_015594231.2,XP_015449717.1,,model,,default-seq
+102916001,Nup214,nucleoporin 214,Peromyscus maniculatus bairdii,prairie deer mouse,XM_042274920.1,XP_042130854.1,,model,,default-seq
+102943281,NUP214,nucleoporin 214,Chelonia mydas,Green sea turtle,XM_007061048.4,XP_007061110.3,,model,,default-seq
+102961479,NUP214,nucleoporin 214,Panthera tigris,tiger,XM_042964819.1,XP_042820753.1,,model,,default-seq
+102989932,NUP214,nucleoporin 214,Physeter catodon,sperm whale,XM_007115568.4,XP_007115630.2,,model,,default-seq
+103005621,NUP214,nucleoporin 214,Balaenoptera acutorostrata scammoni,,XM_007194774.2,XP_007194836.1,,model,,default-seq
+103044192,nup214,nucleoporin 214,Astyanax mexicanus,Mexican tetra,XM_049465800.1,XP_049321757.1,,model,,default-seq
+103064502,NUP214,nucleoporin 214,Python bivittatus,Burmese python,XM_007422313.3,XP_007422375.1,,model,,default-seq
+103070544,NUP214,nucleoporin 214,Lipotes vexillifer,Yangtze River dolphin,XM_007453124.1,XP_007453186.1,,model,,default-seq
+103119964,NUP214,nucleoporin 214,Erinaceus europaeus,western European hedgehog,XM_016191385.1,XP_016046871.1,,model,,default-seq
+103142767,nup214,nucleoporin 214,Poecilia formosa,Amazon molly,XM_016674732.1,XP_016530218.1,,model,,default-seq
+103183103,nup214,nucleoporin 214,Callorhinchus milii,elephant shark,XM_007900373.2,XP_007898564.2,,model,,default-seq
+103199858,NUP214,nucleoporin 214,Orycteropus afer afer,,XM_042781459.1,XP_042637393.1,,model,,default-seq
+103239737,NUP214,nucleoporin 214,Chlorocebus sabaeus,green monkey,XM_008005906.2,XP_008004097.2,,model,,default-seq
+103259781,NUP214,nucleoporin 214,Carlito syrichta,Philippine tarsier,XM_008057451.2,XP_008055642.1,,model,,default-seq
+103296012,NUP214,nucleoporin 214,Eptesicus fuscus,big brown bat,XM_028127069.2,XP_027982870.2,,model,,default-seq
+103359976,nup214,nucleoporin 214,Stegastes partitus,bicolor damselfish,XM_008285570.1,XP_008283792.1,,model,,default-seq
+103390209,nup214,nucleoporin 214,Cynoglossus semilaevis,tongue sole,XM_008325965.3,XP_008324187.2,,model,,default-seq
+103473846,nup214,nucleoporin 214,Poecilia reticulata,guppy,XM_008424408.2,XP_008422630.1,,model,,default-seq
+103526475,NUP214,nucleoporin 214,Calypte anna,Anna's hummingbird,XM_030461305.1,XP_030317165.1,,model,,default-seq
+103561036,NUP214,nucleoporin 214,Equus przewalskii,Przewalski's horse,XM_008535420.1,XP_008533642.1,,model,,default-seq
+103599111,NUP214,nucleoporin 214,Galeopterus variegatus,Sunda flying lemur,XM_008583206.1,XP_008581428.1,,model,,default-seq
+103623263,NUP214,nucleoporin 214,Corvus brachyrhynchos,American crow,XM_017745507.1,XP_017600996.1,,model,,default-seq
+103670410,NUP214,nucleoporin 214,Ursus maritimus,polar bear,XM_040632079.1,XP_040488013.1,,model,,default-seq
+103727678,Nup214,nucleoporin 214,Nannospalax galili,Upper Galilee mountains blind mole rat,XM_008825660.3,XP_008823882.1,,model,,default-seq
+103753697,NUP214,nucleoporin 214,Manacus vitellinus,golden-collared manakin,XM_018074190.3,XP_017929679.1,,model,,default-seq
+103768161,NUP214,nucleoporin 214,Merops nubicus,carmine bee-eater,XM_008935299.1,XP_008933547.1,,model,,default-seq
+103804805,NUP214,nucleoporin 214,Acanthisitta chloris,rifleman,XM_009077434.1,XP_009075682.1,,model,,default-seq
+103818993,NUP214,nucleoporin 214,Serinus canaria,Common canary,XM_009093413.4,XP_009091661.1,,model,,default-seq
+103905380,NUP214,nucleoporin 214,Aptenodytes forsteri,emperor penguin,XM_009287021.1,XP_009285296.1,,model,,default-seq
+103915365,NUP214,nucleoporin 214,Pygoscelis adeliae,Adelie penguin,XM_009322178.1,XP_009320453.1,,model,,default-seq
+104023272,NUP214,nucleoporin 214,Nipponia nippon,crested ibis,XM_009477078.1,XP_009475353.1,,model,,default-seq
+104030820,NUP214,nucleoporin 214,Pelecanus crispus,Dalmatian pelican,XM_009482638.1,XP_009480913.1,,model,,default-seq
+104048097,NUP214,nucleoporin 214,Phalacrocorax carbo,great cormorant,XM_009508508.1,XP_009506803.1,,model,,default-seq
+104066922,NUP214,nucleoporin 214,Cuculus canorus,common cuckoo,XM_054084299.1,XP_053940274.1,,model,,default-seq
+104083216,NUP214,nucleoporin 214,Fulmarus glacialis,Northern fulmar,XM_009586625.1,XP_009584920.1,,model,,default-seq
+104129837,NUP214,nucleoporin 214,Egretta garzetta,little egret,XM_035898240.1,XP_035754133.1,,model,,default-seq
+104138306,NUP214,nucleoporin 214,Struthio camelus australis,,XM_009665832.1,XP_009664127.1,,model,,default-seq
+104159380,NUP214,nucleoporin 214,Cariama cristata,Red-legged seriema,XM_009697272.1,XP_009695574.1,,model,,default-seq
+104257270,NUP214,nucleoporin 214,Gavia stellata,red-throated loon,XM_009811987.1,XP_009810289.1,,model,,default-seq
+104278041,NUP214,nucleoporin 214,Apaloderma vittatum,bar-tailed trogon,XM_009874886.1,XP_009873188.1,,model,,default-seq
+104292873,NUP214,nucleoporin 214,Charadrius vociferus,killdeer,XM_009892306.1,XP_009890608.1,,model,,default-seq
+104296457,NUP214,nucleoporin 214,Dryobates pubescens,Downy woodpecker,XM_054174325.1,XP_054030300.1,,model,,default-seq
+104317851,NUP214,nucleoporin 214,Haliaeetus albicilla,white-tailed eagle,XM_009918851.1,XP_009917153.1,,model,,default-seq
+104329723,NUP214,nucleoporin 214,Opisthocomus hoazin,,XM_009934872.1,XP_009933174.1,,model,,default-seq
+104346285,NUP214,nucleoporin 214,Leptosomus discolor,cuckoo roller,XM_009950985.1,XP_009949287.1,,model,,default-seq
+104367624,NUP214,nucleoporin 214,Tyto alba,Barn owl,XM_033012037.2,XP_032867928.2,,model,,default-seq
+104373021,NUP214,nucleoporin 214,Tauraco erythrolophus,red-crested turaco,XM_009978833.1,XP_009977135.1,,model,,default-seq
+104389924,NUP214,nucleoporin 214,Chaetura pelagica,chimney swift,XM_009998983.1,XP_009997285.1,,model,,default-seq
+104402982,NUP214,nucleoporin 214,Nestor notabilis,Kea,XM_010010994.1,XP_010009296.1,,model,,default-seq
+104461573,NUP214,nucleoporin 214,Pterocles gutturalis,yellow-throated sandgrouse,XM_010073208.1,XP_010071510.1,,model,,default-seq
+104494716,NUP214,nucleoporin 214,Buceros rhinoceros silvestris,,XM_010137581.1,XP_010135883.1,,model,,default-seq
+104515354,NUP214,nucleoporin 214,Eurypyga helias,sunbittern,XM_010159295.1,XP_010157597.1,,model,,default-seq
+104524682,NUP214,nucleoporin 214,Antrostomus carolinensis,chuck-will's-widow,XM_029084879.1,XP_028940712.1,,model,,default-seq
+104539338,NUP214,nucleoporin 214,Mesitornis unicolor,brown roatelo,XM_010182837.1,XP_010181139.1,,model,,default-seq
+104562021,NUP214,nucleoporin 214,Colius striatus,speckled mousebird,XM_010207914.1,XP_010206216.1,,model,,default-seq
+104566166,NUP214,nucleoporin 214,Tinamus guttatus,white-throated tinamou,XM_010212920.1,XP_010211222.1,,model,,default-seq
+104622911,NUP214,nucleoporin 214,Phaethon lepturus,White-tailed tropicbird,XM_010289831.1,XP_010288133.1,,model,,default-seq
+104641275,NUP214,nucleoporin 214,Balearica regulorum gibbericeps,East African grey crowned-crane,XM_010309868.1,XP_010308170.1,,model,,default-seq
+104660556,NUP214,nucleoporin 214,Rhinopithecus roxellana,golden snub-nosed monkey,XM_030919316.1,XP_030775176.1,,model,,default-seq
+104688477,NUP214,nucleoporin 214,Corvus cornix cornix,,XM_039561673.1,XP_039417607.1,,model,,default-seq
+104833898,NUP214,nucleoporin 214,Haliaeetus leucocephalus,bald eagle,XM_010570899.1,XP_010569201.1,,model,,default-seq
+104864438,Nup214,nucleoporin 214,Fukomys damarensis,Damara mole-rat,XM_010627377.2,XP_010625679.1,,model,,default-seq
+104936212,nup214,nucleoporin 214,Larimichthys crocea,large yellow croaker,XM_019276277.2,XP_019131822.2,,model,,default-seq
+104950433,nup214,nucleoporin 214,Notothenia coriiceps,black rockcod,XM_010776956.1,XP_010775258.1,,model,,default-seq
+105000785,NUP214,nucleoporin 214,Bison bison bison,,XM_010856792.1,XP_010855094.1,,model,,default-seq
+105015113,nup214,nucleoporin 214,Esox lucius,northern pike,XM_020053419.3,XP_019908978.3,,model,,default-seq
+105069702,NUP214,nucleoporin 214,Camelus bactrianus,Bactrian camel,XM_010955880.2,XP_010954182.1,,model,,default-seq
+105085163,NUP214,nucleoporin 214,Camelus dromedarius,Arabian camel,XM_031450716.1,XP_031306576.1,,model,,default-seq
+105298687,NUP214,nucleoporin 214,Pteropus vampyrus,large flying fox,XM_023536519.1,XP_023392287.1,,model,,default-seq
+105464101,NUP214,nucleoporin 214,Macaca nemestrina,pig-tailed macaque,XM_024787457.1,XP_024643225.1,,model,,default-seq
+105504009,NUP214,nucleoporin 214,Colobus angolensis palliatus,,XM_011931188.1,XP_011786578.1,,model,,default-seq
+105532837,NUP214,nucleoporin 214,Mandrillus leucophaeus,drill,XM_011971141.1,XP_011826531.1,,model,,default-seq
+105576168,NUP214,nucleoporin 214,Cercocebus atys,sooty mangabey,XM_012038803.1,XP_011894193.1,,model,,default-seq
+105721012,NUP214,nucleoporin 214,Aotus nancymaae,Ma's night monkey,XM_021674128.1,XP_021529803.1,,model,,default-seq
+105806645,NUP214,nucleoporin 214,Propithecus coquereli,Coquerel's sifaka,XM_012639836.1,XP_012495290.1,,model,,default-seq
+105862785,NUP214,nucleoporin 214,Microcebus murinus,gray mouse lemur,XM_020289538.1,XP_020145127.1,,model,,default-seq
+105906400,nup214,nucleoporin 214,Clupea harengus,Atlantic herring,XM_031577782.1,XP_031433642.1,,model,,default-seq
+105930656,nup214,nucleoporin 214,Fundulus heteroclitus,mummichog,XM_012868962.3,XP_012724416.2,,model,,default-seq
+105989330,Nup214,nucleoporin 214,Dipodomys ordii,Ord's kangaroo rat,XM_013021291.1,XP_012876745.1,,model,,default-seq
+106044074,NUP214,nucleoporin 214,Anser cygnoides,Swan goose,XM_048051800.1,XP_047907757.1,,model,,default-seq
+106490322,NUP214,nucleoporin 214,Apteryx mantelli mantelli,,XM_013949704.1,XP_013805158.1,,model,,default-seq
+106518210,nup214,nucleoporin 214,Austrofundulus limnaeus,,XM_014009373.1,XP_013864827.1,,model,,default-seq
+106550909,NUP214,nucleoporin 214,Thamnophis sirtalis,,XM_014068899.1,XP_013924374.1,,model,,default-seq
+106565702,nup214,nucleoporin 214,Salmo salar,Atlantic salmon,XM_014133085.2,XP_013988560.1,,model,,default-seq
+106845387,NUP214,nucleoporin 214,Equus asinus,ass,XM_014863446.2,XP_014718932.1,,model,,default-seq
+106851352,NUP214,nucleoporin 214,Sturnus vulgaris,Common starling,XM_014873230.1,XP_014728716.1,,model,,default-seq
+106888640,NUP214,nucleoporin 214,Calidris pugnax,ruff,XM_014943014.1,XP_014798500.1,,model,,default-seq
+106925446,nup214,nucleoporin 214,Poecilia mexicana,,XM_014999804.1,XP_014855290.1,,model,,default-seq
+106961639,nup214,nucleoporin 214,Poecilia latipinna,sailfin molly,XM_015055500.1,XP_014910986.1,,model,,default-seq
+106985337,NUP214,nucleoporin 214,Acinonyx jubatus,cheetah,XM_027035408.2,XP_026891209.2,,model,,default-seq
+107096106,nup214,nucleoporin 214,Cyprinodon variegatus,sheepshead minnow,XM_015392612.1,XP_015248098.1,,model,,default-seq
+107121346,NUP214,nucleoporin 214,Gekko japonicus,,XM_015424259.1,XP_015279745.1,,model,,default-seq
+107151991,Nup214,nucleoporin 214,Marmota marmota marmota,Alpine marmot,XM_015497426.2,XP_015352912.1,,model,,default-seq
+107212140,NUP214,nucleoporin 214,Parus major,Great Tit,XM_015645071.2,XP_015500557.1,,model,,default-seq
+107321812,NUP214,nucleoporin 214,Coturnix japonica,Japanese quail,XM_015879155.2,XP_015734641.1,,model,,default-seq
+107374666,nup214,nucleoporin 214,Nothobranchius furzeri,turquoise killifish,XM_015942816.2,XP_015798302.2,,model,,default-seq
+107504554,NUP214,nucleoporin 214,Rousettus aegyptiacus,Egyptian rousette,XM_016133847.2,XP_015989333.2,,model,,default-seq
+107524644,NUP214,nucleoporin 214,Miniopterus natalensis,,XM_016196610.1,XP_016052096.1,,model,,default-seq
+107597939,nup214,nucleoporin 214,Sinocyclocheilus grahami,,XM_016289145.1,XP_016144631.1,,model,,default-seq
+107674911,nup214,nucleoporin 214,Sinocyclocheilus anshuiensis,,XM_016469052.1,XP_016324538.1,,model,,default-seq
+107741499,nup214,nucleoporin 214,Sinocyclocheilus rhinocerous,,XM_016554251.1,XP_016409737.1,,model,,default-seq
+108231035,nup214,nucleoporin 214,Kryptolebias marmoratus,mangrove rivulus,XM_017407835.2,XP_017263324.1,,model,,default-seq
+108260123,nup214,nucleoporin 214,Ictalurus punctatus,channel catfish,XM_017460138.2,XP_017315627.2,,model,,default-seq
+108282987,NUP214,nucleoporin 214,Cebus imitator,Panamanian white-faced capuchin,XM_017499061.2,XP_017354550.1,,model,,default-seq
+108408193,NUP214,nucleoporin 214,Manis javanica,Malayan pangolin,XM_037007352.1,XP_036863247.1,,model,,default-seq
+108430424,nup214,nucleoporin 214,Pygocentrus nattereri,red-bellied piranha,XM_017702901.2,XP_017558390.2,,model,,default-seq
+108495008,NUP214,nucleoporin 214,Lepidothrix coronata,blue-crowned manakin,XM_017810199.1,XP_017665688.1,,model,,default-seq
+108513925,NUP214,nucleoporin 214,Rhinopithecus bieti,black snub-nosed monkey,XM_017849892.1,XP_017705381.1,,model,,default-seq
+108792062,NUP214,nucleoporin 214,Nanorana parkeri,,XM_018562743.1,XP_018418245.1,,model,,default-seq
+108874004,nup214,nucleoporin 214,Lates calcarifer,barramundi perch,XM_018662340.2,XP_018517856.1,,model,,default-seq
+108927184,nup214,nucleoporin 214,Scleropages formosus,Asian bonytongue,XM_029252794.1,XP_029108627.1,,model,,default-seq
+109250009,NUP214,nucleoporin 214,Panthera pardus,leopard,XM_019420787.2,XP_019276332.2,,model,,default-seq
+109292972,NUP214,nucleoporin 214,Gavialis gangeticus,Gharial,XM_019510690.1,XP_019366235.1,,model,,default-seq
+109313950,NUP214,nucleoporin 214,Crocodylus porosus,Australian saltwater crocodile,XM_019540813.1,XP_019396358.1,,model,,default-seq
+109380707,NUP214,nucleoporin 214,Hipposideros armiger,great roundleaf bat,XM_019638539.1,XP_019494084.1,,model,,default-seq
+109528146,nup214,nucleoporin 214,Hippocampus comes,tiger tail seahorse,XM_019890466.1,XP_019746025.1,,model,,default-seq
+109566557,NUP214,nucleoporin 214,Bos indicus,zebu cattle,XM_019971033.1,XP_019826592.1,,model,,default-seq
+109626228,nup214,nucleoporin 214,Paralichthys olivaceus,Japanese flounder,XM_020081957.1,XP_019937516.1,,model,,default-seq
+109867993,nup214,nucleoporin 214,Oncorhynchus kisutch,coho salmon,XM_020457347.2,XP_020312936.1,,model,,default-seq
+109916681,nup214,nucleoporin 214,Rhincodon typus,whale shark,XM_048613548.1,XP_048469505.1,,model,,default-seq
+109960617,nup214,nucleoporin 214,Monopterus albus,swamp eel,XM_020600842.1,XP_020456498.1,,model,,default-seq
+109987353,nup214,nucleoporin 214,Labrus bergylta,ballan wrasse,XM_020638399.2,XP_020494055.2,,model,,default-seq
+110079652,NUP214,nucleoporin 214,Pogona vitticeps,central bearded dragon,XM_020794890.1,XP_020650549.1,,model,,default-seq
+110126091,NUP214,nucleoporin 214,Odocoileus virginianus,white-tailed deer,XM_020875551.1,XP_020731210.1,,model,,default-seq
+110160464,nup214,nucleoporin 214,Boleophthalmus pectinirostris,great blue-spotted mudskipper,XM_020925110.2,XP_020780769.1,,model,,default-seq
+110198901,NUP214,nucleoporin 214,Phascolarctos cinereus,koala,XM_020973511.1,XP_020829170.1,,model,,default-seq
+110311834,Nup214,nucleoporin 214,Mus caroli,Ryukyu mouse,XM_021185394.2,XP_021041053.1,,model,,default-seq
+110318458,Nup214,nucleoporin 214,Mus pahari,shrew mouse,XM_021193519.2,XP_021049178.1,,model,,default-seq
+110406738,NUP214,nucleoporin 214,Numida meleagris,helmeted guineafowl,XM_021413569.1,XP_021269244.1,,model,,default-seq
+110477596,NUP214,nucleoporin 214,Lonchura striata domestica,Bengalese finch,XM_021543507.1,XP_021399182.1,,model,,default-seq
+110523615,nup214,nucleoporin 214,Oncorhynchus mykiss,rainbow trout,XM_021602472.2,XP_021458147.2,,model,,default-seq
+110559464,Nup214,nucleoporin 214,Meriones unguiculatus,Mongolian gerbil,XM_021654929.1,XP_021510604.1,,model,,default-seq
+110581451,NUP214,nucleoporin 214,Neomonachus schauinslandi,Hawaiian monk seal,XM_044920505.1,XP_044776440.1,,model,,default-seq
+110957839,nup214,nucleoporin 214,Acanthochromis polyacanthus,spiny chromis,XM_022204048.2,XP_022059740.1,,model,,default-seq
+111145520,LOC111145520,nucleoporin 214,Enhydra lutris kenyoni,,XM_022500410.1,XP_022356118.1,,model,,default-seq
+111177109,NUP214,nucleoporin 214,Delphinapterus leucas,beluga whale,XM_022578425.2,XP_022434133.1,,model,,default-seq
+111238503,nup214,nucleoporin 214,Seriola dumerili,greater amberjack,XM_022768051.1,XP_022623772.1,,model,,default-seq
+111545832,NUP214,nucleoporin 214,Piliocolobus tephrosceles,Ugandan red Colobus,XM_023216929.2,XP_023072697.1,,model,,default-seq
+111577472,nup214,nucleoporin 214,Amphiprion ocellaris,clown anemonefish,XM_023283773.3,XP_023139541.2,,model,,default-seq
+111664781,nup214,nucleoporin 214,Seriola lalandi dorsalis,,XM_023419530.1,XP_023275298.1,,model,,default-seq
+111847452,nup214,nucleoporin 214,Paramormyrops kingsleyae,,XM_023818632.1,XP_023674400.1,,model,,default-seq
+111937008,NUP214,nucleoporin 214,Cyanistes caeruleus,blue tit,XM_023938209.1,XP_023793977.1,,model,,default-seq
+111961585,nup214,nucleoporin 214,Salvelinus alpinus,Arctic char,XM_023983975.1,XP_023839743.1,,model,,default-seq
+112102051,NUP214,nucleoporin 214,Terrapene carolina triunguis,Three-toed box turtle,XM_026657258.2,XP_026513043.1,,model,,default-seq
+112162803,nup214,nucleoporin 214,Oryzias melastigma,Indian medaka,XM_024298701.2,XP_024154469.1,,model,,default-seq
+112219335,nup214,nucleoporin 214,Oncorhynchus tshawytscha,Chinook salmon,XM_042302307.1,XP_042158241.1,,model,,default-seq
+112306236,NUP214,nucleoporin 214,Desmodus rotundus,common vampire bat,XM_024562058.3,XP_024417826.2,,model,,default-seq
+112411206,NUP214,nucleoporin 214,Neophocaena asiaeorientalis asiaeorientalis,Yangtze finless porpoise,XM_024762151.1,XP_024617919.1,,model,,default-seq
+112607907,NUP214,nucleoporin 214,Theropithecus gelada,gelada,XM_025359240.1,XP_025215025.1,,model,,default-seq
+112677343,NUP214,nucleoporin 214,Canis lupus dingo,dingo,XM_025475505.3,XP_025331290.1,,model,,default-seq
+112836739,NUP214,nucleoporin 214,Callorhinus ursinus,northern fur seal,XM_025888656.1,XP_025744441.1,,model,,default-seq
+112849811,NUP214,nucleoporin 214,Puma concolor,puma,XM_025913499.1,XP_025769284.1,,model,,default-seq
+112927990,NUP214,nucleoporin 214,Vulpes vulpes,red fox,XM_026009534.1,XP_025865319.1,,model,,default-seq
+112955880,NUP214,nucleoporin 214,Nothoprocta perdicaria,,XM_026049333.1,XP_025905118.1,,model,,default-seq
+112964281,NUP214,nucleoporin 214,Apteryx rowi,Okarito brown kiwi,XM_026062146.1,XP_025917931.1,,model,,default-seq
+112984163,NUP214,nucleoporin 214,Dromaius novaehollandiae,emu,XM_026101800.1,XP_025957585.1,,model,,default-seq
+113025660,nup214,nucleoporin 214,Astatotilapia calliptera,eastern happy,XM_026173651.1,XP_026029436.1,,model,,default-seq
+113086616,nup214,nucleoporin 214,Carassius auratus,goldfish,XM_026255466.1,XP_026111251.1,,model,,default-seq
+113124327,nup214,nucleoporin 214,Mastacembelus armatus,zig-zag eel,XM_026297003.1,XP_026152788.1,,model,,default-seq
+113158671,nup214,nucleoporin 214,Anabas testudineus,climbing perch,XM_026354746.1,XP_026210531.1,,model,,default-seq
+113181104,Nup214,nucleoporin 214,Urocitellus parryii,Arctic ground squirrel,XM_026386470.1,XP_026242255.1,,model,,default-seq
+113266528,NUP214,nucleoporin 214,Ursus arctos,brown bear,XM_026514203.3,XP_026369988.2,,model,,default-seq
+113424124,NUP214,nucleoporin 214,Notechis scutatus,mainland tiger snake,XM_026685730.1,XP_026541515.1,,model,,default-seq
+113443999,NUP214,nucleoporin 214,Pseudonaja textilis,,XM_026712551.1,XP_026568336.1,,model,,default-seq
+113486598,NUP214,nucleoporin 214,Athene cunicularia,burrowing owl,XM_026860665.1,XP_026716466.1,,model,,default-seq
+113531423,nup214,nucleoporin 214,Pangasianodon hypophthalmus,striped catfish,XM_034300597.2,XP_034156488.2,,model,,default-seq
+113587317,nup214,nucleoporin 214,Electrophorus electricus,electric eel,XM_035527488.1,XP_035383381.1,,model,,default-seq
+113619573,NUP214,nucleoporin 214,Lagenorhynchus obliquidens,Pacific white-sided dolphin,XM_027104488.1,XP_026960289.1,,model,,default-seq
+113650894,nup214,nucleoporin 214,Tachysurus fulvidraco,yellow catfish,XM_027159432.2,XP_027015233.2,,model,,default-seq
+113901759,NUP214,nucleoporin 214,Bos indicus x Bos taurus,hybrid cattle,XM_027556593.1,XP_027412394.1,,model,,default-seq
+113934269,NUP214,nucleoporin 214,Zalophus californianus,California sea lion,XM_027614894.2,XP_027470695.2,,model,,default-seq
+113950273,NUP214,nucleoporin 214,Corapipo altera,White-ruffed manakin,XM_027649923.1,XP_027505724.1,,model,,default-seq
+113969717,NUP214,nucleoporin 214,Neopelma chrysocephalum,saffron-crested tyrant-manakin,XM_027687818.1,XP_027543619.1,,model,,default-seq
+113997458,NUP214,nucleoporin 214,Pipra filicauda,Wire-tailed manakin,XM_027739304.2,XP_027595105.1,,model,,default-seq
+114048446,NUP214,nucleoporin 214,Vombatus ursinus,common wombat,XM_027869347.1,XP_027725148.1,,model,,default-seq
+114073808,NUP214,nucleoporin 214,Empidonax traillii,willow flycatcher,XM_027911660.1,XP_027767461.1,,model,,default-seq
+114098507,Nup214,nucleoporin 214,Marmota flaviventris,yellow-bellied marmot,XM_027942761.1,XP_027798562.1,,model,,default-seq
+114149447,nup214,nucleoporin 214,Xiphophorus couchianus,Monterrey platyfish,XM_028025314.1,XP_027881115.1,,model,,default-seq
+114198880,NUP214,nucleoporin 214,Eumetopias jubatus,Steller sea lion,XM_028090579.1,XP_027946380.1,,model,,default-seq
+114443425,nup214,nucleoporin 214,Parambassis ranga,Indian glassy fish,XM_028417427.1,XP_028273228.1,,model,,default-seq
+114473307,nup214,nucleoporin 214,Gouania willdenowi,blunt-snouted clingfish,XM_028462848.1,XP_028318649.1,,model,,default-seq
+114499806,NUP214,nucleoporin 214,Phyllostomus discolor,pale spear-nosed bat,XM_028516280.2,XP_028372081.1,,model,,default-seq
+114570703,nup214,nucleoporin 214,Perca flavescens,yellow perch,XM_028601162.1,XP_028456963.1,,model,,default-seq
+114588803,NUP214,nucleoporin 214,Podarcis muralis,Common wall lizard,XM_028714310.1,XP_028570143.1,,model,,default-seq
+114612212,Nup214,nucleoporin 214,Grammomys surdaster,,XM_028757191.1,XP_028613024.1,,model,,default-seq
+114645133,nup214,nucleoporin 214,Erpetoichthys calabaricus,reedfish,XM_028793027.2,XP_028648860.1,,model,,default-seq
+114703790,Nup214,nucleoporin 214,Peromyscus leucopus,white-footed mouse,XM_028884666.2,XP_028740499.1,,model,,default-seq
+114786299,nup214,nucleoporin 214,Denticeps clupeoides,denticle herring,XM_028973301.1,XP_028829134.1,,model,,default-seq
+114867354,nup214,nucleoporin 214,Betta splendens,Siamese fighting fish,XM_029169973.3,XP_029025806.1,,model,,default-seq
+114883563,NUP214,nucleoporin 214,Monodon monoceros,narwhal,XM_029201333.1,XP_029057166.1,,model,,default-seq
+115016562,nup214,nucleoporin 214,Cottoperca gobio,,XM_029444374.1,XP_029300234.1,,model,,default-seq
+115052174,nup214,nucleoporin 214,Echeneis naucrates,live sharksucker,XM_029516133.1,XP_029371993.1,,model,,default-seq
+115097289,NUP214,nucleoporin 214,Rhinatrema bivittatum,two-lined caecilian,XM_029612981.1,XP_029468841.1,,model,,default-seq
+115117560,nup214,nucleoporin 214,Oncorhynchus nerka,sockeye salmon,XM_029646036.1,XP_029501896.1,,model,,default-seq
+115159533,nup214,nucleoporin 214,Salmo trutta,river trout,XM_029709342.1,XP_029565202.1,,model,,default-seq
+115276936,NUP214,nucleoporin 214,Suricata suricatta,meerkat,XM_029921055.1,XP_029776915.1,,model,,default-seq
+115335265,NUP214,nucleoporin 214,Aquila chrysaetos chrysaetos,,XM_030000702.2,XP_029856562.1,,model,,default-seq
+115368775,nup214,nucleoporin 214,Myripristis murdjan,pinecone soldierfish,XM_030065096.1,XP_029920956.1,,model,,default-seq
+115382764,nup214,nucleoporin 214,Salarias fasciatus,jewelled blenny,XM_030084637.1,XP_029940497.1,,model,,default-seq
+115429168,nup214,nucleoporin 214,Sphaeramia orbicularis,orbiculate cardinalfish,XM_030148420.1,XP_030004280.1,,model,,default-seq
+115473129,NUP214,nucleoporin 214,Microcaecilia unicolor,,XM_030207807.1,XP_030063667.1,,model,,default-seq
+115500139,NUP214,nucleoporin 214,Lynx canadensis,Canada lynx,XM_030294494.1,XP_030150354.1,,model,,default-seq
+115532674,nup214,nucleoporin 214,Gadus morhua,Atlantic cod,XM_030342558.1,XP_030198418.1,,model,,default-seq
+115592489,nup214,nucleoporin 214,Sparus aurata,gilthead seabream,XM_030435294.1,XP_030291154.1,,model,,default-seq
+115617006,NUP214,nucleoporin 214,Strigops habroptila,Kakapo,XM_030506989.1,XP_030362849.1,,model,,default-seq
+115636229,NUP214,nucleoporin 214,Gopherus evgoodei,Goodes thornscrub tortoise,XM_030536064.1,XP_030391924.1,,model,,default-seq
+115789226,nup214,nucleoporin 214,Archocentrus centrarchus,flier cichlid,XM_030742537.1,XP_030598397.1,,model,,default-seq
+115842976,NUP214,nucleoporin 214,Globicephala melas,long-finned pilot whale,XM_030838520.1,XP_030694380.1,,model,,default-seq
+115910879,NUP214,nucleoporin 214,Camarhynchus parvulus,,XM_030961399.1,XP_030817259.1,,model,,default-seq
+116062839,nup214,nucleoporin 214,Sander lucioperca,pikeperch,XM_031317577.2,XP_031173437.1,,model,,default-seq
+116089983,Nup214,nucleoporin 214,Mastomys coucha,southern multimammate mouse,XM_031369768.1,XP_031225628.1,,model,,default-seq
+116234256,NUP214,nucleoporin 214,Phasianus colchicus,Ring-necked pheasant,XM_031601734.1,XP_031457594.1,,model,,default-seq
+116331715,nup214,nucleoporin 214,Oreochromis aureus,,XM_039615143.1,XP_039471077.1,,model,,default-seq
+116390574,nup214,nucleoporin 214,Anarrhichthys ocellatus,wolf-eel,XM_031860390.1,XP_031716250.1,,model,,default-seq
+116454319,NUP214,nucleoporin 214,Corvus moneduloides,New Caledonian crow,XM_032130781.1,XP_031986672.1,,model,,default-seq
+116475778,NUP214,nucleoporin 214,Hylobates moloch,silvery gibbon,XM_032165440.1,XP_032021331.1,,model,,default-seq
+116496895,NUP214,nucleoporin 214,Aythya fuligula,tufted duck,XM_032200303.1,XP_032056194.1,,model,,default-seq
+116519064,NUP214,nucleoporin 214,Thamnophis elegans,Western terrestrial garter snake,XM_032232728.1,XP_032088619.1,,model,,default-seq
+116535994,NUP214,nucleoporin 214,Sapajus apella,tufted capuchin,XM_032257624.1,XP_032113515.1,,model,,default-seq
+116570693,NUP214,nucleoporin 214,Mustela erminea,ermine,XM_032308153.1,XP_032164044.1,,model,,default-seq
+116640954,NUP214,nucleoporin 214,Phoca vitulina,harbor seal,XM_032418191.1,XP_032274082.1,,model,,default-seq
+116704423,nup214,nucleoporin 214,Etheostoma spectabile,orangethroat darter,XM_032539890.1,XP_032395781.1,,model,,default-seq
+116724212,nup214,nucleoporin 214,Xiphophorus hellerii,green swordtail,XM_032569708.1,XP_032425599.1,,model,,default-seq
+116755283,NUP214,nucleoporin 214,Phocoena sinus,vaquita,XM_032634498.1,XP_032490389.1,,model,,default-seq
+116797000,NUP214,nucleoporin 214,Chiroxiphia lanceolata,lance-tailed manakin,XM_032708057.1,XP_032563948.1,,model,,default-seq
+116835141,NUP214,nucleoporin 214,Chelonoidis abingdonii,Abingdon island giant tortoise,XM_032797684.1,XP_032653575.1,,model,,default-seq
+116872687,NUP214,nucleoporin 214,Lontra canadensis,Northern American river otter,XM_032866100.1,XP_032721991.1,,model,,default-seq
+116901159,Nup214,nucleoporin 214,Rattus rattus,black rat,XM_032902803.1,XP_032758694.1,,model,,default-seq
+116953275,NUP214,nucleoporin 214,Petromyzon marinus,sea lamprey,XM_032973331.1,XP_032829222.1,,model,,default-seq
+116990854,nup214,nucleoporin 214,Amblyraja radiata,thorny skate,XM_033048914.1,XP_032904805.1,,model,,default-seq
+117005698,NUP214,nucleoporin 214,Catharus ustulatus,Swainson's thrush,XM_033077686.1,XP_032933577.1,,model,,default-seq
+117031992,NUP214,nucleoporin 214,Rhinolophus ferrumequinum,greater horseshoe bat,XM_033123094.1,XP_032978985.1,,model,,default-seq
+117039822,NUP214,nucleoporin 214,Lacerta agilis,,XM_033137052.1,XP_032992943.1,,model,,default-seq
+117073380,NUP214,nucleoporin 214,Trachypithecus francoisi,Francois's langur,XM_033194190.1,XP_033050081.1,,model,,default-seq
+117269911,nup214,nucleoporin 214,Epinephelus lanceolatus,giant grouper,XM_033647272.1,XP_033503163.1,,model,,default-seq
+117367843,NUP214,nucleoporin 214,Geotrypetes seraphini,,XM_033960858.1,XP_033816749.1,,model,,default-seq
+117391393,nup214,nucleoporin 214,Periophthalmus magnuspinnatus,,XM_033989189.2,XP_033845080.1,,model,,default-seq
+117455948,nup214,nucleoporin 214,Pseudochaenichthys georgianus,South Georgia icefish,XM_034095612.1,XP_033951503.1,,model,,default-seq
+117476486,nup214,nucleoporin 214,Trematomus bernacchii,emerald rockcod,XM_034123068.1,XP_033978959.1,,model,,default-seq
+117529439,nup214,nucleoporin 214,Thalassophryne amazonica,,XM_034192224.1,XP_034048115.1,,model,,default-seq
+117537980,nup214,nucleoporin 214,Gymnodraco acuticeps,,XM_034203485.1,XP_034059376.1,,model,,default-seq
+117671276,NUP214,nucleoporin 214,Pantherophis guttatus,,XM_034427115.1,XP_034283006.1,,model,,default-seq
+117703376,Nup214,nucleoporin 214,Arvicanthis niloticus,Nile rat,XM_034494937.1,XP_034350828.1,,model,,default-seq
+117740220,nup214,nucleoporin 214,Cyclopterus lumpus,lumpfish,XM_034546462.1,XP_034402353.1,,model,,default-seq
+117771780,nup214,nucleoporin 214,Hippoglossus hippoglossus,Atlantic halibut,XM_034602539.1,XP_034458430.1,,model,,default-seq
+117831559,nup214,nucleoporin 214,Notolabrus celidotus,New Zealand spotty,XM_034710297.1,XP_034566188.1,,model,,default-seq
+117889510,NUP214,nucleoporin 214,Trachemys scripta elegans,,XM_034793840.1,XP_034649731.1,,model,,default-seq
+117959372,nup214,nucleoporin 214,Etheostoma cragini,Arkansas darter,XM_034896469.1,XP_034752360.1,,model,,default-seq
+118017576,NUP214,nucleoporin 214,Mirounga leonina,Southern elephant seal,XM_035015597.1,XP_034871488.1,,model,,default-seq
+118083797,NUP214,nucleoporin 214,Zootoca vivipara,common lizard,XM_035112650.1,XP_034968541.1,,model,,default-seq
+118097995,nup214,nucleoporin 214,Hippoglossus stenolepis,Pacific halibut,XM_035141352.2,XP_034997243.2,,model,,default-seq
+118175298,NUP214,nucleoporin 214,Oxyura jamaicensis,ruddy duck,XM_035341340.1,XP_035197231.1,,model,,default-seq
+118213050,nup214,nucleoporin 214,Anguilla anguilla,European eel,XM_035391661.1,XP_035247552.1,,model,,default-seq
+118252168,NUP214,nucleoporin 214,Cygnus atratus,black swan,XM_035555059.2,XP_035410952.1,,model,,default-seq
+118333039,nup214,nucleoporin 214,Morone saxatilis,striped sea-bass,XM_035668533.1,XP_035524426.1,,model,,default-seq
+118551330,NUP214,nucleoporin 214,Halichoerus grypus,gray seal,XM_036117073.1,XP_035972966.1,,model,,default-seq
+118581576,Nup214,nucleoporin 214,Onychomys torridus,southern grasshopper mouse,XM_036183844.1,XP_036039737.1,,model,,default-seq
+118629494,NUP214,nucleoporin 214,Molossus molossus,Pallas's mastiff bat,XM_036260779.1,XP_036116672.1,,model,,default-seq
+118666945,NUP214,nucleoporin 214,Myotis myotis,,XM_036329313.1,XP_036185206.1,,model,,default-seq
+118693404,NUP214,nucleoporin 214,Molothrus ater,,XM_036393964.1,XP_036249857.1,,model,,default-seq
+118708861,NUP214,nucleoporin 214,Pipistrellus kuhlii,Kuhl's pipistrelle,XM_036420376.2,XP_036276269.1,,model,,default-seq
+118778453,nup214,nucleoporin 214,Megalops cyprinoides,Indo-Pacific tarpon,XM_036529984.1,XP_036385877.1,,model,,default-seq
+118814839,nup214,nucleoporin 214,Colossoma macropomum,tambaqui,XM_036580651.1,XP_036436544.1,,model,,default-seq
+118841800,NUP214,nucleoporin 214,Trichosurus vulpecula,common brushtail,XM_036749435.1,XP_036605330.1,,model,,default-seq
+118896628,NUP214,nucleoporin 214,Balaenoptera musculus,Blue whale,XM_036854675.1,XP_036710570.1,,model,,default-seq
+118926542,NUP214,nucleoporin 214,Manis pentadactyla,Chinese pangolin,XM_036913550.1,XP_036769445.1,,model,,default-seq
+118980065,NUP214,nucleoporin 214,Sturnira hondurensis,,XM_037036394.1,XP_036892289.1,,model,,default-seq
+119029668,nup214,nucleoporin 214,Acanthopagrus latus,yellowfin seabream,XM_037116683.1,XP_036972578.1,,model,,default-seq
+119059007,NUP214,nucleoporin 214,Artibeus jamaicensis,Jamaican fruit-eating bat,XM_037158519.2,XP_037014414.2,,model,,default-seq
+119131649,nup214,nucleoporin 214,Syngnathus acus,greater pipefish,XM_037266271.1,XP_037122166.1,,model,,default-seq
+119153379,NUP214,nucleoporin 214,Falco rusticolus,gyrfalcon,XM_037399830.1,XP_037255727.1,,model,,default-seq
+119226780,nup214,nucleoporin 214,Pungitius pungitius,ninespine stickleback,XM_037485053.1,XP_037340950.1,,model,,default-seq
+119231218,NUP214,nucleoporin 214,Talpa occidentalis,Iberian mole,XM_037492902.2,XP_037348799.1,,model,,default-seq
+119424978,nup214,nucleoporin 214,Nematolebias whitei,Rio pearlfish,XM_037692501.1,XP_037548429.1,,model,,default-seq
+119478053,nup214,nucleoporin 214,Sebastes umbrosus,honeycomb rockfish,XM_037752447.1,XP_037608375.1,,model,,default-seq
+119505639,NUP214,nucleoporin 214,Choloepus didactylus,southern two-toed sloth,XM_037798478.1,XP_037654406.1,,model,,default-seq
+119709117,NUP214,nucleoporin 214,Motacilla alba alba,,XM_038156473.1,XP_038012401.1,,model,,default-seq
+119789822,nup214,nucleoporin 214,Cyprinodon tularosa,,XM_038294931.1,XP_038150859.1,,model,,default-seq
+119818667,Nup214,nucleoporin 214,Arvicola amphibius,Eurasian water vole,XM_038336347.2,XP_038192275.1,,model,,default-seq
+119844098,NUP214,nucleoporin 214,Dermochelys coriacea,leatherback sea turtle,XM_038374392.2,XP_038230320.1,,model,,default-seq
+119914260,nup214,nucleoporin 214,Micropterus salmoides,largemouth bass,XM_038733442.1,XP_038589370.1,,model,,default-seq
+119926634,NUP214,nucleoporin 214,Tachyglossus aculeatus,Australian echidna,XM_038744806.1,XP_038600734.1,,model,,default-seq
+119955479,nup214,nucleoporin 214,Scyliorhinus canicula,smaller spotted catshark,XM_038781701.1,XP_038637629.1,,model,,default-seq
+120025721,nup214,nucleoporin 214,Salvelinus namaycush,lake trout,XM_038970306.1,XP_038826234.1,,model,,default-seq
+120230096,NUP214,nucleoporin 214,Hyaena hyaena,striped hyena,XM_039229502.1,XP_039085433.1,,model,,default-seq
+120308720,NUP214,nucleoporin 214,Crotalus tigris,Tiger rattlesnake,XM_039345171.1,XP_039201105.1,,model,,default-seq
+120386767,NUP214,nucleoporin 214,Mauremys reevesii,Reeves's turtle,XM_039506511.1,XP_039362445.1,,model,,default-seq
+120471945,nup214,nucleoporin 214,Pimephales promelas,fathead minnow,XM_039661881.1,XP_039517815.1,,model,,default-seq
+120507448,NUP214,nucleoporin 214,Passer montanus,Eurasian tree sparrow,XM_039720147.1,XP_039576081.1,,model,,default-seq
+120536051,nup214,nucleoporin 214,Polypterus senegalus,gray bichir,XM_039764390.1,XP_039620324.1,,model,,default-seq
+120545921,nup214,nucleoporin 214,Perca fluviatilis,European perch,XM_039780595.1,XP_039636529.1,,model,,default-seq
+120602715,NUP214,nucleoporin 214,Pteropus giganteus,Indian flying fox,XM_039862878.1,XP_039718812.1,,model,,default-seq
+120747437,nup214,nucleoporin 214,Simochromis diagramma,,XM_040053291.1,XP_039909225.1,,model,,default-seq
+120761728,NUP214,nucleoporin 214,Hirundo rustica,Barn swallow,XM_040083335.1,XP_039939269.1,,model,,default-seq
+120806321,nup214,nucleoporin 214,Xiphias gladius,swordfish,XM_040157349.1,XP_040013283.1,,model,,default-seq
+120831926,nup214,nucleoporin 214,Gasterosteus aculeatus,three-spined stickleback,XM_040197849.1,XP_040053783.1,,model,,default-seq
+120852107,NUP214,nucleoporin 214,Oryx dammah,scimitar-horned oryx,XM_040225408.1,XP_040081342.1,,model,,default-seq
+120940296,NUP214,nucleoporin 214,Rana temporaria,common frog,XM_040353063.1,XP_040208997.1,,model,,default-seq
+121009170,NUP214,nucleoporin 214,Bufo bufo,common toad,XM_040442084.1,XP_040298018.1,,model,,default-seq
+121035120,NUP214,nucleoporin 214,Puma yagouaroundi,jaguarundi,XM_040482665.1,XP_040338599.1,,model,,default-seq
+121057396,NUP214,nucleoporin 214,Cygnus olor,mute swan,XM_040531496.1,XP_040387430.1,,model,,default-seq
+121093662,NUP214,nucleoporin 214,Falco naumanni,lesser kestrel,XM_040606349.1,XP_040462283.1,,model,,default-seq
+121145099,NUP214,nucleoporin 214,Ochotona curzoniae,black-lipped pika,XM_040963838.1,XP_040819772.1,,model,,default-seq
+121281519,nup214,nucleoporin 214,Carcharodon carcharias,great white shark,XM_041194465.1,XP_041050399.1,,model,,default-seq
+121309673,nup214,nucleoporin 214,Polyodon spathula,Mississippi paddlefish,XM_041242744.1,XP_041098678.1,,model,,default-seq
+121336968,NUP214,nucleoporin 214,Onychostruthus taczanowskii,white-rumped snowfinch,XM_041406678.1,XP_041262612.1,,model,,default-seq
+121357517,NUP214,nucleoporin 214,Pyrgilauda ruficollis,rufous-necked snowfinch,XM_041474845.1,XP_041330779.1,,model,,default-seq
+121462713,Nup214,nucleoporin 214,Microtus oregoni,creeping vole,XM_041674541.1,XP_041530475.1,,model,,default-seq
+121473062,NUP214,nucleoporin 214,Vulpes lagopus,Arctic fox,XM_041724983.1,XP_041580917.1,,model,,default-seq
+121525244,nup214,nucleoporin 214,Cheilinus undulatus,humphead wrasse,XM_041811120.1,XP_041667054.1,,model,,default-seq
+121623355,nup214,nucleoporin 214,Chelmon rostratus,copperband butterflyfish,XM_041960620.1,XP_041816554.1,,model,,default-seq
+121629951,nup214,nucleoporin 214,Melanotaenia boesemani,Boeseman's rainbowfish,XM_041969906.1,XP_041825840.1,,model,,default-seq
+121676190,NUP214,nucleoporin 214,Corvus kubaryi,Mariana crow,XM_042052370.1,XP_041908304.1,,model,,default-seq
+121679831,nup214,nucleoporin 214,Alosa sapidissima,American shad,XM_042058868.1,XP_041914802.1,,model,,default-seq
+121886137,nup214,nucleoporin 214,Thunnus maccoyii,southern bluefin tuna,XM_042396059.1,XP_042251993.1,,model,,default-seq
+121936579,NUP214,nucleoporin 214,Sceloporus undulatus,fence lizard,XM_042478915.1,XP_042334849.1,,model,,default-seq
+121959538,nup214,nucleoporin 214,Plectropomus leopardus,leopard coralgrouper,XM_042508899.1,XP_042364833.1,,model,,default-seq
+122108996,Nup214,nucleoporin 214,Dipodomys spectabilis,banner-tailed kangaroo rat,XM_042681123.1,XP_042537057.1,,model,,default-seq
+122166650,NUP214,nucleoporin 214,Centrocercus urophasianus,Greater sage-grouse,XM_042830552.1,XP_042686486.1,,model,,default-seq
+122184437,NUP214,nucleoporin 214,Lagopus leucura,white-tailed ptarmigan,XM_042879377.1,XP_042735311.1,,model,,default-seq
+122205277,NUP214,nucleoporin 214,Panthera leo,lion,XM_042913514.1,XP_042769448.1,,model,,default-seq
+122345403,nup214,nucleoporin 214,Puntigrus tetrazona,Sumatra barb,XM_043239514.1,XP_043095449.1,,model,,default-seq
+122442283,NUP214,nucleoporin 214,Cervus canadensis,,XM_043469868.1,XP_043325803.1,,model,,default-seq
+122474659,NUP214,nucleoporin 214,Prionailurus bengalensis,leopard cat,XM_043565657.1,XP_043421592.1,,model,,default-seq
+122564623,nup214,nucleoporin 214,Chiloscyllium plagiosum,whitespotted bambooshark,XM_043719712.1,XP_043575647.1,,model,,default-seq
+122702767,NUP214,nucleoporin 214,Cervus elaphus,red deer,XM_043916573.1,XP_043772508.1,,model,,default-seq
+122742183,NUP214,nucleoporin 214,Dromiciops gliroides,monito del monte,XM_043986250.1,XP_043842185.1,,model,,default-seq
+122790668,NUP214,nucleoporin 214,Protopterus annectens,West African lungfish,XM_044058190.1,XP_043914125.1,,model,,default-seq
+122819653,nup214,nucleoporin 214,Gambusia affinis,western mosquitofish,XM_044096552.1,XP_043952487.1,,model,,default-seq
+122865111,nup214,nucleoporin 214,Siniperca chuatsi,mandarin fish,XM_044173057.1,XP_044028992.1,,model,,default-seq
+122917154,NUP214,nucleoporin 214,Neogale vison,American mink,XM_044264664.1,XP_044120599.1,,model,,default-seq
+122919938,NUP214,nucleoporin 214,Bufo gargarizans,Asiatic toad,XM_044269180.1,XP_044125115.1,,model,,default-seq
+122968515,nup214,nucleoporin 214,Thunnus albacares,yellowfin tuna,XM_044333824.1,XP_044189759.1,,model,,default-seq
+123028273,NUP214,nucleoporin 214,Varanus komodoensis,Komodo dragon,XM_044439935.1,XP_044295870.1,,model,,default-seq
+123237221,NUP214,nucleoporin 214,Gracilinanus agilis,Agile Gracile Mouse Opossum,XM_044663974.1,XP_044519909.1,,model,,default-seq
+123352490,NUP214,nucleoporin 214,Mauremys mutica,yellowpond turtle,XM_044992687.1,XP_044848622.1,,model,,default-seq
+123593065,NUP214,nucleoporin 214,Leopardus geoffroyi,Geoffroy's cat,XM_045468586.1,XP_045324542.1,,model,,default-seq
+123646587,NUP214,nucleoporin 214,Lemur catta,Ring-tailed lemur,XM_045563717.1,XP_045419673.1,,model,,default-seq
+123775756,NUP214,nucleoporin 214,Ursus americanus,American black bear,XM_045771291.1,XP_045627247.1,,model,,default-seq
+123823300,NUP214,nucleoporin 214,Phyllostomus hastatus,greater spear-nosed bat,XM_045845882.1,XP_045701838.1,,model,,default-seq
+123850090,NUP214,nucleoporin 214,Mirounga angustirostris,Northern elephant seal,XM_045883360.2,XP_045739316.1,,model,,default-seq
+123952689,NUP214,nucleoporin 214,Meles meles,Eurasian badger,XM_046022012.1,XP_045877968.1,,model,,default-seq
+123981317,nup214,nucleoporin 214,Micropterus dolomieu,smallmouth bass,XM_046066018.1,XP_045921974.1,,model,,default-seq
+124052129,nup214,nucleoporin 214,Scatophagus argus,,XM_046376060.1,XP_046232016.1,,model,,default-seq
+124097201,Nup214,nucleoporin 214,Marmota monax,woodchuck,XM_046451514.1,XP_046307470.1,,model,,default-seq
+124242300,NUP214,nucleoporin 214,Equus quagga,,XM_046667207.1,XP_046523163.1,,model,,default-seq
+124379394,nup214,nucleoporin 214,Silurus meridionalis,,XM_046839724.1,XP_046695680.1,,model,,default-seq
+124466289,nup214,nucleoporin 214,Hypomesus transpacificus,,XM_047018075.1,XP_046874031.1,,model,,default-seq
+124525658,NUP214,nucleoporin 214,Lynx rufus,bobcat,XM_047098196.1,XP_046954152.1,,model,,default-seq
+124872335,nup214,nucleoporin 214,Girardinichthys multiradiatus,,XM_047372207.1,XP_047228163.1,,model,,default-seq
+124964284,Nup214,nucleoporin 214,Sciurus carolinensis,gray squirrel,XM_047524283.1,XP_047380239.1,,model,,default-seq
+124996766,nup214,nucleoporin 214,Mugil cephalus,flathead mullet,XM_047570072.1,XP_047426028.1,,model,,default-seq
+125082895,NUP214,nucleoporin 214,Lutra lutra,Eurasian river otter,XM_047698766.1,XP_047554722.1,,model,,default-seq
+125120460,NUP214,nucleoporin 214,Phacochoerus africanus,Common warthog,XM_047768718.1,XP_047624674.1,,model,,default-seq
+125149830,NUP214,nucleoporin 214,Prionailurus viverrinus,fishing cat,XM_047828927.1,XP_047684883.1,,model,,default-seq
+125267866,nup214,nucleoporin 214,Megalobrama amblycephala,Wuchang bream,XM_048189895.1,XP_048045852.1,,model,,default-seq
+125304776,nup214,nucleoporin 214,Alosa alosa,allis shad,XM_048259276.1,XP_048115233.1,,model,,default-seq
+125336668,NUP214,nucleoporin 214,Corvus hawaiiensis,hawaiian crow,XM_048325534.1,XP_048181491.1,,model,,default-seq
+125350481,Nup214,nucleoporin 214,Perognathus longimembris pacificus,Pacific pocket mouse,XM_048345119.1,XP_048201076.1,,model,,default-seq
+125398934,Nup214,nucleoporin 214,Myodes glareolus,Bank vole,XM_048432047.1,XP_048288004.1,,model,,default-seq
+125441542,NUP214,nucleoporin 214,Sphaerodactylus townsendi,,XM_048512150.1,XP_048368107.1,,model,,default-seq
+125465522,nup214,nucleoporin 214,Stegostoma fasciatum,,XM_048559141.1,XP_048415098.1,,model,,default-seq
+125623381,NUP214,nucleoporin 214,Caretta caretta,Loggerhead turtle,XM_048822631.1,XP_048678588.1,,model,,default-seq
+125702473,NUP214,nucleoporin 214,Lagopus muta,rock ptarmigan,XM_048965793.1,XP_048821750.1,,model,,default-seq
+125746072,nup214,nucleoporin 214,Brienomyrus brachyistius,,XM_049019682.1,XP_048875639.1,,model,,default-seq
+125905716,nup214,nucleoporin 214,Epinephelus fuscoguttatus,brown-marbled grouper,XM_049603883.1,XP_049459840.1,,model,,default-seq
+125922661,NUP214,nucleoporin 214,Panthera uncia,snow leopard,XM_049630369.1,XP_049486326.1,,model,,default-seq
+125979605,nup214,nucleoporin 214,Syngnathus scovelli,Gulf pipefish,XM_049737984.1,XP_049593941.1,,model,,default-seq
+126008538,NUP214,nucleoporin 214,Suncus etruscus,white-toothed pygmy shrew,XM_049772815.1,XP_049628772.1,,model,,default-seq
+126052054,NUP214,nucleoporin 214,Accipiter gentilis,Northern goshawk,XM_049832130.1,XP_049688087.1,,model,,default-seq
+126082625,NUP214,nucleoporin 214,Elephas maximus indicus,,XM_049895296.1,XP_049751253.1,,model,,default-seq
+126509445,Nup214,nucleoporin 214,Microtus fortis,reed vole,XM_050155361.1,XP_050011318.1,,model,,default-seq
+126642482,NUP214,nucleoporin 214,Myiozetetes cayanensis,,XM_050320148.1,XP_050176105.1,,model,,default-seq
+126936876,NUP214,nucleoporin 214,Macaca thibetana thibetana,,XM_050759700.1,XP_050615657.1,,model,,default-seq
+127023612,NUP214,nucleoporin 214,Gymnogyps californianus,California condor,XM_050907822.1,XP_050763779.1,,model,,default-seq
+127035893,NUP214,nucleoporin 214,Gopherus flavomarginatus,Mexican gopher tortoise,XM_050926080.1,XP_050782037.1,,model,,default-seq
+127165433,nup214,nucleoporin 214,Labeo rohita,rohu,XM_051110066.1,XP_050966023.1,,model,,default-seq
+127207758,Nup214,nucleoporin 214,Acomys russatus,golden spiny mouse,XM_051167195.1,XP_051023152.1,,model,,default-seq
+127222753,Nup214,nucleoporin 214,Phodopus roborovskii,desert hamster,XM_051185142.1,XP_051041099.1,,model,,default-seq
+127369984,nup214,nucleoporin 214,Dicentrarchus labrax,European seabass,XM_051411593.1,XP_051267553.1,,model,,default-seq
+127392527,NUP214,nucleoporin 214,Apus apus,common swift,XM_051636584.1,XP_051492544.1,,model,,default-seq
+127435432,nup214,nucleoporin 214,Myxocyprinus asiaticus,Chinese sucker,XM_051688930.1,XP_051544890.1,,model,,default-seq
+127480078,NUP214,nucleoporin 214,Manacus candei,White-collared manakin,XM_051807803.1,XP_051663763.1,,model,,default-seq
+127513142,nup214,nucleoporin 214,Ctenopharyngodon idella,grass carp,XM_051894733.1,XP_051750693.1,,model,,default-seq
+127550909,NUP214,nucleoporin 214,Antechinus flavipes,yellow-footed antechinus,XM_051980212.1,XP_051836172.1,,model,,default-seq
+127582292,nup214,nucleoporin 214,Pristis pectinata,smalltooth sawfish,XM_052037469.1,XP_051893429.1,,model,,default-seq
+127590861,nup214,nucleoporin 214,Hippocampus zosterae,dwarf seahorse,XM_052050366.1,XP_051906326.1,,model,,default-seq
+127635536,nup214,nucleoporin 214,Xyrauchen texanus,razorback sucker,XM_052115632.1,XP_051971592.1,,model,,default-seq
+127685214,Nup214,nucleoporin 214,Apodemus sylvaticus,European woodmouse,XM_052182142.1,XP_052038102.1,,model,,default-seq
+127992578,nup214,nucleoporin 214,Carassius gibelio,silver crucian carp,XM_052591666.1,XP_052447626.1,,model,,default-seq
+128055398,NUP214,nucleoporin 214,Budorcas taxicolor,takin,XM_052647937.1,XP_052503897.1,,model,,default-seq
+128073886,NUP214,nucleoporin 214,Tympanuchus pallidicinctus,lesser prairie-chicken,XM_052669167.1,XP_052525127.1,,model,,default-seq
+128100437,Nup214,nucleoporin 214,Peromyscus californicus insignis,,XM_052722601.1,XP_052578561.1,,model,,default-seq
+128154850,NUP214,nucleoporin 214,Harpia harpyja,harpy eagle,XM_052816015.1,XP_052671975.1,,model,,default-seq
+128338925,NUP214,nucleoporin 214,Hemicordylus capensis,graceful crag lizard,XM_053282155.1,XP_053138130.1,,model,,default-seq
+128380465,nup214,nucleoporin 214,Scomber japonicus,chub mackerel,XM_053340284.1,XP_053196259.1,,model,,default-seq
+128406209,NUP214,nucleoporin 214,Podarcis raffonei,Aeolian wall lizard,XM_053373343.1,XP_053229318.1,,model,,default-seq
+128424557,nup214,nucleoporin 214,Pleuronectes platessa,European plaice,XM_053410781.1,XP_053266756.1,,model,,default-seq
+128503253,NUP214,nucleoporin 214,Spea bombifrons,plains spadefoot toad,XM_053473291.1,XP_053329266.1,,model,,default-seq
+128512556,nup214,nucleoporin 214,Clarias gariepinus,North African catfish,XM_053485896.1,XP_053341871.1,,model,,default-seq
+128563813,NUP214,nucleoporin 214,Nycticebus coucang,slow loris,XM_053559302.1,XP_053415277.1,,model,,default-seq
+128603853,nup214,nucleoporin 214,Ictalurus furcatus,blue catfish,XM_053618586.1,XP_053474561.1,,model,,default-seq
+128642907,NUP214,nucleoporin 214,Bombina bombina,fire-bellied toad,XM_053695786.1,XP_053551761.1,,model,,default-seq
+128764438,nup214,nucleoporin 214,Synchiropus splendidus,mandarinfish,XM_053874182.1,XP_053730157.1,,model,,default-seq
+128798550,NUP214,nucleoporin 214,Vidua chalybeata,,XM_053962209.1,XP_053818184.1,,model,,default-seq
+128817731,NUP214,nucleoporin 214,Vidua macroura,Pin-tailed whydah,XM_053996505.1,XP_053852480.1,,model,,default-seq
+128825222,NUP214,nucleoporin 214,Malaclemys terrapin pileata,,XM_054007455.1,XP_053863430.1,,model,,default-seq
+128917669,NUP214,nucleoporin 214,Rissa tridactyla,black-legged kittiwake,XM_054221025.1,XP_054077000.1,,model,,default-seq
+128942036,NUP214,nucleoporin 214,Melozone crissalis,California towhee,XM_054284217.1,XP_054140192.1,,model,,default-seq
+128976390,NUP214,nucleoporin 214,Indicator indicator,,XM_054393636.1,XP_054249611.1,,model,,default-seq
+129043561,NUP214,nucleoporin 214,Pongo pygmaeus,Bornean orangutan,XM_054500209.1,XP_054356184.1,,model,,default-seq
+129079200,NUP214,nucleoporin 214,Pteronotus parnellii mesoamericanus,,XM_054584213.1,XP_054440188.1,,model,,default-seq
+129102344,nup214,nucleoporin 214,Anoplopoma fimbria,sablefish,XM_054612448.1,XP_054468423.1,,model,,default-seq
+129128938,NUP214,nucleoporin 214,Agelaius phoeniceus,red-winged blackbird,XM_054646579.1,XP_054502554.1,,model,,default-seq
+129170213,nup214,nucleoporin 214,Dunckerocampus dactyliophorus,ringed pipefish,XM_054757530.1,XP_054613505.1,,model,,default-seq
+129215381,NUP214,nucleoporin 214,Grus americana,Whooping crane,XM_054848297.1,XP_054704272.1,,model,,default-seq
+129342287,NUP214,nucleoporin 214,Eublepharis macularius,,XM_054997973.1,XP_054853948.1,,model,,default-seq
+129366308,nup214,nucleoporin 214,Poeciliopsis prolifica,blackstripe livebearer,XM_055040070.1,XP_054896045.1,,model,,default-seq
+129440767,nup214,nucleoporin 214,Misgurnus anguillicaudatus,oriental weatherfish,XM_055200264.1,XP_055056239.1,,model,,default-seq
+129478759,NUP214,nucleoporin 214,Symphalangus syndactylus,siamang,XM_055270637.1,XP_055126612.1,,model,,default-seq
+129503992,NUP214,nucleoporin 214,Nyctereutes procyonoides,raccoon dog,XM_055316544.1,XP_055172519.1,,model,,default-seq
+129539033,NUP214,nucleoporin 214,Moschus berezovskii,Chinese forest musk deer,XM_055399180.1,XP_055255155.1,,model,,default-seq
+129623664,NUP214,nucleoporin 214,Bubalus carabanensis,carabao,XM_055541421.1,XP_055397396.1,,model,,default-seq
+129671325,Nup214,nucleoporin 214,Psammomys obesus,fat sand rat,XM_055600184.1,XP_055456159.1,,model,,default-seq
+129712044,nup214,nucleoporin 214,Leucoraja erinacea,little skate,XM_055660193.1,XP_055516168.1,,model,,default-seq
+129818476,nup214,nucleoporin 214,Salvelinus fontinalis,brook trout,XM_055874400.1,XP_055730375.1,,model,,default-seq
+130018017,NUP214,nucleoporin 214,Sorex cinereus,cinereus shrew,XM_056108841.1,XP_055964816.1,,model,,default-seq
+130078272,nup214,nucleoporin 214,Rhinichthys klamathensis goyatoka,,XM_056243810.1,XP_056099785.1,,model,,default-seq
+130121666,nup214,nucleoporin 214,Lampris incognitus,smalleye Pacific opah,XM_056290507.1,XP_056146482.1,,model,,default-seq
+130154957,NUP214,nucleoporin 214,Falco biarmicus,lanner falcon,XM_056351742.1,XP_056207717.1,,model,,default-seq
+130186591,nup214,nucleoporin 214,Seriola aureovittata,,XM_056403800.1,XP_056259775.1,,model,,default-seq
+130205813,nup214,nucleoporin 214,Pseudoliparis swirei,,XM_056433355.1,XP_056289330.1,,model,,default-seq
+130229865,nup214,nucleoporin 214,Danio aesculapii,,XM_056458882.1,XP_056314857.1,,model,,default-seq
+130260209,NUP214,nucleoporin 214,Oenanthe melanoleuca,,XM_056505403.1,XP_056361378.1,,model,,default-seq
