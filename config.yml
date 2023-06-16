@@ -1,0 +1,34 @@
+# -------------------------------------------------------------
+# Nup214
+# -------------------------------------------------------------
+
+Label: NUP214
+Taxon: Craniata
+Nucleotide: NUP214_refseq_transcript.fasta
+Protein: NUP214_refseq_protein.fasta
+CSV: NUP214_orthologs.csv
+TN93_Threshold: 0.1
+
+# User settings for NCBI Entrez
+EMAIL: ""
+
+# -------------------------------------------------------------
+# For Debugging
+# -------------------------------------------------------------
+TEST_PROTEIN: test_protein.fasta
+TEST_NUCLEOTIDE: test_dna.fasta
+
+# -------------------------------------------------------------
+# Do not change below this line
+# -------------------------------------------------------------
+
+PREMSA: hyphy-analyses/codon-msa/pre-msa.bf
+POSTMSA: hyphy-analyses/codon-msa/post-msa.bf
+FITMG94: hyphy-analyses/FitMG94/FitMG94.bf
+HYPHY: hyphy
+HYPHYMPI: HYPHYMPI
+STRIKEAMBIGS: scripts/strike-ambigs.bf
+
+# -------------------------------------------------------------
+# End of file
+# -------------------------------------------------------------
