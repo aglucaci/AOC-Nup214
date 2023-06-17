@@ -163,7 +163,6 @@ def Process(protein_desc,
 def CheckCounts(PROTEIN, 
          TRANSCRIPTS):  
     # Really to verify things number of seqs match
-    
     print("# TRANSCRIPT INPUT FILE:", TRANSCRIPTS)
     print("# PROTEIN INPUT FILE:", PROTEIN)
     protein_list = []
@@ -191,6 +190,12 @@ def CheckCounts(PROTEIN,
 
     return trans_count, prot_count
 # end method
+
+def GetSeqLengths(PROTEIN, 
+                  TRANSCRIPTS):
+    results = {}
+    count = 1
+#end method
 
 # =============================================================================
 # Main subroutine
@@ -242,21 +247,20 @@ with open(Logfile, "a") as fh2:
 # =============================================================================
 # Get average sequence length.
 # =============================================================================
-"""
 prot_seq_lengths = []
 
 with open(PROTEIN_FASTA, "r") as prot_handle:
     for n, record in enumerate(SeqIO.parse(prot_handle, "fasta")):
         prot_seq_lengths.append(len(record.seq.ungap("-")))
     # end for
+    prot_handle.close()
 # end with
-
-prot_handle.close()
 
 avg_sequence_length = sum(prot_seq_lengths) / len(prot_seq_lengths)
 
 avg_sequence_length_nt = avg_sequence_length * 3
 
+"""
 with open(logfile, "a") as fh2:
     # print()
     # print("# Processing:", protein_desc, file=fh2)
