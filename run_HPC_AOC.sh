@@ -32,7 +32,7 @@ snakemake \
       --rerun-incomplete \
       --keep-going \
       --reason \
-      --latency-wait 60 \
+      --latency-wait 120 \
       --use-conda
 
 # End of file 

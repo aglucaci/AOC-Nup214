@@ -95,14 +95,8 @@ os.makedirs(os.path.join(BASEDIR,
                          "results"), 
                          exist_ok = True)
 
-os.makedirs(os.path.join(BASEDIR, 
-                         "results",
-                         Label), 
-                         exist_ok = True)
-
 OUTPUT_DIR = os.path.join(BASEDIR, 
                           "results", 
-                          Label,
                           Taxon)
 
 os.makedirs(OUTPUT_DIR, 
@@ -163,53 +157,22 @@ rule all:
         os.path.join(OUTPUT_DIR, "Codons.fa.log"),
         os.path.join(OUTPUT_DIR, "UTR5.fa"),
         os.path.join(OUTPUT_DIR, "UTR3.fa"), 
-        os.path.join(OUTPUT_DIR, "ProteinLengths.csv"),
         os.path.join(OUTPUT_DIR, "Codons.fa_protein.fas"),
         os.path.join(OUTPUT_DIR, "Codons.fa_nuc.fas"),
         os.path.join(OUTPUT_DIR, "Codons.fa_protein.aln"),
         os.path.join(OUTPUT_DIR, "Codons.fa_codons.fasta"),
         os.path.join(OUTPUT_DIR, "Codons.fa_codons_duplicates.json"),
-        os.path.join(OUTPUT_DIR, Label + "_" + Taxon + "_codons.SA.fasta"),
         os.path.join(OUTPUT_DIR, 
-                     Label + "_" + Taxon + "_codons.SA.fasta.treefile"),
+                     Label + "_" + Taxon + "_codons.SA.fasta"),
         os.path.join(OUTPUT_DIR, 
-                     Label + "_" + Taxon + "_codons.SA.cluster.json"),
-        os.path.join(OUTPUT_DIR, 
-                     Label + "_" + Taxon + "_codons.SA.cluster.fasta"),
-        os.path.join(OUTPUT_DIR, 
-                     Label + "_" + Taxon + "_codons.SA.cluster.fasta.GARD.json")
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.fasta.dst"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.fasta"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.fasta.treefile"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.fasta.SLAC.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta"), 
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.dst"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.treefile"), 
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.GARD.json"), 
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTEDS.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTED.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTEDS+MH.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTED+MH.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FITMG94.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BGM.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FEL.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FUBAR.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FMM.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.MEME.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.SLAC.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.aBSRELS.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.aBSRELS+MH.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.treefile.labelled"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.RELAX.json"),
-        #os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.CFEL.json") 
+                     Label + "_" + Taxon + "_codons.SA.fasta.treefile")
 #end rule all
 
 print("# Moving on to processing rules")
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Rules
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule get_codons:
     output:
@@ -221,8 +184,8 @@ rule get_codons:
                               "UTR3.fa"),
         Logfile = os.path.join(OUTPUT_DIR,
                               "Codons.fa.log"),
-        ProteinLengthsCSV = os.path.join(OUTPUT_DIR, 
-                                         "ProteinLengths.csv")
+        #ProteinLengthsCSV = os.path.join(OUTPUT_DIR, 
+        #                                 "ProteinLengths.csv")
     params:
         Nucleotides = Nucleotide_file,
         Proteins    = Protein_file,
@@ -237,20 +200,13 @@ rule get_codons:
         ProteinLengthsCSV = os.path.join(OUTPUT_DIR, 
                                          "ProteinLengths.csv")
     script:
-        #"scripts/codons.py"
-        "scripts/CodonStats.py"
+        "scripts/codons.py"
+        #"scripts/CodonStats.py"
 #end rule
 
 # =============================================================================
 # Alignment
 # =============================================================================
-"""
-        os.path.join(OUTPUT_DIR, "Codons.fa_protein.fas"),
-        os.path.join(OUTPUT_DIR, "Codons.fa_nuc.fas"),
-        os.path.join(OUTPUT_DIR, "Codons.fa_protein.aln"),
-        os.path.join(OUTPUT_DIR, "Codons.fa_codons.fasta"),
-        os.path.join(OUTPUT_DIR, "Codons.fa_codons_duplicates.json"),
-"""
 
 rule pre_msa:
     input: 
@@ -288,9 +244,9 @@ rule post_msa:
         "mpirun -np {PPN} {HYPHYMPI} {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
 #end rule 
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Remove ambiguous codons, a source of noise.
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule strike_ambigs:
    input:
@@ -302,9 +258,9 @@ rule strike_ambigs:
        "{HYPHY} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
 #end rule 
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # IQ-TREE for ML tree inference
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule iqtree: # Unrooted
     input:
@@ -313,328 +269,11 @@ rule iqtree: # Unrooted
         tree = os.path.join(OUTPUT_DIR, 
                      Label + "_" + Taxon + "_codons.SA.fasta.treefile")
     shell:
-        "iqtree -s {input.codons_fas} -T AUTO"
+        "iqtree -s {input.codons_fas} -T AUTO -B 1000"
     #end shell
 #end rule iqtree
 
-#----------------------------------------------------------------------------
-# Recombination detection
-#----------------------------------------------------------------------------
-"""
-rule recombination_filter_outliers:
-    input: 
-        input = rules.filter_outliers.output.fasta
-    output: 
-        output =  os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.GARD.json"), 
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output} ENV='TOLERATE_NUMERICAL_ERRORS=1;'"
-#end rule
-"""
-
-#----------------------------------------------------------------------------
-# TN93, genetic distance calculation
-#----------------------------------------------------------------------------
-"""
-rule tn93:
-    input:
-       input = rules.strike_ambigs.output.out_strike_ambigs
-    output:
-       output = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.dst")
-    shell:
-       "tn93 -t 1 -o {output.output} {input.input}"
-    #end shell
-#end rule
-"""
-
-#----------------------------------------------------------------------------
-# Downsample for GARD
-#----------------------------------------------------------------------------
-
-rule tn93_cluster:
-    input:
-        input = rules.strike_ambigs.output.out_strike_ambigs
-    output:
-        output = os.path.join(OUTPUT_DIR, 
-                             Label + "_" + Taxon + "_codons.SA.cluster.json")
-    shell:
-        "tn93-cluster -f -o {output.output} -t {TN93_T} {input.input}" 
-#end rule
-
-rule cluster_to_fasta:
-   input: 
-       input = rules.tn93_cluster.output.output
-   output:
-       output = os.path.join(OUTPUT_DIR,
-                            Label + "_" + Taxon + "_codons.SA.cluster.fasta")
-   shell:
-       "python scripts/cluster_to_fasta.py -i {input.input} -o {output.output}"
-#end rule 
-
-#----------------------------------------------------------------------------
-# Recombination detection
-#----------------------------------------------------------------------------
-
-#rule recombination_original:
-#    input: 
-#        input = rules.strike_ambigs.output.out_strike_ambigs 
-#    output: 
-#        output =  os.path.join(OUTPUT_DIR, Label + "_codons.SA.fasta.GARD.json") 
-#    shell: 
-#        "mpirun -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output} ENV='TOLERATE_NUMERICAL_ERRORS=1;'"
-#end rule
-
-rule recombination:
-    input: 
-        input = rules.cluster_to_fasta.output.output 
-    output: 
-        output = os.path.join(OUTPUT_DIR, 
-                             Label + "_" + Taxon + "_codons.SA.cluster.fasta.GARD.json")
-    shell: 
-        "mpirun --use-hwthread-cpus -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
-#end rule
-
-#rule recombination_clean:
-#    input: 
-#        input =  rules.strike_ambigs.output.out_strike_ambigs 
-#    output: 
-#        output = os.path.join(OUTPUT_DIR, Label + "_codons.SA.fasta.GARD.json")
-#    shell: 
-#        "mpirun --use-hwthread-cpus -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
-#end rule
-
-#----------------------------------------------------------------------------
-# Split out GARD partitions
-#----------------------------------------------------------------------------
-
-#rule gard_parse:
-#    input:
-#        input = rules.recombination.output.output
-#    params:
-#        genelabel = Label,
-#        base_dir = BASEDIR
-#    output:
-#        output = os.path.join(OUTPUT_DIR, Label + ".1.codon.fas")
-#    script:
-#        "scripts/GARD_Parser.py"
-#end rule
-
-#----------------------------------------------------------------------------
-# Selection analyses
-#----------------------------------------------------------------------------
-"""
-rule BUSTEDS:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTEDS.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10"
-#end rule
-
-rule BUSTED:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTED.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10"
-#end rule
-
-rule BUSTEDSMH:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTEDS+MH.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10 --multiple-hits Double+Triple"
-#end rule
-
-rule BUSTEDMH:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BUSTED+MH.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10 --multiple-hits Double+Triple"
-#end rule
-
-rule BGM:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.BGM.json")
-    shell: 
-        #"mpirun -np {PPN} {HYPHYMPI} BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
-        "{HYPHY} BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
-#end rule 
-
-rule SLAC_FO:
-    input: 
-        codon_aln = rules.strike_ambigs.output.out_strike_ambigs,
-        tree = rules.iqtree.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.SLAC.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
-#end rule 
-
-rule ABSRELS:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.aBSRELS.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes"
-#end rule
-
-rule ABSRELSMH:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.aBSRELS+MH.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --multiple-hits Double+Triple"
-#end rule
-
-rule FITMG94:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FITMG94.json")
-    shell: 
-        "{HYPHY} {FITMG94} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --rooted No --lrt Yes --type global --frequencies CF3x4"
-#end rule 
-
-rule FMM:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FMM.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} FMM --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
-#end rule
-
-rule MEME:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.MEME.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} MEME --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
-#end rule 
-
-rule FEL:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FEL.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} FEL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --ci Yes"
-#end rule 
-
-rule FUBAR:
-    input: 
-        codon_aln = rules.filter_outliers.output.fasta,
-        tree = rules.iqtree_fo.output.tree
-    output: 
-        results = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.FUBAR.json")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} FUBAR --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
-#end rule 
-
-#----------------------------------------------------------------------------
-# Lineages
-#----------------------------------------------------------------------------
-rule GatherLineages:
-    input:
-        out_d  = OUTPUT_DIR,
-        csv_f  = CSV,
-        tree_f = rules.iqtree_fo.output.tree
-    output:
-        output = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.treefile.log")
-    conda:
-        "environment.yml"
-    shell:
-        "python scripts/LineageAnnotation_Pipeline.py {input.out_d} {input.csv_f} {input.tree_f}"
-#end rule
-
-CLADE_FILES = [x for x in glob.glob(os.path.join(OUTPUT_DIR, "*.clade"))]
-print("# We have", len(CLADE_FILES), "clade files")
-print(CLADE_FILES) 
-
-rule AssignLineages:
-    input:
-        tree = rules.iqtree.output.tree,
-        log  = rules.GatherLineages.output.output
-    output:
-        output = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.treefile.labelled")
-    run:
-        first_time = True
-        for clade_file in CLADE_FILES:
-            print(clade_file, input[0])
-            label      = os.path.basename(clade_file).split(".")[0]
-
-            if first_time == True:
-            	cmd = " ".join([HYPHY, 
-                                os.path.join(BASEDIR, "scripts", "label-tree.bf"),
-                            	"--tree", input[0],
-                            	"--list", clade_file,
-                            	"--output", output[0],
-                            	"--label", label])
-                first_time = False
-            else:
-                cmd = " ".join([HYPHY, 
-                                os.path.join(BASEDIR, "scripts", "label-tree.bf"),
-                            	"--tree", output[0],
-                            	"--list", clade_file,
-                            	"--output", output[0],
-                            	"--label", label])
-            #end if
-            print(cmd)
-            os.system(cmd)
-        #end for
-    #end run
-#end rule
-
-rule RELAX:
-    input:
-        treefile = rules.AssignLineages.output.output,
-        fasta    = rules.filter_outliers.output.fasta
-    output:
-        output = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.RELAX.json")
-    conda:
-        "environment.yml"
-    shell:
-        "{HYPHY} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
-#end rule
-
-rule CFEL:
-    input:  
-        treefile = rules.AssignLineages.output.output,
-        fasta    = rules.filter_outliers.output.fasta
-    output: 
-        output = os.path.join(OUTPUT_DIR, Label + "_codons.SA.FilterOutliers.fasta.CFEL.json")
-    conda:
-        "environment.yml"
-    shell:
-        "{HYPHY} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
-#end file
-
-
-"""
-
-#----------------------------------------------------------------------------
+# =============================================================================
 # End of file
-#----------------------------------------------------------------------------
+# =============================================================================
 

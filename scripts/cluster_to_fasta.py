@@ -70,6 +70,7 @@ def cluster_to_fasta (in_file,
 # =============================================================================
 
 input_file = settings.input
+
 compressed_fasta = settings.output_fasta 
 
 cluster_json = input_file

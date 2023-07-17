@@ -1,0 +1,1440 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built Aug  2 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    n6 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree -s /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta -T AUTO -B 1000
+Seed:    360547 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul 14 19:10:23 2023
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta ... Fasta format detected
+Reading fasta file: done in 0.163184 secs using 90.72% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0764221 secs using 78.95% CPU
+WARNING: 15 sites contain only gaps or ambiguous characters.
+Alignment has 494 sequences with 17148 columns, 10443 distinct patterns
+7567 parsimony-informative, 2115 singleton sites, 7466 constant sites
+                                                                                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0189079 secs using 99.99% CPU
+   1  XM_043986250_1_PREDICTED_Dromiciops_gliroides_nucleoporin_214_NUP214_mRNA_1                                                                63.40%    failed      0.01%
+   2  NM_001408097_1_Mus_musculus_nucleoporin_214_Nup214_transcript_variant_2_mRNA_1                                                             63.51%    passed     85.62%
+   3  XM_040649366_2_PREDICTED_Gallus_gallus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                 63.61%    failed      0.00%
+   4  XM_038678260_1_PREDICTED_Canis_lupus_familiaris_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.45%    passed     80.67%
+   5  XM_005213418_4_PREDICTED_Bos_taurus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_2                                                    63.45%    failed      0.90%
+   6  XM_023629552_1_PREDICTED_Equus_caballus_nucleoporin_214_NUP214_mRNA_1                                                                      63.14%    passed     19.25%
+   7  NM_005085_4_Homo_sapiens_nucleoporin_214_NUP214_transcript_variant_2_mRNA_1                                                                63.44%    failed      0.54%
+   8  XM_016961887_3_PREDICTED_Pan_troglodytes_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.12%    failed      0.50%
+   9  XM_007475163_2_PREDICTED_Monodelphis_domestica_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                      63.42%    failed      0.00%
+  10  XM_002936191_5_PREDICTED_Xenopus_tropicalis_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            63.79%    failed      3.85%
+  11  XM_012578331_4_PREDICTED_Taeniopygia_guttata_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.51%    passed      5.99%
+  12  XM_035260640_2_PREDICTED_Callithrix_jacchus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.42%    failed      0.00%
+  13  XM_024252122_2_PREDICTED_Pongo_abelii_nucleoporin_214_NUP214_transcript_variant_X6_mRNA_1                                                  63.45%    failed      1.65%
+  14  XM_015116545_2_PREDICTED_Macaca_mulatta_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.42%    failed      0.98%
+  15  XM_029062477_2_PREDICTED_Ornithorhynchus_anatinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                      63.45%    failed      0.00%
+  16  XM_008249052_3_PREDICTED_Oryctolagus_cuniculus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.37%    failed      2.27%
+  17  NM_001168559_1_Rattus_norvegicus_nucleoporin_214_Nup214_mRNA_1                                                                             63.84%    passed     33.06%
+  18  XM_017356400_2_PREDICTED_Danio_rerio_nucleoporin_214_nup214_mRNA_1                                                                         64.07%    failed      0.00%
+  19  XM_013153255_2_PREDICTED_Cavia_porcellus_nucleoporin_214_Nup214_mRNA_1                                                                     61.48%    failed      0.00%
+  20  XM_007653290_4_PREDICTED_Cricetulus_griseus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                            63.63%    passed     25.93%
+  21  XM_031954852_1_PREDICTED_Sarcophilus_harrisii_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          62.07%    failed      0.00%
+  22  XM_023516114_1_PREDICTED_Otolemur_garnettii_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            68.09%    passed     27.53%
+  23  XM_005459466_4_PREDICTED_Oreochromis_niloticus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         64.87%    failed      0.01%
+  24  XM_010720905_3_PREDICTED_Meleagris_gallopavo_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.66%    failed      0.00%
+  25  XM_010341412_1_PREDICTED_Saimiri_boliviensis_boliviensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                               63.37%    failed      0.02%
+  26  XM_011604539_2_PREDICTED_Takifugu_rubripes_nucleoporin_214_nup214_mRNA_1                                                                   65.27%    failed      0.86%
+  27  XM_023242861_2_PREDICTED_Felis_catus_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                                   63.38%    failed      0.00%
+  28  XM_012161056_4_PREDICTED_Ovis_aries_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                    63.37%    failed      1.85%
+  29  XM_031007714_2_PREDICTED_Gorilla_gorilla_gorilla_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                       63.44%    failed      1.04%
+  30  XM_011481722_3_PREDICTED_Oryzias_latipes_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                               65.15%    failed      0.52%
+  31  XM_033426936_2_PREDICTED_Orcinus_orca_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  62.70%    failed      0.65%
+  32  XM_019920186_2_PREDICTED_Tursiops_truncatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            62.82%    failed      0.48%
+  33  XM_023730817_1_PREDICTED_Trichechus_manatus_latirostris_nucleoporin_214_LOC101342921_mRNA_1                                                63.23%    failed      0.00%
+  34  XM_004392451_2_PREDICTED_Odobenus_rosmarus_divergens_nucleoporin_214kDa_NUP214_mRNA_1                                                      63.56%    failed      0.06%
+  35  XM_014781963_1_PREDICTED_Ceratotherium_simum_simum_nucleoporin_214kDa_LOC101389514_mRNA_1                                                  63.28%    passed     15.45%
+  36  XM_004468030_2_PREDICTED_Dasypus_novemcinctus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          63.35%    failed      0.00%
+  37  XM_004549585_4_PREDICTED_Maylandia_zebra_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                               64.57%    failed      0.00%
+  38  XM_004593681_1_PREDICTED_Ochotona_princeps_nucleoporin_214_NUP214_mRNA_1                                                                   67.18%    failed      0.00%
+  39  XM_055140152_1_PREDICTED_Sorex_araneus_nucleoporin_214_NUP214_mRNA_1                                                                       64.05%    failed      0.00%
+  40  XM_023700311_1_PREDICTED_Octodon_degus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                                 63.45%    failed      0.00%
+  41  XM_045149901_1_PREDICTED_Jaculus_jaculus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                               64.47%    passed     14.49%
+  42  XM_012721410_1_PREDICTED_Condylura_cristata_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                         63.59%    failed      0.00%
+  43  XM_045288498_1_PREDICTED_Echinops_telfairi_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.26%    passed     45.27%
+  44  XM_013058628_2_PREDICTED_Mustela_putorius_furo_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.54%    failed      0.00%
+  45  XM_004849095_3_PREDICTED_Heterocephalus_glaber_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                         63.40%    failed      0.00%
+  46  XM_038188009_1_PREDICTED_Anas_platyrhynchos_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.16%    failed      0.80%
+  47  XM_005055573_2_PREDICTED_Ficedula_albicollis_nucleoporin_214kDa_NUP214_mRNA_1                                                              63.52%    passed     11.18%
+  48  XM_013126431_3_PREDICTED_Mesocricetus_auratus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                          63.70%    passed     37.01%
+  49  XM_005580615_3_PREDICTED_Macaca_fascicularis_nucleoporin_214_NUP214_transcript_variant_X3_mRNA_1                                           63.45%    failed      1.04%
+  50  XM_034067458_1_PREDICTED_Melopsittacus_undulatus_nucleoporin_214_LOC101879356_transcript_variant_X1_mRNA_1                                 63.47%    failed      0.00%
+  51  XM_005231203_4_PREDICTED_Falco_peregrinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.42%    failed      0.00%
+  52  XM_008169152_3_PREDICTED_Chrysemys_picta_bellii_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.16%    failed      0.00%
+  53  XM_013356741_3_PREDICTED_Ictidomys_tridecemlineatus_nucleoporin_214_Nup214_transcript_variant_X3_mRNA_1                                    63.23%    passed     39.26%
+  54  XM_005346089_3_PREDICTED_Microtus_ochrogaster_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                          63.87%    passed     28.77%
+  55  XM_005408354_2_PREDICTED_Chinchilla_lanigera_nucleoporin_214kDa_Nup214_transcript_variant_X1_mRNA_1                                        63.31%    failed      0.00%
+  56  XM_014307122_1_PREDICTED_Geospiza_fortis_nucleoporin_214_NUP214_mRNA_1                                                                     63.42%    passed      7.72%
+  57  XM_055720404_1_PREDICTED_Falco_cherrug_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                 63.42%    failed      0.00%
+  58  XM_005495229_3_PREDICTED_Zonotrichia_albicollis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.42%    passed     41.64%
+  59  XM_013370612_2_PREDICTED_Columba_livia_nucleoporin_214_NUP214_mRNA_1                                                                       63.65%    failed      1.65%
+  60  XM_005527285_2_PREDICTED_Pseudopodoces_humilis_nucleoporin_214kDa_NUP214_mRNA_1                                                            63.52%    failed      0.34%
+  61  XM_018055995_1_PREDICTED_Capra_hircus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  63.37%    failed      1.05%
+  62  XM_013909135_1_PREDICTED_Pundamilia_nyererei_nucleoporin_214kDa_nup214_mRNA_1                                                              74.23%    failed      0.00%
+  63  XM_023338115_1_PREDICTED_Xiphophorus_maculatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         65.15%    failed      0.00%
+  64  XM_014529882_1_PREDICTED_Myotis_brandtii_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                            63.24%    failed      0.00%
+  65  XM_005902770_2_PREDICTED_Bos_mutus_nucleoporin_214kDa_NUP214_mRNA_1                                                                        63.49%    failed      1.42%
+  66  XM_014485361_1_PREDICTED_Latimeria_chalumnae_nucleoporin_214kDa_NUP214_mRNA_1                                                              63.42%    failed      0.09%
+  67  XM_025261864_3_PREDICTED_Bubalus_bubalis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.38%    failed      0.52%
+  68  XM_023746731_1_PREDICTED_Myotis_lucifugus_nucleoporin_214_NUP214_mRNA_1                                                                    63.93%    failed      0.00%
+  69  XM_006128397_2_PREDICTED_Pelodiscus_sinensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           64.57%    failed      0.00%
+  70  XM_006164333_3_PREDICTED_Tupaia_chinensis_nucleoporin_214_NUP214_transcript_variant_X3_mRNA_1                                              63.40%    passed     18.42%
+  71  XM_032478678_1_PREDICTED_Camelus_ferus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                 63.21%    passed     30.49%
+  72  XM_015249818_2_PREDICTED_Vicugna_pacos_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                 63.21%    passed     35.97%
+  73  XM_006260013_3_PREDICTED_Alligator_mississippiensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                    63.47%    failed      0.10%
+  74  XM_015367229_1_PREDICTED_Lepisosteus_oculatus_nucleoporin_214kDa_nup214_transcript_variant_X1_mRNA_1                                       63.77%    failed      0.00%
+  75  XM_015567742_1_PREDICTED_Myotis_davidii_nucleoporin_214kDa_NUP214_mRNA_1                                                                   65.06%    failed      0.00%
+  76  XM_035906921_1_PREDICTED_Neolamprologus_brichardi_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      64.35%    failed      0.01%
+  77  XM_006834991_1_PREDICTED_Chrysochloris_asiatica_nucleoporin_214kDa_NUP214_mRNA_1                                                           66.08%    failed      0.00%
+  78  XM_006892442_1_PREDICTED_Elephantulus_edwardii_nucleoporin_214kDa_NUP214_mRNA_1                                                            63.38%    failed      0.00%
+  79  XM_015594231_2_PREDICTED_Pteropus_alecto_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.31%    failed      0.00%
+  80  XM_042274920_1_PREDICTED_Peromyscus_maniculatus_bairdii_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                63.40%    failed      0.34%
+  81  XM_007061048_4_PREDICTED_Chelonia_mydas_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                                63.17%    failed      0.00%
+  82  XM_042964819_1_PREDICTED_Panthera_tigris_nucleoporin_214_NUP214_mRNA_1                                                                     63.28%    failed      0.00%
+  83  XM_007115568_4_PREDICTED_Physeter_catodon_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.19%    failed      0.00%
+  84  XM_007194774_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_nucleoporin_214_NUP214_mRNA_1                                                 66.03%    passed      6.21%
+  85  XM_049465800_1_PREDICTED_Astyanax_mexicanus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            64.28%    failed      0.00%
+  86  XM_007422313_3_PREDICTED_Python_bivittatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             64.42%    failed      0.00%
+  87  XM_007453124_1_PREDICTED_Lipotes_vexillifer_nucleoporin_214kDa_NUP214_mRNA_1                                                               63.33%    failed      0.59%
+  88  XM_016191385_1_PREDICTED_Erinaceus_europaeus_nucleoporin_214kDa_NUP214_mRNA_1                                                              63.61%    failed      0.00%
+  89  XM_016674732_1_PREDICTED_Poecilia_formosa_nucleoporin_214kDa_nup214_mRNA_1                                                                 65.22%    passed     14.48%
+  90  XM_007900373_2_PREDICTED_Callorhinchus_milii_nucleoporin_214_nup214_mRNA_1                                                                 64.28%    failed      0.02%
+  91  XM_042781459_1_PREDICTED_Orycteropus_afer_afer_nucleoporin_214_NUP214_mRNA_1                                                               63.38%    failed      0.00%
+  92  XM_008005906_2_PREDICTED_Chlorocebus_sabaeus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.45%    failed      0.31%
+  93  XM_008057451_2_PREDICTED_Carlito_syrichta_nucleoporin_214_NUP214_mRNA_1                                                                    63.40%    passed     68.20%
+  94  XM_028127069_2_PREDICTED_Eptesicus_fuscus_nucleoporin_214_NUP214_mRNA_1                                                                    63.38%    failed      0.00%
+  95  XM_008285570_1_PREDICTED_Stegastes_partitus_nucleoporin_214kDa_nup214_transcript_variant_X1_mRNA_1                                         65.38%    passed     11.96%
+  96  XM_008325965_3_PREDICTED_Cynoglossus_semilaevis_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                        63.82%    passed     61.91%
+  97  XM_008424408_2_PREDICTED_Poecilia_reticulata_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           65.03%    failed      0.25%
+  98  XM_030461305_1_PREDICTED_Calypte_anna_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                                  63.59%    failed      0.07%
+  99  XM_008535420_1_PREDICTED_Equus_przewalskii_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                          63.23%    passed     22.77%
+ 100  XM_008583206_1_PREDICTED_Galeopterus_variegatus_nucleoporin_214kDa_NUP214_transcript_variant_X2_mRNA_1                                     63.35%    failed      0.02%
+ 101  XM_017745507_1_PREDICTED_Corvus_brachyrhynchos_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.75%    passed      8.01%
+ 102  XM_040632079_1_PREDICTED_Ursus_maritimus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               62.96%    failed      0.00%
+ 103  XM_008825660_3_PREDICTED_Nannospalax_galili_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                            63.66%    passed     68.98%
+ 104  XM_018074190_3_PREDICTED_Manacus_vitellinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.63%    passed     26.54%
+ 105  XM_008935299_1_PREDICTED_Merops_nubicus_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                           64.17%    passed     18.57%
+ 106  XM_009077434_1_PREDICTED_Acanthisitta_chloris_nucleoporin_214kDa_NUP214_mRNA_1                                                             63.70%    failed      0.01%
+ 107  XM_009093413_4_PREDICTED_Serinus_canaria_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.51%    passed      7.61%
+ 108  XM_009287021_1_PREDICTED_Aptenodytes_forsteri_nucleoporin_214_NUP214_mRNA_1                                                                63.52%    failed      0.00%
+ 109  XM_009322178_1_PREDICTED_Pygoscelis_adeliae_nucleoporin_214kDa_NUP214_mRNA_1                                                               63.54%    failed      0.00%
+ 110  XM_009477078_1_PREDICTED_Nipponia_nippon_nucleoporin_214kDa_NUP214_mRNA_1                                                                  63.54%    failed      0.00%
+ 111  XM_009482638_1_PREDICTED_Pelecanus_crispus_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                        63.68%    failed      0.00%
+ 112  XM_009508508_1_PREDICTED_Phalacrocorax_carbo_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                      63.70%    failed      0.00%
+ 113  XM_054084299_1_PREDICTED_Cuculus_canorus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.44%    failed      0.00%
+ 114  XM_009586625_1_PREDICTED_Fulmarus_glacialis_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                       63.66%    failed      0.00%
+ 115  XM_035898240_1_PREDICTED_Egretta_garzetta_nucleoporin_214_NUP214_mRNA_1                                                                    63.49%    failed      0.00%
+ 116  XM_009665832_1_PREDICTED_Struthio_camelus_australis_nucleoporin_214kDa_NUP214_mRNA_1                                                       64.38%    failed      0.00%
+ 117  XM_009697272_1_PREDICTED_Cariama_cristata_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                         63.72%    failed      0.00%
+ 118  XM_009811987_1_PREDICTED_Gavia_stellata_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                           63.65%    failed      0.00%
+ 119  XM_009874886_1_PREDICTED_Apaloderma_vittatum_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                      70.14%    passed     38.45%
+ 120  XM_009892306_1_PREDICTED_Charadrius_vociferus_nucleoporin_214kDa_NUP214_mRNA_1                                                             63.47%    failed      0.00%
+ 121  XM_054174325_1_PREDICTED_Dryobates_pubescens_nucleoporin_214_NUP214_mRNA_1                                                                 64.14%    failed      0.00%
+ 122  XM_009918851_1_PREDICTED_Haliaeetus_albicilla_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                     63.68%    failed      0.00%
+ 123  XM_009934872_1_PREDICTED_Opisthocomus_hoazin_nucleoporin_214kDa_NUP214_mRNA_1                                                              63.54%    failed      0.00%
+ 124  XM_009950985_1_PREDICTED_Leptosomus_discolor_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                      64.35%    failed      0.23%
+ 125  XM_033012037_2_PREDICTED_Tyto_alba_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                     63.42%    failed      0.00%
+ 126  XM_009978833_1_PREDICTED_Tauraco_erythrolophus_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                    63.72%    failed      0.02%
+ 127  XM_009998983_1_PREDICTED_Chaetura_pelagica_nucleoporin_214kDa_NUP214_mRNA_1                                                                63.68%    failed      0.04%
+ 128  XM_010010994_1_PREDICTED_Nestor_notabilis_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                         63.63%    failed      0.00%
+ 129  XM_010073208_1_PREDICTED_Pterocles_gutturalis_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                     63.82%    failed      0.01%
+ 130  XM_010137581_1_PREDICTED_Buceros_rhinoceros_silvestris_nucleoporin_214kDa_NUP214_partial_mRNA_1                                            64.17%    failed      2.12%
+ 131  XM_010159295_1_PREDICTED_Eurypyga_helias_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                          64.84%    failed      2.03%
+ 132  XM_029084879_1_PREDICTED_Antrostomus_carolinensis_nucleoporin_214_NUP214_partial_mRNA_1                                                    63.86%    failed      0.00%
+ 133  XM_010182837_1_PREDICTED_Mesitornis_unicolor_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                      78.36%    failed      0.00%
+ 134  XM_010207914_1_PREDICTED_Colius_striatus_nucleoporin_214kDa_NUP214_partial_mRNA_1                                                          63.84%    failed      0.00%
+ 135  XM_010212920_1_PREDICTED_Tinamus_guttatus_nucleoporin_214kDa_NUP214_mRNA_1                                                                 63.44%    failed      0.06%
+ 136  XM_010289831_1_PREDICTED_Phaethon_lepturus_nucleoporin_214kDa_NUP214_mRNA_1                                                                63.40%    failed      0.00%
+ 137  XM_010309868_1_PREDICTED_Balearica_regulorum_gibbericeps_nucleoporin_214kDa_NUP214_partial_mRNA_1                                          63.52%    failed      0.00%
+ 138  XM_030919316_1_PREDICTED_Rhinopithecus_roxellana_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                       63.42%    failed      0.22%
+ 139  XM_039561673_1_PREDICTED_Corvus_cornix_cornix_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          63.54%    passed      9.14%
+ 140  XM_010570899_1_PREDICTED_Haliaeetus_leucocephalus_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                   63.42%    failed      0.00%
+ 141  XM_010627377_2_PREDICTED_Fukomys_damarensis_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                            63.56%    failed      0.00%
+ 142  XM_019276277_2_PREDICTED_Larimichthys_crocea_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           65.17%    passed     22.31%
+ 143  XM_010776956_1_PREDICTED_Notothenia_coriiceps_nucleoporin_214kDa_nup214_mRNA_1                                                             89.68%    passed      5.70%
+ 144  XM_010856792_1_PREDICTED_Bison_bison_bison_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                          63.45%    failed      0.73%
+ 145  XM_020053419_3_PREDICTED_Esox_lucius_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                                   64.98%    failed      0.00%
+ 146  XM_010955880_2_PREDICTED_Camelus_bactrianus_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                            63.23%    passed     31.61%
+ 147  XM_031450716_1_PREDICTED_Camelus_dromedarius_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           62.74%    passed     21.73%
+ 148  XM_023536519_1_PREDICTED_Pteropus_vampyrus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             69.61%    failed      0.00%
+ 149  XM_024787457_1_PREDICTED_Macaca_nemestrina_nucleoporin_214_NUP214_mRNA_1                                                                   63.79%    failed      1.39%
+ 150  XM_011931188_1_PREDICTED_Colobus_angolensis_palliatus_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                               63.49%    failed      0.70%
+ 151  XM_011971141_1_PREDICTED_Mandrillus_leucophaeus_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                     63.45%    failed      0.54%
+ 152  XM_012038803_1_PREDICTED_Cercocebus_atys_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                            63.49%    failed      0.42%
+ 153  XM_012639836_1_PREDICTED_Propithecus_coquereli_nucleoporin_214kDa_NUP214_transcript_variant_X2_mRNA_1                                      63.21%    failed      3.04%
+ 154  XM_020289538_1_PREDICTED_Microcebus_murinus_nucleoporin_214_NUP214_mRNA_1                                                                  63.21%    failed      0.69%
+ 155  XM_031577782_1_PREDICTED_Clupea_harengus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                               63.63%    failed      0.00%
+ 156  XM_012868962_3_PREDICTED_Fundulus_heteroclitus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         65.47%    passed      8.51%
+ 157  XM_013021291_1_PREDICTED_Dipodomys_ordii_nucleoporin_214kDa_Nup214_mRNA_1                                                                  65.10%    failed      0.00%
+ 158  XM_048051800_1_PREDICTED_Anser_cygnoides_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.49%    failed      0.03%
+ 159  XM_014009373_1_PREDICTED_Austrofundulus_limnaeus_nucleoporin_214kDa_nup214_transcript_variant_X1_mRNA_1                                    65.62%    failed      0.00%
+ 160  XM_014068899_1_PREDICTED_Thamnophis_sirtalis_nucleoporin_214kDa_NUP214_mRNA_1                                                              81.88%    passed     15.34%
+ 161  XM_014133085_2_PREDICTED_Salmo_salar_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                                   64.50%    failed      0.00%
+ 162  XM_014863446_2_PREDICTED_Equus_asinus_nucleoporin_214_NUP214_mRNA_1                                                                        63.24%    passed     30.02%
+ 163  XM_014873230_1_PREDICTED_Sturnus_vulgaris_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                           63.49%    failed      3.58%
+ 164  XM_014943014_1_PREDICTED_Calidris_pugnax_nucleoporin_214kDa_NUP214_transcript_variant_X1_mRNA_1                                            63.35%    failed      0.49%
+ 165  XM_014999804_1_PREDICTED_Poecilia_mexicana_nucleoporin_214kDa_nup214_mRNA_1                                                                65.03%    passed      9.76%
+ 166  XM_015055500_1_PREDICTED_Poecilia_latipinna_nucleoporin_214kDa_nup214_transcript_variant_X1_mRNA_1                                         65.22%    passed     13.61%
+ 167  XM_027035408_2_PREDICTED_Acinonyx_jubatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.37%    failed      0.00%
+ 168  XM_015392612_1_PREDICTED_Cyprinodon_variegatus_nucleoporin_214kDa_nup214_transcript_variant_X1_mRNA_1                                      65.68%    failed      0.00%
+ 169  XM_015424259_1_PREDICTED_Gekko_japonicus_nucleoporin_214kDa_NUP214_mRNA_1                                                                  63.86%    failed      0.00%
+ 170  XM_015497426_2_PREDICTED_Marmota_marmota_marmota_nucleoporin_214_Nup214_transcript_variant_X2_mRNA_1                                       63.24%    passed     22.06%
+ 171  XM_015645071_2_PREDICTED_Parus_major_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                   63.52%    failed      0.33%
+ 172  XM_015879155_2_PREDICTED_Coturnix_japonica_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.70%    failed      0.00%
+ 173  XM_015942816_2_PREDICTED_Nothobranchius_furzeri_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                        65.89%    passed     30.11%
+ 174  XM_016133847_2_PREDICTED_Rousettus_aegyptiacus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.42%    failed      0.00%
+ 175  XM_016196610_1_PREDICTED_Miniopterus_natalensis_nucleoporin_214kDa_NUP214_mRNA_1                                                           63.33%    failed      0.00%
+ 176  XM_016289145_1_PREDICTED_Sinocyclocheilus_grahami_nuclear_pore_complex_protein_Nup214_like_LOC107597939_transcript_variant_X1_mRNA_1       65.45%    failed      0.45%
+ 177  XM_016469052_1_PREDICTED_Sinocyclocheilus_anshuiensis_nuclear_pore_complex_protein_Nup214_like_LOC107674911_transcript_variant_X1_mRNA_1   65.08%    failed      0.25%
+ 178  XM_016554251_1_PREDICTED_Sinocyclocheilus_rhinocerous_nuclear_pore_complex_protein_Nup214_like_LOC107741499_transcript_variant_X1_mRNA_1   65.27%    failed      0.39%
+ 179  XM_017407835_2_PREDICTED_Kryptolebias_marmoratus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                       65.17%    passed     54.93%
+ 180  XM_017460138_2_PREDICTED_Ictalurus_punctatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           66.04%    failed      0.00%
+ 181  XM_017499061_2_PREDICTED_Cebus_imitator_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.40%    failed      0.03%
+ 182  XM_037007352_1_PREDICTED_Manis_javanica_nucleoporin_214_NUP214_mRNA_1                                                                      63.91%    passed     29.28%
+ 183  XM_017702901_2_PREDICTED_Pygocentrus_nattereri_nucleoporin_214_nup214_mRNA_1                                                               65.61%    passed      5.84%
+ 184  XM_017810199_1_PREDICTED_Lepidothrix_coronata_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          63.59%    passed     23.34%
+ 185  XM_017849892_1_PREDICTED_Rhinopithecus_bieti_nucleoporin_214_NUP214_mRNA_1                                                                 63.38%    failed      0.25%
+ 186  XM_018662340_2_PREDICTED_Lates_calcarifer_nucleoporin_214_nup214_mRNA_1                                                                    64.68%    failed      4.47%
+ 187  XM_029252794_1_PREDICTED_Scleropages_formosus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          63.93%    failed      0.00%
+ 188  XM_019420787_2_PREDICTED_Panthera_pardus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.40%    failed      0.00%
+ 189  XM_019510690_1_PREDICTED_Gavialis_gangeticus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.47%    failed      0.01%
+ 190  XM_019540813_1_PREDICTED_Crocodylus_porosus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.51%    failed      0.02%
+ 191  XM_019638539_1_PREDICTED_Hipposideros_armiger_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          62.63%    failed      0.81%
+ 192  XM_019890466_1_PREDICTED_Hippocampus_comes_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             65.97%    failed      0.00%
+ 193  XM_019971033_1_PREDICTED_Bos_indicus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                   63.72%    failed      2.13%
+ 194  XM_020081957_1_PREDICTED_Paralichthys_olivaceus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                        64.87%    failed      1.91%
+ 195  XM_020457347_2_PREDICTED_Oncorhynchus_kisutch_nuclear_pore_complex_protein_Nup214_LOC109867993_transcript_variant_X1_mRNA_1                64.68%    failed      0.00%
+ 196  XM_048613548_1_PREDICTED_Rhincodon_typus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                               62.61%    failed      0.01%
+ 197  XM_020600842_1_PREDICTED_Monopterus_albus_nucleoporin_214_nup214_mRNA_1                                                                    64.43%    failed      0.00%
+ 198  XM_020638399_2_PREDICTED_Labrus_bergylta_nucleoporin_214_nup214_mRNA_1                                                                     65.22%    failed      1.14%
+ 199  XM_020794890_1_PREDICTED_Pogona_vitticeps_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.82%    failed      0.00%
+ 200  XM_020875551_1_PREDICTED_Odocoileus_virginianus_texanus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                63.33%    failed      0.15%
+ 201  XM_020925110_2_PREDICTED_Boleophthalmus_pectinirostris_nucleoporin_214_nup214_mRNA_1                                                       66.01%    failed      0.00%
+ 202  XM_020973511_1_PREDICTED_Phascolarctos_cinereus_nucleoporin_214_NUP214_mRNA_1                                                              62.95%    failed      0.03%
+ 203  XM_021185394_2_PREDICTED_Mus_caroli_nucleoporin_214_Nup214_transcript_variant_X2_mRNA_1                                                    63.72%    passed     81.37%
+ 204  XM_021193519_2_PREDICTED_Mus_pahari_nucleoporin_214_Nup214_mRNA_1                                                                          63.75%    passed     75.77%
+ 205  XM_021413569_1_PREDICTED_Numida_meleagris_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.66%    failed      0.09%
+ 206  XM_021543507_1_PREDICTED_Lonchura_striata_domestica_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                    63.52%    failed      1.43%
+ 207  XM_021602472_2_PREDICTED_Oncorhynchus_mykiss_nucleoporin_214_nup214_transcript_variant_X4_mRNA_1                                           64.54%    failed      0.00%
+ 208  XM_021654929_1_PREDICTED_Meriones_unguiculatus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                         63.68%    passed     63.12%
+ 209  XM_044920505_1_PREDICTED_Neomonachus_schauinslandi_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                     63.56%    failed      0.03%
+ 210  XM_022204048_2_PREDICTED_Acanthochromis_polyacanthus_nucleoporin_214_nup214_mRNA_1                                                         65.54%    passed      5.57%
+ 211  XM_022500410_1_PREDICTED_Enhydra_lutris_kenyoni_nucleoporin_214_LOC111145520_transcript_variant_X1_mRNA_1                                  63.68%    failed      0.00%
+ 212  XM_022578425_2_PREDICTED_Delphinapterus_leucas_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.28%    failed      0.02%
+ 213  XM_022768051_1_PREDICTED_Seriola_dumerili_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                              64.94%    failed      0.30%
+ 214  XM_023216929_2_PREDICTED_Piliocolobus_tephrosceles_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                     63.44%    failed      0.41%
+ 215  XM_023283773_3_PREDICTED_Amphiprion_ocellaris_nucleoporin_214_nup214_mRNA_1                                                                65.54%    failed      2.91%
+ 216  XM_023419530_1_PREDICTED_Seriola_lalandi_dorsalis_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      64.99%    failed      0.20%
+ 217  XM_023818632_1_PREDICTED_Paramormyrops_kingsleyae_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      63.56%    failed      0.00%
+ 218  XM_023938209_1_PREDICTED_Cyanistes_caeruleus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.52%    failed      0.36%
+ 219  XM_023983975_1_PREDICTED_Salvelinus_alpinus_nuclear_pore_complex_protein_Nup214_LOC111961585_mRNA_1                                        64.70%    failed      0.00%
+ 220  XM_026657258_2_PREDICTED_Terrapene_carolina_triunguis_nucleoporin_214_NUP214_mRNA_1                                                        63.37%    failed      0.00%
+ 221  XM_024298701_2_PREDICTED_Oryzias_melastigma_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            65.43%    passed     77.46%
+ 222  XM_042302307_1_PREDICTED_Oncorhynchus_tshawytscha_nucleoporin_214_nup214_mRNA_1                                                            64.50%    failed      0.00%
+ 223  XM_024562058_3_PREDICTED_Desmodus_rotundus_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                             63.28%    failed      0.00%
+ 224  XM_024762151_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                   62.95%    failed      0.33%
+ 225  XM_025359240_1_PREDICTED_Theropithecus_gelada_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          63.44%    failed      0.56%
+ 226  XM_025475505_3_PREDICTED_Canis_lupus_dingo_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.45%    passed     80.36%
+ 227  XM_025888656_1_PREDICTED_Callorhinus_ursinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.51%    failed      0.04%
+ 228  XM_025913499_1_PREDICTED_Puma_concolor_nucleoporin_214_NUP214_mRNA_1                                                                       73.11%    passed     67.05%
+ 229  XM_026009534_1_PREDICTED_Vulpes_vulpes_nucleoporin_214_NUP214_mRNA_1                                                                       63.37%    passed     64.59%
+ 230  XM_026049333_1_PREDICTED_Nothoprocta_perdicaria_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.42%    passed     22.63%
+ 231  XM_026062146_1_PREDICTED_Apteryx_rowi_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  63.52%    failed      0.00%
+ 232  XM_026101800_1_PREDICTED_Dromaius_novaehollandiae_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                      63.47%    failed      0.00%
+ 233  XM_026173651_1_PREDICTED_Astatotilapia_calliptera_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      65.03%    failed      0.01%
+ 234  XM_026255466_1_PREDICTED_Carassius_auratus_nuclear_pore_complex_protein_Nup214_like_LOC113086616_transcript_variant_X1_mRNA_1              64.40%    passed     11.51%
+ 235  XM_026297003_1_PREDICTED_Mastacembelus_armatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         65.15%    failed      0.00%
+ 236  XM_026354746_1_PREDICTED_Anabas_testudineus_nucleoporin_214_nup214_mRNA_1                                                                  64.73%    failed      0.00%
+ 237  XM_026386470_1_PREDICTED_Urocitellus_parryii_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                           63.31%    passed     35.31%
+ 238  XM_026514203_3_PREDICTED_Ursus_arctos_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  63.49%    failed      0.01%
+ 239  XM_026685730_1_PREDICTED_Notechis_scutatus_nucleoporin_214_NUP214_mRNA_1                                                                   66.22%    failed      0.00%
+ 240  XM_026712551_1_PREDICTED_Pseudonaja_textilis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           64.05%    failed      0.00%
+ 241  XM_026860665_1_PREDICTED_Athene_cunicularia_nucleoporin_214_NUP214_mRNA_1                                                                  63.51%    failed      0.01%
+ 242  XM_034300597_2_PREDICTED_Pangasianodon_hypophthalmus_nucleoporin_214_nup214_transcript_variant_X2_mRNA_1                                   65.47%    failed      0.00%
+ 243  XM_035527488_1_PREDICTED_Electrophorus_electricus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      64.40%    failed      0.00%
+ 244  XM_027104488_1_PREDICTED_Lagenorhynchus_obliquidens_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                    62.82%    failed      0.61%
+ 245  XM_027159432_2_PREDICTED_Tachysurus_fulvidraco_nucleoporin_214_nup214_transcript_variant_X3_mRNA_1                                         65.94%    failed      0.37%
+ 246  XM_027614894_2_PREDICTED_Zalophus_californianus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.49%    failed      0.04%
+ 247  XM_027649923_1_PREDICTED_Corapipo_altera_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.59%    passed     19.06%
+ 248  XM_027687818_1_PREDICTED_Neopelma_chrysocephalum_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                       63.63%    passed     32.40%
+ 249  XM_027739304_2_PREDICTED_Pipra_filicauda_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.63%    passed     18.53%
+ 250  XM_027869347_1_PREDICTED_Vombatus_ursinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.07%    failed      0.02%
+ 251  XM_027911660_1_PREDICTED_Empidonax_traillii_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.70%    passed     76.69%
+ 252  XM_027942761_1_PREDICTED_Marmota_flaviventris_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                          63.02%    passed     20.71%
+ 253  XM_028025314_1_PREDICTED_Xiphophorus_couchianus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                        65.15%    failed      0.00%
+ 254  XM_028090579_1_PREDICTED_Eumetopias_jubatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.51%    failed      0.04%
+ 255  XM_028417427_1_PREDICTED_Parambassis_ranga_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             65.03%    failed      0.00%
+ 256  XM_028462848_1_PREDICTED_Gouania_willdenowi_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            64.21%    failed      0.05%
+ 257  XM_028516280_2_PREDICTED_Phyllostomus_discolor_nucleoporin_214_NUP214_mRNA_1                                                               63.09%    failed      0.00%
+ 258  XM_028601162_1_PREDICTED_Perca_flavescens_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                              65.36%    failed      0.09%
+ 259  XM_028714310_1_PREDICTED_Podarcis_muralis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.72%    passed     86.74%
+ 260  XM_028757191_1_PREDICTED_Grammomys_surdaster_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                           63.73%    passed     33.03%
+ 261  XM_028793027_2_PREDICTED_Erpetoichthys_calabaricus_nucleoporin_214_nup214_transcript_variant_X3_mRNA_1                                     64.50%    failed      0.00%
+ 262  XM_028884666_2_PREDICTED_Peromyscus_leucopus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                           63.44%    failed      0.50%
+ 263  XM_028973301_1_PREDICTED_Denticeps_clupeoides_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          64.54%    passed     10.30%
+ 264  XM_029169973_3_PREDICTED_Betta_splendens_nucleoporin_214_nup214_mRNA_1                                                                     64.40%    failed      0.00%
+ 265  XM_029201333_1_PREDICTED_Monodon_monoceros_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.44%    failed      0.03%
+ 266  XM_029444374_1_PREDICTED_Cottoperca_gobio_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                              65.27%    passed     24.03%
+ 267  XM_029516133_1_PREDICTED_Echeneis_naucrates_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            65.08%    failed      0.00%
+ 268  XM_029612981_1_PREDICTED_Rhinatrema_bivittatum_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         64.31%    failed      0.63%
+ 269  XM_029646036_1_PREDICTED_Oncorhynchus_nerka_nuclear_pore_complex_protein_Nup214_like_LOC115117560_mRNA_1                                   64.49%    failed      0.00%
+ 270  XM_029709342_1_PREDICTED_Salmo_trutta_nuclear_pore_complex_protein_Nup214_like_LOC115159533_transcript_variant_X1_mRNA_1                   64.61%    failed      0.00%
+ 271  XM_029921055_1_PREDICTED_Suricata_suricatta_nucleoporin_214_NUP214_mRNA_1                                                                  63.93%    failed      0.00%
+ 272  XM_030000702_2_PREDICTED_Aquila_chrysaetos_chrysaetos_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                  63.42%    failed      0.00%
+ 273  XM_030065096_1_PREDICTED_Myripristis_murdjan_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           64.59%    passed     32.95%
+ 274  XM_030084637_1_PREDICTED_Salarias_fasciatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            64.99%    passed     25.51%
+ 275  XM_030148420_1_PREDICTED_Sphaeramia_orbicularis_nucleoporin_214_nup214_mRNA_1                                                              65.08%    passed     14.11%
+ 276  XM_030207807_1_PREDICTED_Microcaecilia_unicolor_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        64.28%    failed      0.02%
+ 277  XM_030294494_1_PREDICTED_Lynx_canadensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.28%    failed      0.00%
+ 278  XM_030342558_1_PREDICTED_Gadus_morhua_nucleoporin_214_nup214_transcript_variant_X4_mRNA_1                                                  63.86%    failed      0.00%
+ 279  XM_030435294_1_PREDICTED_Sparus_aurata_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                                 64.70%    passed     25.04%
+ 280  XM_030506989_1_PREDICTED_Strigops_habroptila_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.47%    failed      0.00%
+ 281  XM_030536064_1_PREDICTED_Gopherus_evgoodei_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.16%    failed      0.00%
+ 282  XM_030742537_1_PREDICTED_Archocentrus_centrarchus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      65.26%    failed      0.01%
+ 283  XM_030838520_1_PREDICTED_Globicephala_melas_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            62.82%    failed      0.85%
+ 284  XM_030961399_1_PREDICTED_Camarhynchus_parvulus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.44%    passed      8.06%
+ 285  XM_031317577_2_PREDICTED_Sander_lucioperca_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             65.40%    failed      0.11%
+ 286  XM_031369768_1_PREDICTED_Mastomys_coucha_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                               64.84%    passed      5.64%
+ 287  XM_031601734_1_PREDICTED_Phasianus_colchicus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.68%    failed      0.00%
+ 288  XM_039615143_1_PREDICTED_Oreochromis_aureus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            65.13%    failed      0.01%
+ 289  XM_031860390_1_PREDICTED_Anarrhichthys_ocellatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                       64.50%    failed      1.19%
+ 290  XM_032130781_1_PREDICTED_Corvus_moneduloides_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.54%    passed     10.03%
+ 291  XM_032165440_1_PREDICTED_Hylobates_moloch_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.45%    failed      0.45%
+ 292  XM_032200303_1_PREDICTED_Aythya_fuligula_nucleoporin_214_NUP214_mRNA_1                                                                     63.45%    failed      1.88%
+ 293  XM_032232728_1_PREDICTED_Thamnophis_elegans_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            64.35%    failed      0.00%
+ 294  XM_032257624_1_PREDICTED_Sapajus_apella_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.37%    failed      0.11%
+ 295  XM_032308153_1_PREDICTED_Mustela_erminea_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.54%    failed      0.00%
+ 296  XM_032418191_1_PREDICTED_Phoca_vitulina_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.51%    failed      0.02%
+ 297  XM_032539890_1_PREDICTED_Etheostoma_spectabile_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         65.40%    failed      0.00%
+ 298  XM_032569708_1_PREDICTED_Xiphophorus_hellerii_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          65.12%    failed      0.00%
+ 299  XM_032634498_1_PREDICTED_Phocoena_sinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                62.93%    failed      0.11%
+ 300  XM_032708057_1_PREDICTED_Chiroxiphia_lanceolata_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.58%    passed     40.17%
+ 301  XM_032797684_1_PREDICTED_Chelonoidis_abingdonii_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        62.12%    failed      0.00%
+ 302  XM_032866100_1_PREDICTED_Lontra_canadensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.52%    failed      0.00%
+ 303  XM_032902803_1_PREDICTED_Rattus_rattus_nucleoporin_214_Nup214_transcript_variant_X2_mRNA_1                                                 63.84%    passed     41.10%
+ 304  XM_032973331_1_PREDICTED_Petromyzon_marinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            65.82%    failed      0.00%
+ 305  XM_033048914_1_PREDICTED_Amblyraja_radiata_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             64.12%    failed      0.00%
+ 306  XM_033077686_1_PREDICTED_Catharus_ustulatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.54%    passed     16.27%
+ 307  XM_033123094_1_PREDICTED_Rhinolophus_ferrumequinum_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                     63.47%    passed     23.78%
+ 308  XM_033137052_1_PREDICTED_Lacerta_agilis_nucleoporin_214_NUP214_mRNA_1                                                                      63.54%    passed     81.06%
+ 309  XM_033194190_1_PREDICTED_Trachypithecus_francoisi_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                      63.45%    failed      0.16%
+ 310  XM_033647272_1_PREDICTED_Epinephelus_lanceolatus_nucleoporin_214_nup214_mRNA_1                                                             59.20%    failed      0.00%
+ 311  XM_033960858_1_PREDICTED_Geotrypetes_seraphini_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         64.21%    failed      0.00%
+ 312  XM_033989189_2_PREDICTED_Periophthalmus_magnuspinnatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                 65.92%    failed      0.00%
+ 313  XM_034095612_1_PREDICTED_Pseudochaenichthys_georgianus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                 65.55%    failed      0.39%
+ 314  XM_034123068_1_PREDICTED_Trematomus_bernacchii_nucleoporin_214_nup214_mRNA_1                                                               65.20%    failed      0.06%
+ 315  XM_034192224_1_PREDICTED_Thalassophryne_amazonica_nucleoporin_214_nup214_mRNA_1                                                            64.98%    failed      0.00%
+ 316  XM_034203485_1_PREDICTED_Gymnodraco_acuticeps_nucleoporin_214_nup214_transcript_variant_X12_mRNA_1                                         65.10%    failed      0.21%
+ 317  XM_034427115_1_PREDICTED_Pantherophis_guttatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         64.36%    failed      0.00%
+ 318  XM_034494937_1_PREDICTED_Arvicanthis_niloticus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                         63.72%    passed     51.53%
+ 319  XM_034546462_1_PREDICTED_Cyclopterus_lumpus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            64.91%    passed      8.09%
+ 320  XM_034602539_1_PREDICTED_Hippoglossus_hippoglossus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                     64.98%    failed      3.58%
+ 321  XM_034710297_1_PREDICTED_Notolabrus_celidotus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          64.66%    failed      1.50%
+ 322  XM_034793840_1_PREDICTED_Trachemys_scripta_elegans_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                     63.16%    failed      0.00%
+ 323  XM_034896469_1_PREDICTED_Etheostoma_cragini_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            65.36%    failed      0.00%
+ 324  XM_035015597_1_PREDICTED_Mirounga_leonina_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.54%    failed      0.03%
+ 325  XM_035112650_1_PREDICTED_Zootoca_vivipara_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.51%    passed     20.89%
+ 326  XM_035141352_2_PREDICTED_Hippoglossus_stenolepis_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                       65.03%    failed      3.16%
+ 327  XM_035341340_1_PREDICTED_Oxyura_jamaicensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.51%    failed      0.40%
+ 328  XM_035391661_1_PREDICTED_Anguilla_anguilla_nucleoporin_214_nup214_mRNA_1                                                                   64.73%    failed      0.00%
+ 329  XM_035555059_2_PREDICTED_Cygnus_atratus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.49%    failed      0.38%
+ 330  XM_035668533_1_PREDICTED_Morone_saxatilis_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                              65.20%    passed     10.52%
+ 331  XM_036117073_1_PREDICTED_Halichoerus_grypus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.51%    failed      0.05%
+ 332  XM_036183844_1_PREDICTED_Onychomys_torridus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                            63.59%    passed     21.99%
+ 333  XM_036260779_1_PREDICTED_Molossus_molossus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.45%    failed      0.00%
+ 334  XM_036329313_1_PREDICTED_Myotis_myotis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                 62.54%    failed      0.00%
+ 335  XM_036393964_1_PREDICTED_Molothrus_ater_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.52%    passed     14.92%
+ 336  XM_036420376_2_PREDICTED_Pipistrellus_kuhlii_nucleoporin_214_NUP214_transcript_variant_X4_mRNA_1                                           63.72%    failed      0.00%
+ 337  XM_036529984_1_PREDICTED_Megalops_cyprinoides_nucleoporin_214_nup214_mRNA_1                                                                63.77%    failed      0.00%
+ 338  XM_036580651_1_PREDICTED_Colossoma_macropomum_nucleoporin_214_nup214_mRNA_1                                                                65.68%    failed      1.82%
+ 339  XM_036749435_1_PREDICTED_Trichosurus_vulpecula_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         62.70%    failed      0.00%
+ 340  XM_036854675_1_PREDICTED_Balaenoptera_musculus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.14%    failed      0.01%
+ 341  XM_036913550_1_PREDICTED_Manis_pentadactyla_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.59%    failed      2.12%
+ 342  XM_037036394_1_PREDICTED_Sturnira_hondurensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          64.29%    failed      0.00%
+ 343  XM_037116683_1_PREDICTED_Acanthopagrus_latus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           64.89%    passed      7.64%
+ 344  XM_037158519_2_PREDICTED_Artibeus_jamaicensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          63.23%    failed      0.00%
+ 345  XM_037266271_1_PREDICTED_Syngnathus_acus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                               65.94%    failed      0.03%
+ 346  XM_037399830_1_PREDICTED_Falco_rusticolus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.42%    failed      0.00%
+ 347  XM_037485053_1_PREDICTED_Pungitius_pungitius_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           65.29%    failed      0.00%
+ 348  XM_037492902_2_PREDICTED_Talpa_occidentalis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            64.61%    failed      0.00%
+ 349  XM_037692501_1_PREDICTED_Nematolebias_whitei_nucleoporin_214_nup214_mRNA_1                                                                 65.20%    failed      0.01%
+ 350  XM_037752447_1_PREDICTED_Sebastes_umbrosus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             64.38%    failed      0.12%
+ 351  XM_037798478_1_PREDICTED_Choloepus_didactylus_nucleoporin_214_NUP214_mRNA_1                                                                63.59%    failed      0.00%
+ 352  XM_038156473_1_PREDICTED_Motacilla_alba_alba_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.51%    passed      8.63%
+ 353  XM_038294931_1_PREDICTED_Cyprinodon_tularosa_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           65.68%    failed      0.00%
+ 354  XM_038336347_2_PREDICTED_Arvicola_amphibius_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                            63.77%    passed     15.54%
+ 355  XM_038374392_2_PREDICTED_Dermochelys_coriacea_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                          63.17%    failed      0.00%
+ 356  XM_038733442_1_PREDICTED_Micropterus_salmoides_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         65.03%    failed      2.97%
+ 357  XM_038744806_1_PREDICTED_Tachyglossus_aculeatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        64.01%    failed      0.00%
+ 358  XM_038781701_1_PREDICTED_Scyliorhinus_canicula_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         59.27%    failed      0.00%
+ 359  XM_038970306_1_PREDICTED_Salvelinus_namaycush_nucleoporin_214_nup214_mRNA_1                                                                64.54%    failed      0.00%
+ 360  XM_039229502_1_PREDICTED_Hyaena_hyaena_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                 63.26%    failed      0.00%
+ 361  XM_039345171_1_PREDICTED_Crotalus_tigris_nucleoporin_214_NUP214_mRNA_1                                                                     64.29%    failed      0.00%
+ 362  XM_039506511_1_PREDICTED_Mauremys_reevesii_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.14%    failed      0.00%
+ 363  XM_039661881_1_PREDICTED_Pimephales_promelas_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           65.06%    failed      0.00%
+ 364  XM_039720147_1_PREDICTED_Passer_montanus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.51%    passed     18.98%
+ 365  XM_039764390_1_PREDICTED_Polypterus_senegalus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          64.14%    failed      0.00%
+ 366  XM_039780595_1_PREDICTED_Perca_fluviatilis_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             65.13%    failed      0.02%
+ 367  XM_039862878_1_PREDICTED_Pteropus_giganteus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.31%    failed      0.00%
+ 368  XM_040053291_1_PREDICTED_Simochromis_diagramma_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         64.52%    failed      0.00%
+ 369  XM_040083335_1_PREDICTED_Hirundo_rustica_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.54%    passed     99.19%
+ 370  XM_040157349_1_PREDICTED_Xiphias_gladius_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                               64.91%    failed      0.15%
+ 371  XM_040197849_1_PREDICTED_Gasterosteus_aculeatus_aculeatus_nucleoporin_214_nup214_mRNA_1                                                    65.43%    failed      0.00%
+ 372  XM_040225408_1_PREDICTED_Oryx_dammah_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                   63.38%    failed      0.20%
+ 373  XM_040353063_1_PREDICTED_Rana_temporaria_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.47%    failed      0.00%
+ 374  XM_040442084_1_PREDICTED_Bufo_bufo_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                     63.05%    failed      0.00%
+ 375  XM_040482665_1_PREDICTED_Puma_yagouaroundi_nucleoporin_214_NUP214_mRNA_1                                                                   63.45%    failed      0.00%
+ 376  XM_040531496_1_PREDICTED_Cygnus_olor_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                   63.49%    failed      0.14%
+ 377  XM_040606349_1_PREDICTED_Falco_naumanni_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.42%    failed      0.00%
+ 378  XM_040963838_1_PREDICTED_Ochotona_curzoniae_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.91%    failed      0.00%
+ 379  XM_041194465_1_PREDICTED_Carcharodon_carcharias_nucleoporin_214_nup214_mRNA_1                                                              62.96%    failed      1.14%
+ 380  XM_041242744_1_PREDICTED_Polyodon_spathula_nucleoporin_214_nup214_mRNA_1                                                                   65.38%    failed      1.83%
+ 381  XM_041406678_1_PREDICTED_Onychostruthus_taczanowskii_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                   63.49%    passed      6.34%
+ 382  XM_041474845_1_PREDICTED_Pyrgilauda_ruficollis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.47%    passed      5.81%
+ 383  XM_041674541_1_PREDICTED_Microtus_oregoni_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                              63.87%    passed     43.97%
+ 384  XM_041724983_1_PREDICTED_Vulpes_lagopus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.44%    passed     67.23%
+ 385  XM_041811120_1_PREDICTED_Cheilinus_undulatus_nucleoporin_214_nup214_mRNA_1                                                                 67.04%    failed      1.61%
+ 386  XM_041960620_1_PREDICTED_Chelmon_rostratus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             65.17%    failed      1.69%
+ 387  XM_041969906_1_PREDICTED_Melanotaenia_boesemani_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                        65.19%    failed      0.00%
+ 388  XM_042052370_1_PREDICTED_Corvus_kubaryi_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.54%    passed     10.26%
+ 389  XM_042058868_1_PREDICTED_Alosa_sapidissima_nucleoporin_214_nup214_mRNA_1                                                                   62.95%    failed      0.00%
+ 390  XM_042396059_1_PREDICTED_Thunnus_maccoyii_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                              64.59%    failed      0.20%
+ 391  XM_042478915_1_PREDICTED_Sceloporus_undulatus_nucleoporin_214_NUP214_mRNA_1                                                                63.65%    failed      0.32%
+ 392  XM_042508899_1_PREDICTED_Plectropomus_leopardus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                        64.99%    failed      2.29%
+ 393  XM_042681123_1_PREDICTED_Dipodomys_spectabilis_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                         63.65%    failed      0.00%
+ 394  XM_042830552_1_PREDICTED_Centrocercus_urophasianus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                     63.66%    failed      0.00%
+ 395  XM_042879377_1_PREDICTED_Lagopus_leucura_nucleoporin_214_NUP214_mRNA_1                                                                     63.68%    failed      0.00%
+ 396  XM_042913514_1_PREDICTED_Panthera_leo_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  64.66%    failed      0.00%
+ 397  XM_043239514_1_PREDICTED_Puntigrus_tetrazona_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                           65.17%    passed     21.67%
+ 398  XM_043469868_1_PREDICTED_Cervus_canadensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.30%    failed      2.36%
+ 399  XM_043565657_1_PREDICTED_Prionailurus_bengalensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                      63.38%    failed      0.00%
+ 400  XM_043719712_1_PREDICTED_Chiloscyllium_plagiosum_nucleoporin_214_nup214_mRNA_1                                                             63.30%    failed      0.24%
+ 401  XM_043916573_1_PREDICTED_Cervus_elaphus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.30%    failed      2.07%
+ 402  XM_044058190_1_PREDICTED_Protopterus_annectens_nucleoporin_214_NUP214_mRNA_1                                                               64.59%    failed      0.00%
+ 403  XM_044096552_1_PREDICTED_Gambusia_affinis_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                              65.24%    failed      0.17%
+ 404  XM_044173057_1_PREDICTED_Siniperca_chuatsi_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             65.33%    failed      0.18%
+ 405  XM_044269180_1_PREDICTED_Bufo_gargarizans_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.12%    failed      0.00%
+ 406  XM_044333824_1_PREDICTED_Thunnus_albacares_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             64.50%    failed      0.22%
+ 407  XM_044439935_1_PREDICTED_Varanus_komodoensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.56%    failed      0.00%
+ 408  XM_044663974_1_PREDICTED_Gracilinanus_agilis_nucleoporin_214_NUP214_mRNA_1                                                                 63.38%    failed      0.00%
+ 409  XM_044992687_1_PREDICTED_Mauremys_mutica_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.14%    failed      0.00%
+ 410  XM_045468586_1_PREDICTED_Leopardus_geoffroyi_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.38%    failed      0.00%
+ 411  XM_045563717_1_PREDICTED_Lemur_catta_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                   63.17%    failed      0.28%
+ 412  XM_045771291_1_PREDICTED_Ursus_americanus_nucleoporin_214_NUP214_mRNA_1                                                                    63.49%    failed      0.01%
+ 413  XM_045845882_1_PREDICTED_Phyllostomus_hastatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         62.51%    failed      0.00%
+ 414  XM_045883360_2_PREDICTED_Mirounga_angustirostris_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                       63.54%    failed      0.04%
+ 415  XM_046022012_1_PREDICTED_Meles_meles_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                   63.52%    failed      0.00%
+ 416  XM_046066018_1_PREDICTED_Micropterus_dolomieu_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          65.03%    failed      3.53%
+ 417  XM_046376060_1_PREDICTED_Scatophagus_argus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             64.75%    failed      0.99%
+ 418  XM_046451514_1_PREDICTED_Marmota_monax_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                                 63.24%    passed     23.33%
+ 419  XM_046667207_1_PREDICTED_Equus_quagga_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  63.23%    passed     31.73%
+ 420  XM_046839724_1_PREDICTED_Silurus_meridionalis_nucleoporin_214_nup214_mRNA_1                                                                65.64%    failed      0.22%
+ 421  XM_047018075_1_PREDICTED_Hypomesus_transpacificus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      64.29%    failed      0.00%
+ 422  XM_047098196_1_PREDICTED_Lynx_rufus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                    63.33%    failed      0.00%
+ 423  XM_047372207_1_PREDICTED_Girardinichthys_multiradiatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                 65.89%    failed      0.00%
+ 424  XM_047524283_1_PREDICTED_Sciurus_carolinensis_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                          63.28%    passed     37.50%
+ 425  XM_047570072_1_PREDICTED_Mugil_cephalus_nucleoporin_214_nup214_mRNA_1                                                                      64.85%    passed     27.69%
+ 426  XM_047698766_1_PREDICTED_Lutra_lutra_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                   63.47%    failed      0.00%
+ 427  XM_047768718_1_PREDICTED_Phacochoerus_africanus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.59%    failed      0.00%
+ 428  XM_047828927_1_PREDICTED_Prionailurus_viverrinus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                       63.38%    failed      0.00%
+ 429  XM_048259276_1_PREDICTED_Alosa_alosa_nucleoporin_214_nup214_mRNA_1                                                                         63.80%    failed      0.00%
+ 430  XM_048325534_1_PREDICTED_Corvus_hawaiiensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.54%    passed      7.47%
+ 431  XM_048345119_1_PREDICTED_Perognathus_longimembris_pacificus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                            64.01%    failed      0.00%
+ 432  XM_048432047_1_PREDICTED_Myodes_glareolus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                              63.73%    passed     44.00%
+ 433  XM_048512150_1_PREDICTED_Sphaerodactylus_townsendi_nucleoporin_214_NUP214_mRNA_1                                                           63.93%    failed      0.00%
+ 434  XM_048559141_1_PREDICTED_Stegostoma_fasciatum_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          64.07%    failed      0.50%
+ 435  XM_048822631_1_PREDICTED_Caretta_caretta_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               63.17%    failed      0.00%
+ 436  XM_048965793_1_PREDICTED_Lagopus_muta_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  63.68%    failed      0.01%
+ 437  XM_049019682_1_PREDICTED_Brienomyrus_brachyistius_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                      64.05%    failed      0.00%
+ 438  XM_049603883_1_PREDICTED_Epinephelus_fuscoguttatus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                     64.54%    failed      0.82%
+ 439  XM_049630369_1_PREDICTED_Panthera_uncia_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                64.66%    failed      0.00%
+ 440  XM_049737984_1_PREDICTED_Syngnathus_scovelli_nucleoporin_214_nup214_mRNA_1                                                                 68.19%    failed      0.53%
+ 441  XM_049772815_1_PREDICTED_Suncus_etruscus_nucleoporin_214_NUP214_mRNA_1                                                                     64.14%    failed      0.30%
+ 442  XM_049832130_1_PREDICTED_Accipiter_gentilis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.44%    failed      0.00%
+ 443  XM_049895296_1_PREDICTED_Elephas_maximus_indicus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                       63.23%    failed      0.00%
+ 444  XM_050155361_1_PREDICTED_Microtus_fortis_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                               63.87%    passed     22.19%
+ 445  XM_050320148_1_PREDICTED_Myiozetetes_cayanensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.59%    passed     81.51%
+ 446  XM_050759700_1_PREDICTED_Macaca_thibetana_thibetana_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                    63.45%    failed      0.82%
+ 447  XM_050907822_1_PREDICTED_Gymnogyps_californianus_nucleoporin_214_NUP214_mRNA_1                                                             63.42%    failed      0.00%
+ 448  XM_050926080_1_PREDICTED_Gopherus_flavomarginatus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                      63.16%    failed      0.00%
+ 449  XM_051110066_1_PREDICTED_Labeo_rohita_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                                  65.17%    failed      1.03%
+ 450  XM_051167195_1_PREDICTED_Acomys_russatus_nucleoporin_214_Nup214_mRNA_1                                                                     63.68%    passed     10.84%
+ 451  XM_051185142_1_PREDICTED_Phodopus_roborovskii_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                          63.68%    passed     17.17%
+ 452  XM_051411593_1_PREDICTED_Dicentrarchus_labrax_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          65.36%    failed      0.54%
+ 453  XM_051636584_1_PREDICTED_Apus_apus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                     63.52%    failed      0.24%
+ 454  XM_051688930_1_PREDICTED_Myxocyprinus_asiaticus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                        64.71%    passed     74.93%
+ 455  XM_051807803_1_PREDICTED_Manacus_candei_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.63%    passed     32.27%
+ 456  XM_051894733_1_PREDICTED_Ctenopharyngodon_idella_nucleoporin_214_nup214_mRNA_1                                                             65.59%    failed      0.00%
+ 457  XM_051980212_1_PREDICTED_Antechinus_flavipes_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           62.32%    failed      0.00%
+ 458  XM_052037469_1_PREDICTED_Pristis_pectinata_nucleoporin_214_nup214_mRNA_1                                                                   63.00%    failed      0.00%
+ 459  XM_052050366_1_PREDICTED_Hippocampus_zosterae_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                          65.78%    failed      0.00%
+ 460  XM_052115632_1_PREDICTED_Xyrauchen_texanus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             65.29%    passed     68.23%
+ 461  XM_052182142_1_PREDICTED_Apodemus_sylvaticus_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                                           63.80%    passed     38.55%
+ 462  XM_052591666_1_PREDICTED_Carassius_gibelio_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                             64.84%    passed     14.47%
+ 463  XM_052647937_1_PREDICTED_Budorcas_taxicolor_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.40%    failed      1.16%
+ 464  XM_052669167_1_PREDICTED_Tympanuchus_pallidicinctus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                    63.68%    failed      0.01%
+ 465  XM_052722601_1_PREDICTED_Peromyscus_californicus_insignis_nucleoporin_214_Nup214_transcript_variant_X1_mRNA_1                              63.58%    passed      7.92%
+ 466  XM_052816015_1_PREDICTED_Harpia_harpyja_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.42%    failed      0.00%
+ 467  XM_053282155_1_PREDICTED_Hemicordylus_capensis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                         63.68%    failed      0.00%
+ 468  XM_053340284_1_PREDICTED_Scomber_japonicus_nucleoporin_214_nup214_mRNA_1                                                                   64.99%    failed      1.79%
+ 469  XM_053373343_1_PREDICTED_Podarcis_raffonei_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                             63.79%    passed     71.03%
+ 470  XM_053410781_1_PREDICTED_Pleuronectes_platessa_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                         65.24%    failed      4.36%
+ 471  XM_053473291_1_PREDICTED_Spea_bombifrons_nucleoporin_214_NUP214_mRNA_1                                                                     64.78%    passed     42.60%
+ 472  XM_053485896_1_PREDICTED_Clarias_gariepinus_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            65.27%    failed      0.00%
+ 473  XM_053559302_1_PREDICTED_Nycticebus_coucang_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.30%    failed      3.27%
+ 474  XM_053618586_1_PREDICTED_Ictalurus_furcatus_nucleoporin_214_nup214_mRNA_1                                                                  65.94%    failed      0.00%
+ 475  XM_053695786_1_PREDICTED_Bombina_bombina_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                               64.87%    failed      0.01%
+ 476  XM_053874182_1_PREDICTED_Synchiropus_splendidus_nucleoporin_214_nup214_mRNA_1                                                              65.94%    failed      0.00%
+ 477  XM_053962209_1_PREDICTED_Vidua_chalybeata_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                              63.52%    passed      7.78%
+ 478  XM_053996505_1_PREDICTED_Vidua_macroura_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.52%    passed      9.11%
+ 479  XM_054007455_1_PREDICTED_Malaclemys_terrapin_pileata_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                   63.23%    failed      0.00%
+ 480  XM_054221025_1_PREDICTED_Rissa_tridactyla_nucleoporin_214_NUP214_transcript_variant_X5_mRNA_1                                              63.54%    failed      0.00%
+ 481  XM_010587555_2_PREDICTED_Loxodonta_africana_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.23%    failed      0.00%
+ 482  XM_031654644_1_PREDICTED_Papio_anubis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                  63.42%    failed      0.58%
+ 483  XM_005660529_3_PREDICTED_Sus_scrofa_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                                    63.59%    failed      0.00%
+ 484  XM_030818049_1_PREDICTED_Nomascus_leucogenys_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.45%    failed      0.20%
+ 485  XM_003822383_5_PREDICTED_Pan_paniscus_nucleoporin_214_NUP214_transcript_variant_X2_mRNA_1                                                  63.44%    failed      0.80%
+ 486  XM_054284217_1_PREDICTED_Melozone_crissalis_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                            63.42%    passed     45.30%
+ 487  XM_054393636_1_PREDICTED_Indicator_indicator_nucleoporin_214_NUP214_mRNA_1                                                                 63.65%    passed     76.67%
+ 488  XM_054500209_1_PREDICTED_Pongo_pygmaeus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.45%    failed      1.40%
+ 489  XM_054584213_1_PREDICTED_Pteronotus_parnellii_mesoamericanus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                           63.26%    failed      0.00%
+ 490  XM_054612448_1_PREDICTED_Anoplopoma_fimbria_nucleoporin_214_nup214_transcript_variant_X1_mRNA_1                                            64.87%    failed      1.12%
+ 491  XM_054646579_1_PREDICTED_Agelaius_phoeniceus_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                           63.47%    passed     11.98%
+ 492  XM_054757530_1_PREDICTED_Dunckerocampus_dactyliophorus_nucleoporin_214_nup214_mRNA_1                                                       65.87%    passed     31.81%
+ 493  XM_054848297_1_PREDICTED_Grus_americana_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                                63.42%    failed      0.00%
+ 494  XM_054997973_1_PREDICTED_Eublepharis_macularius_nucleoporin_214_NUP214_transcript_variant_X1_mRNA_1                                        63.47%    passed     11.37%
+WARNING: 494 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                      64.14%  373 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.0232378 secs using 94.02% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.043 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 16.881 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1972623
+Threads: 2 / Time: 12.045 sec / Speedup: 1.401 / Efficiency: 70% / LogL: -1972623
+Threads: 3 / Time: 10.376 sec / Speedup: 1.627 / Efficiency: 54% / LogL: -1972623
+Threads: 4 / Time: 8.786 sec / Speedup: 1.921 / Efficiency: 48% / LogL: -1972623
+Determining AUTO threadcount: done in 48.0968 secs using 221.4% CPU
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 4.97688 secs using 299.3% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -775876.953
+Optimal log-likelihood: -775876.559
+Rate parameters:  A-C: 1.07020  A-G: 4.29386  A-T: 1.02877  C-G: 1.07029  C-T: 3.39581  G-T: 1.00000
+Base frequencies:  A: 0.231  C: 0.295  G: 0.246  T: 0.229
+Proportion of invariable sites: 0.041
+Gamma shape alpha: 1.056
+Parameters optimization took 1 rounds (2.371 sec)
+Time for fast ML tree search: 30.545 seconds
+
+NOTE: ModelFinder requires 1713 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 17148) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 19.168 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2257857
+Threads: 2 / Time: 13.670 sec / Speedup: 1.402 / Efficiency: 70% / LogL: -2257857
+Threads: 3 / Time: 11.593 sec / Speedup: 1.653 / Efficiency: 55% / LogL: -2257857
+Threads: 4 / Time: 10.043 sec / Speedup: 1.909 / Efficiency: 48% / LogL: -2257857
+Determining AUTO threadcount: done in 54.4784 secs using 222.1% CPU
+BEST NUMBER OF THREADS: 3
+
+  1  GTR+F         832127.639   993 1666241.279  1666363.483  1673936.668
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 19.230 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2208399
+Threads: 2 / Time: 13.803 sec / Speedup: 1.393 / Efficiency: 70% / LogL: -2208399
+Threads: 3 / Time: 11.661 sec / Speedup: 1.649 / Efficiency: 55% / LogL: -2208399
+Threads: 4 / Time: 10.112 sec / Speedup: 1.902 / Efficiency: 48% / LogL: -2208399
+Determining AUTO threadcount: done in 54.8099 secs using 222.2% CPU
+BEST NUMBER OF THREADS: 3
+
+  2  GTR+F+I       821237.334   994 1644462.668  1644585.126  1652165.807
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 24.251 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1937070
+Threads: 2 / Time: 16.206 sec / Speedup: 1.496 / Efficiency: 75% / LogL: -1937070
+Threads: 3 / Time: 13.231 sec / Speedup: 1.833 / Efficiency: 61% / LogL: -1937070
+Threads: 4 / Time: 11.242 sec / Speedup: 2.157 / Efficiency: 54% / LogL: -1937070
+Threads: 5 / Time: 10.777 sec / Speedup: 2.250 / Efficiency: 45% / LogL: -1937070
+Determining AUTO threadcount: done in 75.717 secs using 256.4% CPU
+BEST NUMBER OF THREADS: 4
+
+  3  GTR+F+G4      776712.123   994 1555412.247  1555534.705  1563115.386
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 16.923 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1933712
+Threads: 2 / Time: 11.443 sec / Speedup: 1.479 / Efficiency: 74% / LogL: -1933712
+Threads: 3 / Time: 9.911 sec / Speedup: 1.708 / Efficiency: 57% / LogL: -1933712
+Threads: 4 / Time: 8.507 sec / Speedup: 1.989 / Efficiency: 50% / LogL: -1933712
+Determining AUTO threadcount: done in 46.7917 secs using 219.7% CPU
+BEST NUMBER OF THREADS: 3
+
+  4  GTR+F+I+G4    775876.486   995 1553742.972  1553865.683  1561453.860
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 20.751 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2002915
+Threads: 2 / Time: 12.617 sec / Speedup: 1.645 / Efficiency: 82% / LogL: -2002915
+Threads: 3 / Time: 11.474 sec / Speedup: 1.809 / Efficiency: 60% / LogL: -2002915
+Threads: 4 / Time: 9.398 sec / Speedup: 2.208 / Efficiency: 55% / LogL: -2002915
+Threads: 5 / Time: 8.214 sec / Speedup: 2.526 / Efficiency: 51% / LogL: -2002915
+Threads: 6 / Time: 8.024 sec / Speedup: 2.586 / Efficiency: 43% / LogL: -2002915
+Determining AUTO threadcount: done in 70.4852 secs using 292.4% CPU
+BEST NUMBER OF THREADS: 5
+
+  5  GTR+F+R2      786742.242   995 1575474.484  1575597.196  1583185.373
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 18.967 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1947440
+Threads: 2 / Time: 12.164 sec / Speedup: 1.559 / Efficiency: 78% / LogL: -1947440
+Threads: 3 / Time: 11.624 sec / Speedup: 1.632 / Efficiency: 54% / LogL: -1947440
+Threads: 4 / Time: 9.526 sec / Speedup: 1.991 / Efficiency: 50% / LogL: -1947440
+Determining AUTO threadcount: done in 52.2885 secs using 221.3% CPU
+BEST NUMBER OF THREADS: 2
+
+  6  GTR+F+R3      778132.021   997 1558258.042  1558381.263  1565984.430
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 24.213 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1919825
+Threads: 2 / Time: 16.433 sec / Speedup: 1.473 / Efficiency: 74% / LogL: -1919825
+Threads: 3 / Time: 14.032 sec / Speedup: 1.726 / Efficiency: 58% / LogL: -1919825
+Threads: 4 / Time: 12.035 sec / Speedup: 2.012 / Efficiency: 50% / LogL: -1919825
+Threads: 5 / Time: 10.906 sec / Speedup: 2.220 / Efficiency: 44% / LogL: -1919825
+Determining AUTO threadcount: done in 77.6298 secs using 258.6% CPU
+BEST NUMBER OF THREADS: 4
+
+  7  GTR+F+R4      775553.016   999 1553104.033  1553227.763  1560845.920
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 20.587 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1930437
+Threads: 2 / Time: 12.550 sec / Speedup: 1.640 / Efficiency: 82% / LogL: -1930437
+Threads: 3 / Time: 11.065 sec / Speedup: 1.861 / Efficiency: 62% / LogL: -1930437
+Threads: 4 / Time: 9.427 sec / Speedup: 2.184 / Efficiency: 55% / LogL: -1930437
+Threads: 5 / Time: 8.582 sec / Speedup: 2.399 / Efficiency: 48% / LogL: -1930437
+Determining AUTO threadcount: done in 62.2227 secs using 254.4% CPU
+BEST NUMBER OF THREADS: 4
+
+  8  GTR+F+R5      774523.629   1001 1551049.259  1551173.500  1558806.645
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 24.081 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1895389
+Threads: 2 / Time: 16.149 sec / Speedup: 1.491 / Efficiency: 75% / LogL: -1895389
+Threads: 3 / Time: 13.463 sec / Speedup: 1.789 / Efficiency: 60% / LogL: -1895389
+Threads: 4 / Time: 11.677 sec / Speedup: 2.062 / Efficiency: 52% / LogL: -1895389
+Threads: 5 / Time: 10.678 sec / Speedup: 2.255 / Efficiency: 45% / LogL: -1895389
+Determining AUTO threadcount: done in 76.06 secs using 256.9% CPU
+BEST NUMBER OF THREADS: 4
+
+  9  GTR+F+R6      774128.110   1003 1550262.220  1550386.974  1558035.106
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 25.797 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1891979
+Threads: 2 / Time: 17.348 sec / Speedup: 1.487 / Efficiency: 74% / LogL: -1891979
+Threads: 3 / Time: 13.890 sec / Speedup: 1.857 / Efficiency: 62% / LogL: -1891979
+Threads: 4 / Time: 12.789 sec / Speedup: 2.017 / Efficiency: 50% / LogL: -1891979
+Threads: 5 / Time: 11.043 sec / Speedup: 2.336 / Efficiency: 47% / LogL: -1891979
+Determining AUTO threadcount: done in 80.882 secs using 255.8% CPU
+BEST NUMBER OF THREADS: 4
+
+ 10  GTR+F+R7      774009.161   1005 1550028.322  1550153.589  1557816.707
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.393 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1953398
+Threads: 2 / Time: 9.608 sec / Speedup: 1.706 / Efficiency: 85% / LogL: -1953398
+Threads: 3 / Time: 7.815 sec / Speedup: 2.098 / Efficiency: 70% / LogL: -1953398
+Threads: 4 / Time: 6.615 sec / Speedup: 2.478 / Efficiency: 62% / LogL: -1953398
+Threads: 5 / Time: 6.340 sec / Speedup: 2.586 / Efficiency: 52% / LogL: -1953398
+Threads: 6 / Time: 5.770 sec / Speedup: 2.841 / Efficiency: 47% / LogL: -1953398
+Determining AUTO threadcount: done in 52.5601 secs using 283.9% CPU
+BEST NUMBER OF THREADS: 4
+
+ 11  GTR+F+R8      773972.977   1007 1549959.953  1550085.735  1557763.837
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 18.374 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1950193
+Threads: 2 / Time: 11.296 sec / Speedup: 1.627 / Efficiency: 81% / LogL: -1950193
+Threads: 3 / Time: 9.020 sec / Speedup: 2.037 / Efficiency: 68% / LogL: -1950193
+Threads: 4 / Time: 7.623 sec / Speedup: 2.410 / Efficiency: 60% / LogL: -1950193
+Threads: 5 / Time: 6.934 sec / Speedup: 2.650 / Efficiency: 53% / LogL: -1950193
+Threads: 6 / Time: 6.687 sec / Speedup: 2.748 / Efficiency: 46% / LogL: -1950193
+Determining AUTO threadcount: done in 59.9562 secs using 283.9% CPU
+BEST NUMBER OF THREADS: 5
+
+ 12  GTR+F+R9      773967.960   1009 1549953.919  1550080.216  1557773.303
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 19.139 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1978897
+Threads: 2 / Time: 11.832 sec / Speedup: 1.618 / Efficiency: 81% / LogL: -1978897
+Threads: 3 / Time: 11.215 sec / Speedup: 1.707 / Efficiency: 57% / LogL: -1978897
+Threads: 4 / Time: 9.345 sec / Speedup: 2.048 / Efficiency: 51% / LogL: -1978897
+Threads: 5 / Time: 8.160 sec / Speedup: 2.346 / Efficiency: 47% / LogL: -1978897
+Determining AUTO threadcount: done in 59.6951 secs using 257.8% CPU
+BEST NUMBER OF THREADS: 4
+
+ 14  GTR+F+I+I+R2  784294.579   996 1570581.158  1570704.124  1578299.796
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 19.816 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1941738
+Threads: 2 / Time: 13.199 sec / Speedup: 1.501 / Efficiency: 75% / LogL: -1941738
+Threads: 3 / Time: 12.732 sec / Speedup: 1.556 / Efficiency: 52% / LogL: -1941738
+Threads: 4 / Time: 10.571 sec / Speedup: 1.875 / Efficiency: 47% / LogL: -1941738
+Determining AUTO threadcount: done in 56.3258 secs using 223.8% CPU
+BEST NUMBER OF THREADS: 2
+
+ 15  GTR+F+I+I+R3  776945.549   998 1555887.098  1556010.573  1563621.235
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 16.385 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1904885
+Threads: 2 / Time: 11.534 sec / Speedup: 1.421 / Efficiency: 71% / LogL: -1904885
+Threads: 3 / Time: 10.155 sec / Speedup: 1.613 / Efficiency: 54% / LogL: -1904885
+Threads: 4 / Time: 8.601 sec / Speedup: 1.905 / Efficiency: 48% / LogL: -1904885
+Determining AUTO threadcount: done in 46.6825 secs using 221.9% CPU
+BEST NUMBER OF THREADS: 3
+
+ 16  GTR+F+I+I+R4  775044.458   1000 1552088.916  1552212.902  1559838.553
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 19.721 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1903839
+Threads: 2 / Time: 12.371 sec / Speedup: 1.594 / Efficiency: 80% / LogL: -1903839
+Threads: 3 / Time: 11.010 sec / Speedup: 1.791 / Efficiency: 60% / LogL: -1903839
+Threads: 4 / Time: 9.412 sec / Speedup: 2.095 / Efficiency: 52% / LogL: -1903839
+Threads: 5 / Time: 8.565 sec / Speedup: 2.303 / Efficiency: 46% / LogL: -1903839
+Determining AUTO threadcount: done in 61.0899 secs using 256.6% CPU
+BEST NUMBER OF THREADS: 4
+
+ 17  GTR+F+I+I+R5  774346.202   1002 1550696.404  1550820.902  1558461.540
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 22.787 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1901370
+Threads: 2 / Time: 15.550 sec / Speedup: 1.465 / Efficiency: 73% / LogL: -1901370
+Threads: 3 / Time: 13.385 sec / Speedup: 1.702 / Efficiency: 57% / LogL: -1901370
+Threads: 4 / Time: 11.474 sec / Speedup: 1.986 / Efficiency: 50% / LogL: -1901370
+Determining AUTO threadcount: done in 63.2062 secs using 219.9% CPU
+BEST NUMBER OF THREADS: 3
+
+ 18  GTR+F+I+I+R6  774075.002   1004 1550158.004  1550283.014  1557938.639
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 26.163 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1885501
+Threads: 2 / Time: 17.926 sec / Speedup: 1.459 / Efficiency: 73% / LogL: -1885501
+Threads: 3 / Time: 14.274 sec / Speedup: 1.833 / Efficiency: 61% / LogL: -1885501
+Threads: 4 / Time: 12.279 sec / Speedup: 2.131 / Efficiency: 53% / LogL: -1885501
+Threads: 5 / Time: 11.213 sec / Speedup: 2.333 / Efficiency: 47% / LogL: -1885501
+Determining AUTO threadcount: done in 81.8696 secs using 254.6% CPU
+BEST NUMBER OF THREADS: 4
+
+ 19  GTR+F+I+I+R7  773976.315   1006 1549964.631  1550090.155  1557760.766
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.625 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1972205
+Threads: 2 / Time: 9.762 sec / Speedup: 1.703 / Efficiency: 85% / LogL: -1972205
+Threads: 3 / Time: 8.436 sec / Speedup: 1.971 / Efficiency: 66% / LogL: -1972205
+Threads: 4 / Time: 7.028 sec / Speedup: 2.366 / Efficiency: 59% / LogL: -1972205
+Threads: 5 / Time: 6.226 sec / Speedup: 2.670 / Efficiency: 53% / LogL: -1972205
+Threads: 6 / Time: 6.041 sec / Speedup: 2.752 / Efficiency: 46% / LogL: -1972205
+Determining AUTO threadcount: done in 54.1372 secs using 284.5% CPU
+BEST NUMBER OF THREADS: 5
+
+ 20  GTR+F+I+I+R8  773946.755   1008 1549909.509  1550035.548  1557721.143
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 18.691 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1949698
+Threads: 2 / Time: 11.575 sec / Speedup: 1.615 / Efficiency: 81% / LogL: -1949698
+Threads: 3 / Time: 9.290 sec / Speedup: 2.012 / Efficiency: 67% / LogL: -1949698
+Threads: 4 / Time: 7.788 sec / Speedup: 2.400 / Efficiency: 60% / LogL: -1949698
+Threads: 5 / Time: 7.044 sec / Speedup: 2.653 / Efficiency: 53% / LogL: -1949698
+Threads: 6 / Time: 6.846 sec / Speedup: 2.730 / Efficiency: 46% / LogL: -1949698
+Determining AUTO threadcount: done in 61.256 secs using 284.2% CPU
+BEST NUMBER OF THREADS: 5
+
+ 21  GTR+F+I+I+R9  773943.159   1010 1549906.317  1550032.872  1557733.451
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.503 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1947061
+Threads: 2 / Time: 9.747 sec / Speedup: 1.693 / Efficiency: 85% / LogL: -1947061
+Threads: 3 / Time: 8.360 sec / Speedup: 1.974 / Efficiency: 66% / LogL: -1947061
+Threads: 4 / Time: 7.032 sec / Speedup: 2.347 / Efficiency: 59% / LogL: -1947061
+Threads: 5 / Time: 6.177 sec / Speedup: 2.672 / Efficiency: 53% / LogL: -1947061
+Threads: 6 / Time: 5.860 sec / Speedup: 2.816 / Efficiency: 47% / LogL: -1947061
+Determining AUTO threadcount: done in 53.6983 secs using 283.7% CPU
+BEST NUMBER OF THREADS: 5
+
+ 42  SYM+I+I+R8    775403.451   1005 1552816.902  1552942.169  1560605.287
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.452 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1942532
+Threads: 2 / Time: 10.045 sec / Speedup: 1.638 / Efficiency: 82% / LogL: -1942532
+Threads: 3 / Time: 8.352 sec / Speedup: 1.970 / Efficiency: 66% / LogL: -1942532
+Threads: 4 / Time: 7.029 sec / Speedup: 2.341 / Efficiency: 59% / LogL: -1942532
+Threads: 5 / Time: 6.183 sec / Speedup: 2.661 / Efficiency: 53% / LogL: -1942532
+Threads: 6 / Time: 5.791 sec / Speedup: 2.841 / Efficiency: 47% / LogL: -1942532
+Determining AUTO threadcount: done in 53.8707 secs using 283.2% CPU
+BEST NUMBER OF THREADS: 5
+
+ 64  TVM+F+I+I+R8  774333.410   1007 1550680.821  1550806.602  1558484.705
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.530 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1977653
+Threads: 2 / Time: 9.688 sec / Speedup: 1.706 / Efficiency: 85% / LogL: -1977653
+Threads: 3 / Time: 8.371 sec / Speedup: 1.975 / Efficiency: 66% / LogL: -1977653
+Threads: 4 / Time: 7.054 sec / Speedup: 2.343 / Efficiency: 59% / LogL: -1977653
+Threads: 5 / Time: 6.134 sec / Speedup: 2.695 / Efficiency: 54% / LogL: -1977653
+Threads: 6 / Time: 6.015 sec / Speedup: 2.748 / Efficiency: 46% / LogL: -1977653
+Determining AUTO threadcount: done in 53.8115 secs using 284.5% CPU
+BEST NUMBER OF THREADS: 5
+
+ 86  TVMe+I+I+R8   775515.955   1004 1553039.910  1553164.920  1560820.545
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.573 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1959084
+Threads: 2 / Time: 9.628 sec / Speedup: 1.721 / Efficiency: 86% / LogL: -1959084
+Threads: 3 / Time: 8.284 sec / Speedup: 2.001 / Efficiency: 67% / LogL: -1959084
+Threads: 4 / Time: 6.889 sec / Speedup: 2.406 / Efficiency: 60% / LogL: -1959084
+Threads: 5 / Time: 6.368 sec / Speedup: 2.602 / Efficiency: 52% / LogL: -1959084
+Threads: 6 / Time: 6.010 sec / Speedup: 2.758 / Efficiency: 46% / LogL: -1959084
+Determining AUTO threadcount: done in 53.771 secs using 285.1% CPU
+BEST NUMBER OF THREADS: 5
+
+108  TIM3+F+I+I+R8 773946.343   1006 1549904.687  1550030.211  1557700.821
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.554 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1954917
+Threads: 2 / Time: 9.624 sec / Speedup: 1.720 / Efficiency: 86% / LogL: -1954917
+Threads: 3 / Time: 8.374 sec / Speedup: 1.977 / Efficiency: 66% / LogL: -1954917
+Threads: 4 / Time: 6.976 sec / Speedup: 2.373 / Efficiency: 59% / LogL: -1954917
+Threads: 5 / Time: 6.134 sec / Speedup: 2.699 / Efficiency: 54% / LogL: -1954917
+Threads: 6 / Time: 5.952 sec / Speedup: 2.781 / Efficiency: 46% / LogL: -1954917
+Determining AUTO threadcount: done in 53.6336 secs using 284.1% CPU
+BEST NUMBER OF THREADS: 5
+
+130  TIM3e+I+I+R8  775413.775   1003 1552833.549  1552958.303  1560606.435
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 27.595 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1879641
+Threads: 2 / Time: 17.128 sec / Speedup: 1.611 / Efficiency: 81% / LogL: -1879641
+Threads: 3 / Time: 15.659 sec / Speedup: 1.762 / Efficiency: 59% / LogL: -1879641
+Threads: 4 / Time: 13.341 sec / Speedup: 2.068 / Efficiency: 52% / LogL: -1879641
+Threads: 5 / Time: 11.829 sec / Speedup: 2.333 / Efficiency: 47% / LogL: -1879641
+Determining AUTO threadcount: done in 85.568 secs using 256.6% CPU
+BEST NUMBER OF THREADS: 4
+
+152  TIM2+F+I+I+R8 773952.540   1006 1549917.079  1550042.603  1557713.214
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.747 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1978174
+Threads: 2 / Time: 9.700 sec / Speedup: 1.727 / Efficiency: 86% / LogL: -1978174
+Threads: 3 / Time: 7.972 sec / Speedup: 2.101 / Efficiency: 70% / LogL: -1978174
+Threads: 4 / Time: 6.809 sec / Speedup: 2.460 / Efficiency: 61% / LogL: -1978174
+Threads: 5 / Time: 6.179 sec / Speedup: 2.710 / Efficiency: 54% / LogL: -1978174
+Threads: 6 / Time: 5.885 sec / Speedup: 2.846 / Efficiency: 47% / LogL: -1978174
+Determining AUTO threadcount: done in 53.3107 secs using 282.9% CPU
+BEST NUMBER OF THREADS: 5
+
+174  TIM2e+I+I+R8  775666.230   1003 1553338.459  1553463.213  1561111.345
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.639 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1954120
+Threads: 2 / Time: 9.722 sec / Speedup: 1.711 / Efficiency: 86% / LogL: -1954120
+Threads: 3 / Time: 8.382 sec / Speedup: 1.985 / Efficiency: 66% / LogL: -1954120
+Threads: 4 / Time: 7.060 sec / Speedup: 2.357 / Efficiency: 59% / LogL: -1954120
+Threads: 5 / Time: 6.134 sec / Speedup: 2.713 / Efficiency: 54% / LogL: -1954120
+Threads: 6 / Time: 5.773 sec / Speedup: 2.882 / Efficiency: 48% / LogL: -1954120
+Determining AUTO threadcount: done in 53.7292 secs using 282.8% CPU
+BEST NUMBER OF THREADS: 5
+
+196  TIM+F+I+I+R8  773952.404   1006 1549916.808  1550042.333  1557712.943
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.646 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1953497
+Threads: 2 / Time: 10.042 sec / Speedup: 1.658 / Efficiency: 83% / LogL: -1953497
+Threads: 3 / Time: 8.425 sec / Speedup: 1.976 / Efficiency: 66% / LogL: -1953497
+Threads: 4 / Time: 7.094 sec / Speedup: 2.347 / Efficiency: 59% / LogL: -1953497
+Threads: 5 / Time: 5.953 sec / Speedup: 2.796 / Efficiency: 56% / LogL: -1953497
+Threads: 6 / Time: 5.943 sec / Speedup: 2.801 / Efficiency: 47% / LogL: -1953497
+Determining AUTO threadcount: done in 54.121 secs using 282.7% CPU
+BEST NUMBER OF THREADS: 5
+
+218  TIMe+I+I+R8   775672.629   1003 1553351.257  1553476.011  1561124.143
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.455 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1933958
+Threads: 2 / Time: 9.675 sec / Speedup: 1.701 / Efficiency: 85% / LogL: -1933958
+Threads: 3 / Time: 8.307 sec / Speedup: 1.981 / Efficiency: 66% / LogL: -1933958
+Threads: 4 / Time: 6.955 sec / Speedup: 2.366 / Efficiency: 59% / LogL: -1933958
+Threads: 5 / Time: 6.108 sec / Speedup: 2.694 / Efficiency: 54% / LogL: -1933958
+Threads: 6 / Time: 5.823 sec / Speedup: 2.826 / Efficiency: 47% / LogL: -1933958
+Determining AUTO threadcount: done in 53.3409 secs using 283.4% CPU
+BEST NUMBER OF THREADS: 5
+
+240  TPM3u+F+I+I+R8 774334.848   1005 1550679.696  1550804.963  1558468.081
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.625 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1970046
+Threads: 2 / Time: 9.634 sec / Speedup: 1.726 / Efficiency: 86% / LogL: -1970046
+Threads: 3 / Time: 8.294 sec / Speedup: 2.004 / Efficiency: 67% / LogL: -1970046
+Threads: 4 / Time: 6.992 sec / Speedup: 2.378 / Efficiency: 59% / LogL: -1970046
+Threads: 5 / Time: 6.200 sec / Speedup: 2.681 / Efficiency: 54% / LogL: -1970046
+Threads: 6 / Time: 6.011 sec / Speedup: 2.766 / Efficiency: 46% / LogL: -1970046
+Determining AUTO threadcount: done in 53.7756 secs using 284.4% CPU
+BEST NUMBER OF THREADS: 5
+
+262  TPM3+I+I+R8   775524.508   1002 1553053.015  1553177.513  1560818.152
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.722 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1934093
+Threads: 2 / Time: 9.650 sec / Speedup: 1.733 / Efficiency: 87% / LogL: -1934093
+Threads: 3 / Time: 7.876 sec / Speedup: 2.123 / Efficiency: 71% / LogL: -1934093
+Threads: 4 / Time: 6.600 sec / Speedup: 2.534 / Efficiency: 63% / LogL: -1934093
+Threads: 5 / Time: 6.099 sec / Speedup: 2.742 / Efficiency: 55% / LogL: -1934093
+Threads: 6 / Time: 5.840 sec / Speedup: 2.863 / Efficiency: 48% / LogL: -1934093
+Determining AUTO threadcount: done in 52.8054 secs using 282% CPU
+BEST NUMBER OF THREADS: 5
+
+284  TPM2u+F+I+I+R8 774341.887   1005 1550693.775  1550819.042  1558482.160
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.490 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1965071
+Threads: 2 / Time: 9.718 sec / Speedup: 1.697 / Efficiency: 85% / LogL: -1965071
+Threads: 3 / Time: 8.351 sec / Speedup: 1.975 / Efficiency: 66% / LogL: -1965071
+Threads: 4 / Time: 7.014 sec / Speedup: 2.351 / Efficiency: 59% / LogL: -1965071
+Threads: 5 / Time: 5.953 sec / Speedup: 2.770 / Efficiency: 55% / LogL: -1965071
+Threads: 6 / Time: 5.886 sec / Speedup: 2.801 / Efficiency: 47% / LogL: -1965071
+Determining AUTO threadcount: done in 53.4305 secs using 283% CPU
+BEST NUMBER OF THREADS: 5
+
+306  TPM2+I+I+R8   775791.098   1002 1553586.196  1553710.694  1561351.332
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.736 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1976925
+Threads: 2 / Time: 9.721 sec / Speedup: 1.722 / Efficiency: 86% / LogL: -1976925
+Threads: 3 / Time: 7.892 sec / Speedup: 2.121 / Efficiency: 71% / LogL: -1976925
+Threads: 4 / Time: 6.729 sec / Speedup: 2.487 / Efficiency: 62% / LogL: -1976925
+Threads: 5 / Time: 6.140 sec / Speedup: 2.726 / Efficiency: 55% / LogL: -1976925
+Threads: 6 / Time: 5.856 sec / Speedup: 2.858 / Efficiency: 48% / LogL: -1976925
+Determining AUTO threadcount: done in 53.0928 secs using 282.5% CPU
+BEST NUMBER OF THREADS: 5
+
+328  K3Pu+F+I+I+R8 774343.505   1005 1550697.011  1550822.278  1558485.396
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.556 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1951431
+Threads: 2 / Time: 9.618 sec / Speedup: 1.721 / Efficiency: 86% / LogL: -1951431
+Threads: 3 / Time: 7.871 sec / Speedup: 2.103 / Efficiency: 70% / LogL: -1951431
+Threads: 4 / Time: 6.669 sec / Speedup: 2.482 / Efficiency: 62% / LogL: -1951431
+Threads: 5 / Time: 6.197 sec / Speedup: 2.672 / Efficiency: 53% / LogL: -1951431
+Threads: 6 / Time: 5.883 sec / Speedup: 2.814 / Efficiency: 47% / LogL: -1951431
+Determining AUTO threadcount: done in 52.8132 secs using 283.2% CPU
+BEST NUMBER OF THREADS: 5
+
+350  K3P+I+I+R8    775795.322   1002 1553594.645  1553719.142  1561359.781
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.714 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1949084
+Threads: 2 / Time: 9.714 sec / Speedup: 1.721 / Efficiency: 86% / LogL: -1949084
+Threads: 3 / Time: 7.874 sec / Speedup: 2.123 / Efficiency: 71% / LogL: -1949084
+Threads: 4 / Time: 6.678 sec / Speedup: 2.503 / Efficiency: 63% / LogL: -1949084
+Threads: 5 / Time: 6.167 sec / Speedup: 2.710 / Efficiency: 54% / LogL: -1949084
+Threads: 6 / Time: 5.827 sec / Speedup: 2.868 / Efficiency: 48% / LogL: -1949084
+Determining AUTO threadcount: done in 52.9943 secs using 282.2% CPU
+BEST NUMBER OF THREADS: 5
+
+372  TN+F+I+I+R8   773953.158   1005 1549916.316  1550041.583  1557704.701
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.674 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1960918
+Threads: 2 / Time: 9.775 sec / Speedup: 1.706 / Efficiency: 85% / LogL: -1960918
+Threads: 3 / Time: 7.959 sec / Speedup: 2.095 / Efficiency: 70% / LogL: -1960918
+Threads: 4 / Time: 6.747 sec / Speedup: 2.471 / Efficiency: 62% / LogL: -1960918
+Threads: 5 / Time: 6.171 sec / Speedup: 2.702 / Efficiency: 54% / LogL: -1960918
+Threads: 6 / Time: 5.829 sec / Speedup: 2.861 / Efficiency: 48% / LogL: -1960918
+Determining AUTO threadcount: done in 53.1732 secs using 282.5% CPU
+BEST NUMBER OF THREADS: 5
+
+394  TNe+I+I+R8    775676.237   1002 1553356.473  1553480.971  1561121.609
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.696 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1922490
+Threads: 2 / Time: 9.738 sec / Speedup: 1.714 / Efficiency: 86% / LogL: -1922490
+Threads: 3 / Time: 7.876 sec / Speedup: 2.120 / Efficiency: 71% / LogL: -1922490
+Threads: 4 / Time: 6.735 sec / Speedup: 2.479 / Efficiency: 62% / LogL: -1922490
+Threads: 5 / Time: 6.178 sec / Speedup: 2.703 / Efficiency: 54% / LogL: -1922490
+Threads: 6 / Time: 5.978 sec / Speedup: 2.793 / Efficiency: 47% / LogL: -1922490
+Determining AUTO threadcount: done in 53.2188 secs using 283.4% CPU
+BEST NUMBER OF THREADS: 5
+
+416  HKY+F+I+I+R8  774343.974   1004 1550695.948  1550820.958  1558476.584
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.476 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1942877
+Threads: 2 / Time: 9.648 sec / Speedup: 1.708 / Efficiency: 85% / LogL: -1942877
+Threads: 3 / Time: 7.884 sec / Speedup: 2.090 / Efficiency: 70% / LogL: -1942877
+Threads: 4 / Time: 6.664 sec / Speedup: 2.473 / Efficiency: 62% / LogL: -1942877
+Threads: 5 / Time: 6.096 sec / Speedup: 2.703 / Efficiency: 54% / LogL: -1942877
+Threads: 6 / Time: 5.908 sec / Speedup: 2.789 / Efficiency: 46% / LogL: -1942877
+Determining AUTO threadcount: done in 52.6943 secs using 283.4% CPU
+BEST NUMBER OF THREADS: 5
+
+438  K2P+I+I+R8    775799.108   1001 1553600.216  1553724.458  1561357.603
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.489 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1994114
+Threads: 2 / Time: 9.535 sec / Speedup: 1.729 / Efficiency: 86% / LogL: -1994114
+Threads: 3 / Time: 7.776 sec / Speedup: 2.120 / Efficiency: 71% / LogL: -1994114
+Threads: 4 / Time: 6.636 sec / Speedup: 2.485 / Efficiency: 62% / LogL: -1994114
+Threads: 5 / Time: 6.181 sec / Speedup: 2.668 / Efficiency: 53% / LogL: -1994114
+Threads: 6 / Time: 5.824 sec / Speedup: 2.831 / Efficiency: 47% / LogL: -1994114
+Determining AUTO threadcount: done in 52.4605 secs using 283.2% CPU
+BEST NUMBER OF THREADS: 5
+
+460  F81+F+I+I+R8  802032.365   1003 1606070.730  1606195.484  1613843.616
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.455 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2017631
+Threads: 2 / Time: 9.692 sec / Speedup: 1.698 / Efficiency: 85% / LogL: -2017631
+Threads: 3 / Time: 7.797 sec / Speedup: 2.111 / Efficiency: 70% / LogL: -2017631
+Threads: 4 / Time: 6.689 sec / Speedup: 2.460 / Efficiency: 62% / LogL: -2017631
+Threads: 5 / Time: 6.209 sec / Speedup: 2.650 / Efficiency: 53% / LogL: -2017631
+Threads: 6 / Time: 5.823 sec / Speedup: 2.826 / Efficiency: 47% / LogL: -2017631
+Determining AUTO threadcount: done in 52.6842 secs using 283.2% CPU
+BEST NUMBER OF THREADS: 5
+
+482  JC+I+I+R8     803215.142   1000 1608430.284  1608554.269  1616179.920
+Akaike Information Criterion:           TIM3+F+I+I+R8
+Corrected Akaike Information Criterion: TIM3+F+I+I+R8
+Bayesian Information Criterion:         TIM3+F+I+I+R8
+Best-fit model: TIM3+F+I+I+R8 chosen according to BIC
+
+All model information printed to /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.model.gz
+CPU time for ModelFinder: 66220.434 seconds (18h:23m:40s)
+Wall-clock time for ModelFinder: 16587.037 seconds (4h:36m:27s)
+Generating 1000 samples for ultrafast bootstrap (seed: 360547)...
+
+NOTE: 1378 MB RAM (1 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 16.489 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2001169
+Threads: 2 / Time: 9.818 sec / Speedup: 1.680 / Efficiency: 84% / LogL: -2001169
+Threads: 3 / Time: 7.928 sec / Speedup: 2.080 / Efficiency: 69% / LogL: -2001169
+Threads: 4 / Time: 6.681 sec / Speedup: 2.468 / Efficiency: 62% / LogL: -2001169
+Threads: 5 / Time: 6.165 sec / Speedup: 2.675 / Efficiency: 53% / LogL: -2001169
+Threads: 6 / Time: 5.858 sec / Speedup: 2.815 / Efficiency: 47% / LogL: -2001169
+Determining AUTO threadcount: done in 52.9584 secs using 283.1% CPU
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -773946.343
+2. Current log-likelihood: -773946.239
+3. Current log-likelihood: -773946.136
+4. Current log-likelihood: -773946.034
+5. Current log-likelihood: -773945.928
+6. Current log-likelihood: -773945.807
+7. Current log-likelihood: -773945.703
+Optimal log-likelihood: -773945.560
+Rate parameters:  A-C: 1.03954  A-G: 4.19764  A-T: 1.00000  C-G: 1.03954  C-T: 3.33224  G-T: 1.00000
+Base frequencies:  A: 0.231  C: 0.295  G: 0.246  T: 0.229
+Proportion of invariable sites: 0.033
+Site proportion and rates:  (0.101,0.053) (0.094,0.184) (0.107,0.395) (0.142,0.675) (0.178,1.019) (0.186,1.530) (0.134,2.190) (0.025,3.199)
+Parameters optimization took 7 rounds (37.140 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.18885 secs using 499.9% CPU
+Computing ML distances took 1.194527 sec (of wall-clock time) 5.970671 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00477755 secs using 219.9% CPU
+Constructing RapidNJ tree: done in 2.24551 secs using 145% CPU
+Computing RapidNJ tree took 2.250450 sec (of wall-clock time) 3.267749 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -779916.195
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 113.474 second
+Computing log-likelihood of 98 initial trees ... 77.586 seconds
+Current best score: -773945.560
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 5.24076 secs using 499.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -773944.488
+Optimizing NNI: done in 20.4324 secs using 499.6% CPU
+Optimizing NNI: done in 19.6768 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -773873.133
+Optimizing NNI: done in 14.5762 secs using 499.5% CPU
+Optimizing NNI: done in 16.9647 secs using 499.6% CPU
+Optimizing NNI: done in 17.7772 secs using 499.6% CPU
+Optimizing NNI: done in 17.4808 secs using 499.6% CPU
+Optimizing NNI: done in 16.6581 secs using 499.6% CPU
+Optimizing NNI: done in 20.297 secs using 499.5% CPU
+Optimizing NNI: done in 20.6106 secs using 499.6% CPU
+Iteration 10 / LogL: -773907.690 / Time: 0h:8m:32s
+Optimizing NNI: done in 16.8384 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -773843.008
+Optimizing NNI: done in 16.2022 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -773807.272
+Optimizing NNI: done in 19.0036 secs using 499.7% CPU
+Optimizing NNI: done in 17.6861 secs using 499.7% CPU
+Optimizing NNI: done in 18.7381 secs using 499.6% CPU
+Optimizing NNI: done in 15.252 secs using 499.6% CPU
+Optimizing NNI: done in 19.0972 secs using 499.6% CPU
+Optimizing NNI: done in 15.9728 secs using 499.6% CPU
+Optimizing NNI: done in 15.2777 secs using 499.6% CPU
+Optimizing NNI: done in 15.6922 secs using 499.6% CPU
+Iteration 20 / LogL: -773931.842 / Time: 0h:14m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -773807.272 / CPU time: 731.848
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 13.918 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -773797.527
+Optimizing NNI: done in 14.4507 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -773793.733
+Optimizing NNI: done in 13.7099 secs using 499.4% CPU
+Optimizing NNI: done in 14.4013 secs using 499.4% CPU
+Optimizing NNI: done in 14.846 secs using 499.6% CPU
+Optimizing NNI: done in 14.9136 secs using 499.4% CPU
+Optimizing NNI: done in 15.4167 secs using 499.5% CPU
+Optimizing NNI: done in 14.1955 secs using 499.5% CPU
+Optimizing NNI: done in 15.9833 secs using 499.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -773790.242
+Optimizing NNI: done in 14.3625 secs using 499.4% CPU
+Iteration 30 / LogL: -773984.773 / Time: 0h:17m:15s (0h:58m:54s left)
+Optimizing NNI: done in 13.2069 secs using 499.4% CPU
+Optimizing NNI: done in 14.1238 secs using 499.6% CPU
+Optimizing NNI: done in 16.0328 secs using 499.5% CPU
+Optimizing NNI: done in 15.2497 secs using 499.6% CPU
+Optimizing NNI: done in 14.2809 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -773786.515
+Optimizing NNI: done in 13.9021 secs using 499.5% CPU
+Optimizing NNI: done in 15.2552 secs using 499.5% CPU
+Optimizing NNI: done in 13.8539 secs using 499.5% CPU
+Optimizing NNI: done in 13.7326 secs using 499.4% CPU
+Optimizing NNI: done in 14.0683 secs using 499.4% CPU
+Iteration 40 / LogL: -774205.470 / Time: 0h:19m:54s (0h:48m:30s left)
+Optimizing NNI: done in 15.2407 secs using 499.3% CPU
+Optimizing NNI: done in 13.0593 secs using 499.5% CPU
+Optimizing NNI: done in 12.6874 secs using 499.6% CPU
+Optimizing NNI: done in 13.7911 secs using 499.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -773780.160
+Optimizing NNI: done in 13.0724 secs using 499.5% CPU
+Optimizing NNI: done in 14.2816 secs using 499.4% CPU
+Optimizing NNI: done in 14.9556 secs using 499.6% CPU
+Optimizing NNI: done in 16.4778 secs using 499.6% CPU
+Optimizing NNI: done in 15.1393 secs using 499.5% CPU
+Optimizing NNI: done in 17.0742 secs using 499.5% CPU
+Iteration 50 / LogL: -774342.299 / Time: 0h:22m:40s (0h:43m:29s left)
+Log-likelihood cutoff on original alignment: -773934.991
+Optimizing NNI: done in 13.9215 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -773778.016
+Optimizing NNI: done in 13.7698 secs using 499.4% CPU
+Optimizing NNI: done in 12.9546 secs using 499.5% CPU
+Optimizing NNI: done in 15.6376 secs using 499.5% CPU
+Optimizing NNI: done in 13.6997 secs using 499.5% CPU
+Optimizing NNI: done in 17.6007 secs using 499.5% CPU
+Optimizing NNI: done in 15.3802 secs using 499.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -773770.304
+Optimizing NNI: done in 15.0844 secs using 499.5% CPU
+Optimizing NNI: done in 14.1987 secs using 499.6% CPU
+Optimizing NNI: done in 14.3693 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -773761.662
+Iteration 60 / LogL: -773761.662 / Time: 0h:25m:55s (0h:43m:56s left)
+Optimizing NNI: done in 14.701 secs using 499.4% CPU
+Optimizing NNI: done in 15.111 secs using 499.4% CPU
+Optimizing NNI: done in 15.1561 secs using 499.4% CPU
+Optimizing NNI: done in 15.0536 secs using 499.5% CPU
+Optimizing NNI: done in 13.5394 secs using 499.5% CPU
+Optimizing NNI: done in 14.7062 secs using 499.5% CPU
+Optimizing NNI: done in 16.9587 secs using 499.5% CPU
+Optimizing NNI: done in 13.0361 secs using 499.5% CPU
+Optimizing NNI: done in 16.8324 secs using 499.6% CPU
+Optimizing NNI: done in 14.2336 secs using 499.5% CPU
+Iteration 70 / LogL: -773777.159 / Time: 0h:28m:26s (0h:37m:5s left)
+Optimizing NNI: done in 13.6903 secs using 499.5% CPU
+Optimizing NNI: done in 13.0392 secs using 499.5% CPU
+Optimizing NNI: done in 16.3156 secs using 499.5% CPU
+Optimizing NNI: done in 15.2941 secs using 499.5% CPU
+Optimizing NNI: done in 14.3151 secs using 499.5% CPU
+Optimizing NNI: done in 13.3577 secs using 499.5% CPU
+Optimizing NNI: done in 13.9607 secs using 499.4% CPU
+Optimizing NNI: done in 17.0138 secs using 499.4% CPU
+Optimizing NNI: done in 15.4367 secs using 499.5% CPU
+Optimizing NNI: done in 13.2051 secs using 499.4% CPU
+Iteration 80 / LogL: -773776.272 / Time: 0h:30m:53s (0h:31m:16s left)
+Optimizing NNI: done in 14.798 secs using 499.5% CPU
+Optimizing NNI: done in 12.3437 secs using 499.4% CPU
+Optimizing NNI: done in 15.2142 secs using 499.5% CPU
+Optimizing NNI: done in 15.9125 secs using 499.5% CPU
+Optimizing NNI: done in 14.5532 secs using 499.5% CPU
+Optimizing NNI: done in 15.2929 secs using 499.5% CPU
+Optimizing NNI: done in 15.3049 secs using 499.5% CPU
+Optimizing NNI: done in 14.5966 secs using 499.4% CPU
+Optimizing NNI: done in 14.9278 secs using 499.4% CPU
+Optimizing NNI: done in 14.7608 secs using 499.5% CPU
+Iteration 90 / LogL: -773771.629 / Time: 0h:33m:22s (0h:26m:14s left)
+Optimizing NNI: done in 14.5829 secs using 499.6% CPU
+Optimizing NNI: done in 12.9839 secs using 499.4% CPU
+Optimizing NNI: done in 14.376 secs using 499.5% CPU
+Optimizing NNI: done in 15.0896 secs using 499.5% CPU
+Optimizing NNI: done in 18.801 secs using 499.5% CPU
+Optimizing NNI: done in 16.6805 secs using 499.6% CPU
+Optimizing NNI: done in 15.2586 secs using 499.6% CPU
+Optimizing NNI: done in 14.4237 secs using 499.5% CPU
+Optimizing NNI: done in 15.2182 secs using 499.5% CPU
+Optimizing NNI: done in 13.2734 secs using 499.4% CPU
+Iteration 100 / LogL: -773986.800 / Time: 0h:35m:54s (0h:21m:45s left)
+Log-likelihood cutoff on original alignment: -773934.991
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Optimizing NNI: done in 14.8092 secs using 499.5% CPU
+Optimizing NNI: done in 14.7471 secs using 499.5% CPU
+Optimizing NNI: done in 13.7857 secs using 499.4% CPU
+Optimizing NNI: done in 13.3034 secs using 499.5% CPU
+Optimizing NNI: done in 13.9767 secs using 499.5% CPU
+Optimizing NNI: done in 14.8842 secs using 499.5% CPU
+Optimizing NNI: done in 13.4615 secs using 499.3% CPU
+Optimizing NNI: done in 14.9164 secs using 499.6% CPU
+Optimizing NNI: done in 13.6543 secs using 499.6% CPU
+Optimizing NNI: done in 13.6697 secs using 499.5% CPU
+Iteration 110 / LogL: -773789.527 / Time: 0h:38m:18s (0h:31m:38s left)
+Optimizing NNI: done in 15.4736 secs using 499.5% CPU
+Optimizing NNI: done in 14.6752 secs using 499.5% CPU
+Optimizing NNI: done in 15.8816 secs using 499.6% CPU
+Optimizing NNI: done in 14.9136 secs using 499.4% CPU
+Optimizing NNI: done in 13.8827 secs using 499.5% CPU
+Optimizing NNI: done in 14.1508 secs using 499.4% CPU
+Optimizing NNI: done in 13.4945 secs using 499.5% CPU
+Optimizing NNI: done in 14.0462 secs using 499.5% CPU
+Optimizing NNI: done in 13.456 secs using 499.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 119: -773758.478
+Optimizing NNI: done in 14.8785 secs using 499.6% CPU
+Iteration 120 / LogL: -773770.424 / Time: 0h:41m:5s (0h:34m:11s left)
+Optimizing NNI: done in 16.7093 secs using 499.4% CPU
+Optimizing NNI: done in 13.326 secs using 499.5% CPU
+Optimizing NNI: done in 14.4528 secs using 499.4% CPU
+Optimizing NNI: done in 16.1635 secs using 499.5% CPU
+Optimizing NNI: done in 13.7053 secs using 499.4% CPU
+Optimizing NNI: done in 14.7147 secs using 499.3% CPU
+Optimizing NNI: done in 14.8795 secs using 499.5% CPU
+Optimizing NNI: done in 14.4525 secs using 499.4% CPU
+Optimizing NNI: done in 14.2992 secs using 499.5% CPU
+Optimizing NNI: done in 15.3457 secs using 499.5% CPU
+Iteration 130 / LogL: -773783.140 / Time: 0h:43m:35s (0h:30m:4s left)
+Optimizing NNI: done in 13.4023 secs using 499.5% CPU
+Optimizing NNI: done in 12.6277 secs using 499.5% CPU
+Optimizing NNI: done in 17.2181 secs using 499.5% CPU
+Optimizing NNI: done in 14.0719 secs using 499.5% CPU
+Optimizing NNI: done in 13.0469 secs using 499.4% CPU
+Optimizing NNI: done in 13.025 secs using 499.4% CPU
+Optimizing NNI: done in 17.0078 secs using 499.6% CPU
+Optimizing NNI: done in 14.0318 secs using 499.4% CPU
+Optimizing NNI: done in 15.1548 secs using 499.6% CPU
+Optimizing NNI: done in 14.5411 secs using 499.5% CPU
+Iteration 140 / LogL: -773774.936 / Time: 0h:46m:1s (0h:26m:9s left)
+Optimizing NNI: done in 14.0452 secs using 499.4% CPU
+Optimizing NNI: done in 14.8783 secs using 499.5% CPU
+Optimizing NNI: done in 15.5089 secs using 499.6% CPU
+Optimizing NNI: done in 13.8861 secs using 499.4% CPU
+Optimizing NNI: done in 15.2631 secs using 499.5% CPU
+Optimizing NNI: done in 15.003 secs using 499.6% CPU
+Optimizing NNI: done in 12.9424 secs using 499.4% CPU
+Optimizing NNI: done in 14.8579 secs using 499.6% CPU
+Optimizing NNI: done in 13.875 secs using 499.5% CPU
+Optimizing NNI: done in 14.4525 secs using 499.5% CPU
+Iteration 150 / LogL: -773849.154 / Time: 0h:48m:27s (0h:22m:26s left)
+Log-likelihood cutoff on original alignment: -773931.815
+Optimizing NNI: done in 14.4178 secs using 499.6% CPU
+Optimizing NNI: done in 15.8217 secs using 499.5% CPU
+Optimizing NNI: done in 15.7695 secs using 499.5% CPU
+Optimizing NNI: done in 13.6225 secs using 499.5% CPU
+Optimizing NNI: done in 12.982 secs using 499.4% CPU
+Optimizing NNI: done in 15.543 secs using 499.5% CPU
+Optimizing NNI: done in 13.6667 secs using 499.5% CPU
+Optimizing NNI: done in 15.8327 secs using 499.4% CPU
+Optimizing NNI: done in 14.4096 secs using 499.4% CPU
+Optimizing NNI: done in 15.0291 secs using 499.5% CPU
+Iteration 160 / LogL: -773999.825 / Time: 0h:50m:57s (0h:18m:54s left)
+Optimizing NNI: done in 15.3964 secs using 499.5% CPU
+Optimizing NNI: done in 13.4472 secs using 499.4% CPU
+Optimizing NNI: done in 13.8943 secs using 499.5% CPU
+Optimizing NNI: done in 15.3649 secs using 499.4% CPU
+Optimizing NNI: done in 15.0567 secs using 499.5% CPU
+Optimizing NNI: done in 12.9521 secs using 499.6% CPU
+Optimizing NNI: done in 16.7492 secs using 499.4% CPU
+Optimizing NNI: done in 15.1682 secs using 499.5% CPU
+Optimizing NNI: done in 14.4752 secs using 499.5% CPU
+Optimizing NNI: done in 17.4132 secs using 499.6% CPU
+Iteration 170 / LogL: -773770.479 / Time: 0h:53m:29s (0h:15m:30s left)
+Optimizing NNI: done in 17.2531 secs using 499.6% CPU
+Optimizing NNI: done in 15.5393 secs using 499.4% CPU
+Optimizing NNI: done in 14.9457 secs using 499.4% CPU
+Optimizing NNI: done in 14.4469 secs using 499.5% CPU
+Optimizing NNI: done in 17.4995 secs using 499.7% CPU
+Optimizing NNI: done in 14.3079 secs using 499.5% CPU
+Optimizing NNI: done in 15.1569 secs using 499.5% CPU
+Optimizing NNI: done in 14.7364 secs using 499.4% CPU
+Optimizing NNI: done in 14.4708 secs using 499.6% CPU
+Optimizing NNI: done in 15.3605 secs using 499.5% CPU
+Iteration 180 / LogL: -773799.393 / Time: 0h:56m:4s (0h:12m:12s left)
+Optimizing NNI: done in 13.6723 secs using 499.5% CPU
+Optimizing NNI: done in 15.208 secs using 499.5% CPU
+Optimizing NNI: done in 14.2932 secs using 499.5% CPU
+Optimizing NNI: done in 14.606 secs using 499.5% CPU
+Optimizing NNI: done in 17.0573 secs using 499.6% CPU
+Optimizing NNI: done in 14.9005 secs using 499.6% CPU
+Optimizing NNI: done in 14.7497 secs using 499.5% CPU
+Optimizing NNI: done in 15.0842 secs using 499.5% CPU
+Optimizing NNI: done in 16.0141 secs using 499.5% CPU
+Optimizing NNI: done in 14.3335 secs using 499.5% CPU
+Iteration 190 / LogL: -773907.427 / Time: 0h:58m:35s (0h:8m:59s left)
+Optimizing NNI: done in 13.7215 secs using 499.6% CPU
+Optimizing NNI: done in 13.0279 secs using 499.5% CPU
+Optimizing NNI: done in 17.2359 secs using 499.5% CPU
+Optimizing NNI: done in 14.9835 secs using 499.5% CPU
+Optimizing NNI: done in 14.1676 secs using 499.5% CPU
+Optimizing NNI: done in 13.1763 secs using 499.5% CPU
+Optimizing NNI: done in 14.7677 secs using 499.4% CPU
+Optimizing NNI: done in 13.8408 secs using 499.4% CPU
+Optimizing NNI: done in 14.1511 secs using 499.5% CPU
+Optimizing NNI: done in 15.4379 secs using 499.6% CPU
+Iteration 200 / LogL: -773763.082 / Time: 1h:1m:1s (0h:5m:49s left)
+Log-likelihood cutoff on original alignment: -773931.815
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Optimizing NNI: done in 15.0164 secs using 499.4% CPU
+Optimizing NNI: done in 15.7577 secs using 499.5% CPU
+Optimizing NNI: done in 14.4797 secs using 499.5% CPU
+Optimizing NNI: done in 13.7944 secs using 499.5% CPU
+Optimizing NNI: done in 17.4193 secs using 499.5% CPU
+Optimizing NNI: done in 14.7721 secs using 499.4% CPU
+Optimizing NNI: done in 15.2722 secs using 499.5% CPU
+Optimizing NNI: done in 14.4065 secs using 499.5% CPU
+Optimizing NNI: done in 13.3792 secs using 499.5% CPU
+Optimizing NNI: done in 15.6041 secs using 499.5% CPU
+Iteration 210 / LogL: -773793.349 / Time: 1h:3m:34s (0h:27m:22s left)
+Optimizing NNI: done in 14.4135 secs using 499.4% CPU
+Optimizing NNI: done in 18.8821 secs using 499.5% CPU
+Optimizing NNI: done in 14.3712 secs using 499.5% CPU
+Optimizing NNI: done in 15.062 secs using 499.5% CPU
+Optimizing NNI: done in 13.6161 secs using 499.6% CPU
+Optimizing NNI: done in 14.7652 secs using 499.4% CPU
+Optimizing NNI: done in 12.9898 secs using 499.4% CPU
+Optimizing NNI: done in 14.3627 secs using 499.5% CPU
+Optimizing NNI: done in 15.433 secs using 499.4% CPU
+Optimizing NNI: done in 13.9112 secs using 499.5% CPU
+Iteration 220 / LogL: -773920.932 / Time: 1h:6m:4s (0h:24m:8s left)
+TREE SEARCH COMPLETED AFTER 220 ITERATIONS / Time: 1h:6m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -773758.478
+2. Current log-likelihood: -773758.366
+3. Current log-likelihood: -773758.233
+4. Current log-likelihood: -773758.096
+5. Current log-likelihood: -773757.977
+6. Current log-likelihood: -773757.843
+7. Current log-likelihood: -773757.708
+8. Current log-likelihood: -773757.588
+9. Current log-likelihood: -773757.495
+10. Current log-likelihood: -773757.391
+11. Current log-likelihood: -773757.302
+12. Current log-likelihood: -773757.211
+13. Current log-likelihood: -773757.117
+14. Current log-likelihood: -773757.023
+15. Current log-likelihood: -773756.948
+16. Current log-likelihood: -773756.867
+17. Current log-likelihood: -773756.807
+18. Current log-likelihood: -773756.759
+19. Current log-likelihood: -773756.731
+20. Current log-likelihood: -773756.683
+21. Current log-likelihood: -773756.594
+22. Current log-likelihood: -773756.520
+23. Current log-likelihood: -773756.457
+24. Current log-likelihood: -773756.428
+25. Current log-likelihood: -773756.415
+26. Current log-likelihood: -773756.403
+27. Current log-likelihood: -773756.391
+28. Current log-likelihood: -773756.380
+29. Current log-likelihood: -773756.368
+30. Current log-likelihood: -773756.358
+Optimal log-likelihood: -773756.342
+Rate parameters:  A-C: 1.03922  A-G: 4.20367  A-T: 1.00000  C-G: 1.03922  C-T: 3.33535  G-T: 1.00000
+Base frequencies:  A: 0.231  C: 0.295  G: 0.246  T: 0.229
+Proportion of invariable sites: 0.032
+Site proportion and rates:  (0.098,0.049) (0.095,0.177) (0.106,0.385) (0.141,0.662) (0.180,1.008) (0.189,1.524) (0.134,2.190) (0.025,3.217)
+Parameters optimization took 30 rounds (149.963 sec)
+BEST SCORE FOUND : -773756.342
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.splits.nex
+Total tree length: 45.912
+
+Total number of iterations: 220
+CPU time used for tree search: 18739.480 sec (5h:12m:19s)
+Wall-clock time used for tree search: 3855.447 sec (1h:4m:15s)
+Total CPU time used: 19898.491 sec (5h:31m:38s)
+Total wall-clock time used: 4115.947 sec (1h:8m:35s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.splits.nex...
+494 taxa and 1435 splits.
+Consensus tree written to /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.contree
+Reading input trees file /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.contree
+Log-likelihood of consensus tree: -773756.340
+
+Analysis results written to: 
+  IQ-TREE report:                /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.iqtree
+  Maximum-likelihood tree:       /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.treefile
+  Likelihood distances:          /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.splits.nex
+  Consensus tree:                /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.contree
+  Screen log file:               /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t /home/aglucaci/AOC-Nup214/results/Craniata/NUP214_Craniata_codons.SA.fasta.treefile -m "TIM3{1.03922,4.20367,3.33535}+F{0.230822,0.294619,0.245809,0.22875}+I{0.0316325}+R8{0.0978074,0.0485566,0.0952963,0.176759,0.105643,0.385437,0.140804,0.662175,0.180307,1.00766,0.189326,1.52405,0.134225,2.18989,0.0249581,3.21661}" --length 17148
+
+Date and Time: Sat Jul 15 00:55:43 2023

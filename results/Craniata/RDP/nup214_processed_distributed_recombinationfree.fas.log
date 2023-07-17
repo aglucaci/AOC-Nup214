@@ -1,0 +1,1467 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built Aug  2 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    n6 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree -s /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas -T AUTO -B 1000
+Seed:    742690 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jul 15 17:01:43 2023
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas ... Fasta format detected
+Reading fasta file: done in 0.174054 secs using 93.61% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0735402 secs using 76.54% CPU
+WARNING: 246 sites contain only gaps or ambiguous characters.
+Alignment has 494 sequences with 17148 columns, 10125 distinct patterns
+7403 parsimony-informative, 2021 singleton sites, 7724 constant sites
+                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0187099 secs using 99.8% CPU
+   1  XM_043986250_1_PREDICTED_Dromiciops_gliroides_nucl   63.40%    failed      0.01%
+   2  NM_001408097_1_Mus_musculus_nucleoporin_214_Nup214   63.51%    passed     85.03%
+   3  XM_040649366_2_PREDICTED_Gallus_gallus_nucleoporin   63.61%    failed      0.00%
+   4  XM_038678260_1_PREDICTED_Canis_lupus_familiaris_nu   63.45%    passed     80.14%
+   5  XM_005213418_4_PREDICTED_Bos_taurus_nucleoporin_21   63.45%    failed      0.86%
+   6  XM_023629552_1_PREDICTED_Equus_caballus_nucleopori   63.14%    passed     19.33%
+   7  NM_005085_4_Homo_sapiens_nucleoporin_214_NUP214_tr   63.44%    failed      0.56%
+   8  XM_016961887_3_PREDICTED_Pan_troglodytes_nucleopor   63.12%    failed      0.52%
+   9  XM_007475163_2_PREDICTED_Monodelphis_domestica_nuc   63.42%    failed      0.00%
+  10  XM_002936191_5_PREDICTED_Xenopus_tropicalis_nucleo   63.79%    failed      3.98%
+  11  XM_012578331_4_PREDICTED_Taeniopygia_guttata_nucle   63.51%    passed      6.23%
+  12  XM_035260640_2_PREDICTED_Callithrix_jacchus_nucleo   63.42%    failed      0.00%
+  13  XM_024252122_2_PREDICTED_Pongo_abelii_nucleoporin_   63.89%    failed      1.14%
+  14  XM_015116545_2_PREDICTED_Macaca_mulatta_nucleopori   63.42%    failed      1.02%
+  15  XM_029062477_2_PREDICTED_Ornithorhynchus_anatinus_   63.45%    failed      0.00%
+  16  XM_008249052_3_PREDICTED_Oryctolagus_cuniculus_nuc   63.37%    failed      2.25%
+  17  NM_001168559_1_Rattus_norvegicus_nucleoporin_214_N   63.84%    passed     31.70%
+  18  XM_017356400_2_PREDICTED_Danio_rerio_nucleoporin_2   64.07%    failed      0.00%
+  19  XM_013153255_2_PREDICTED_Cavia_porcellus_nucleopor   61.48%    failed      0.00%
+  20  XM_007653290_4_PREDICTED_Cricetulus_griseus_nucleo   63.63%    passed     26.19%
+  21  XM_031954852_1_PREDICTED_Sarcophilus_harrisii_nucl   62.07%    failed      0.00%
+  22  XM_023516114_1_PREDICTED_Otolemur_garnettii_nucleo   68.09%    passed     28.10%
+  23  XM_005459466_4_PREDICTED_Oreochromis_niloticus_nuc   64.87%    failed      0.01%
+  24  XM_010720905_3_PREDICTED_Meleagris_gallopavo_nucle   63.66%    failed      0.00%
+  25  XM_010341412_1_PREDICTED_Saimiri_boliviensis_boliv   63.69%    failed      0.01%
+  26  XM_011604539_2_PREDICTED_Takifugu_rubripes_nucleop   65.27%    failed      0.90%
+  27  XM_023242861_2_PREDICTED_Felis_catus_nucleoporin_2   63.38%    failed      0.00%
+  28  XM_012161056_4_PREDICTED_Ovis_aries_nucleoporin_21   63.37%    failed      1.74%
+  29  XM_031007714_2_PREDICTED_Gorilla_gorilla_gorilla_n   63.44%    failed      1.08%
+  30  XM_011481722_3_PREDICTED_Oryzias_latipes_nucleopor   65.15%    failed      0.55%
+  31  XM_033426936_2_PREDICTED_Orcinus_orca_nucleoporin_   62.70%    failed      0.62%
+  32  XM_019920186_2_PREDICTED_Tursiops_truncatus_nucleo   63.62%    failed      1.37%
+  33  XM_023730817_1_PREDICTED_Trichechus_manatus_latiro   63.23%    failed      0.00%
+  34  XM_004392451_2_PREDICTED_Odobenus_rosmarus_diverge   63.83%    failed      0.06%
+  35  XM_014781963_1_PREDICTED_Ceratotherium_simum_simum   63.28%    passed     15.77%
+  36  XM_004468030_2_PREDICTED_Dasypus_novemcinctus_nucl   63.35%    failed      0.00%
+  37  XM_004549585_4_PREDICTED_Maylandia_zebra_nucleopor   64.57%    failed      0.00%
+  38  XM_004593681_1_PREDICTED_Ochotona_princeps_nucleop   69.69%    failed      0.00%
+  39  XM_055140152_1_PREDICTED_Sorex_araneus_nucleoporin   64.05%    failed      0.00%
+  40  XM_023700311_1_PREDICTED_Octodon_degus_nucleoporin   63.45%    failed      0.00%
+  41  XM_045149901_1_PREDICTED_Jaculus_jaculus_nucleopor   64.96%    passed     12.25%
+  42  XM_012721410_1_PREDICTED_Condylura_cristata_nucleo   63.59%    failed      0.00%
+  43  XM_045288498_1_PREDICTED_Echinops_telfairi_nucleop   63.26%    passed     44.79%
+  44  XM_013058628_2_PREDICTED_Mustela_putorius_furo_nuc   63.99%    failed      0.00%
+  45  XM_004849095_3_PREDICTED_Heterocephalus_glaber_nuc   63.40%    failed      0.00%
+  46  XM_038188009_1_PREDICTED_Anas_platyrhynchos_nucleo   63.16%    failed      0.86%
+  47  XM_005055573_2_PREDICTED_Ficedula_albicollis_nucle   63.52%    passed     11.71%
+  48  XM_013126431_3_PREDICTED_Mesocricetus_auratus_nucl   63.70%    passed     36.86%
+  49  XM_005580615_3_PREDICTED_Macaca_fascicularis_nucle   63.93%    failed      0.72%
+  50  XM_034067458_1_PREDICTED_Melopsittacus_undulatus_n   63.47%    failed      0.00%
+  51  XM_005231203_4_PREDICTED_Falco_peregrinus_nucleopo   63.42%    failed      0.00%
+  52  XM_008169152_3_PREDICTED_Chrysemys_picta_bellii_nu   63.16%    failed      0.00%
+  53  XM_013356741_3_PREDICTED_Ictidomys_tridecemlineatu   63.23%    passed     39.44%
+  54  XM_005346089_3_PREDICTED_Microtus_ochrogaster_nucl   63.87%    passed     28.18%
+  55  XM_005408354_2_PREDICTED_Chinchilla_lanigera_nucle   63.49%    failed      0.00%
+  56  XM_014307122_1_PREDICTED_Geospiza_fortis_nucleopor   63.42%    passed      8.06%
+  57  XM_055720404_1_PREDICTED_Falco_cherrug_nucleoporin   63.42%    failed      0.00%
+  58  XM_005495229_3_PREDICTED_Zonotrichia_albicollis_nu   63.42%    passed     42.91%
+  59  XM_013370612_2_PREDICTED_Columba_livia_nucleoporin   63.65%    failed      1.76%
+  60  XM_005527285_2_PREDICTED_Pseudopodoces_humilis_nuc   63.52%    failed      0.36%
+  61  XM_018055995_1_PREDICTED_Capra_hircus_nucleoporin_   63.37%    failed      0.99%
+  62  XM_013909135_1_PREDICTED_Pundamilia_nyererei_nucle   74.23%    failed      0.00%
+  63  XM_023338115_1_PREDICTED_Xiphophorus_maculatus_nuc   65.15%    failed      0.00%
+  64  XM_014529882_1_PREDICTED_Myotis_brandtii_nucleopor   63.24%    failed      0.00%
+  65  XM_005902770_2_PREDICTED_Bos_mutus_nucleoporin_214   63.49%    failed      1.36%
+  66  XM_014485361_1_PREDICTED_Latimeria_chalumnae_nucle   63.42%    failed      0.10%
+  67  XM_025261864_3_PREDICTED_Bubalus_bubalis_nucleopor   63.38%    failed      0.50%
+  68  XM_023746731_1_PREDICTED_Myotis_lucifugus_nucleopo   65.38%    failed      0.00%
+  69  XM_006128397_2_PREDICTED_Pelodiscus_sinensis_nucle   64.57%    failed      0.00%
+  70  XM_006164333_3_PREDICTED_Tupaia_chinensis_nucleopo   63.40%    passed     18.39%
+  71  XM_032478678_1_PREDICTED_Camelus_ferus_nucleoporin   63.21%    passed     29.68%
+  72  XM_015249818_2_PREDICTED_Vicugna_pacos_nucleoporin   63.21%    passed     35.21%
+  73  XM_006260013_3_PREDICTED_Alligator_mississippiensi   63.47%    failed      0.11%
+  74  XM_015367229_1_PREDICTED_Lepisosteus_oculatus_nucl   63.77%    failed      0.00%
+  75  XM_015567742_1_PREDICTED_Myotis_davidii_nucleopori   66.39%    failed      0.00%
+  76  XM_035906921_1_PREDICTED_Neolamprologus_brichardi_   64.35%    failed      0.01%
+  77  XM_006834991_1_PREDICTED_Chrysochloris_asiatica_nu   66.08%    failed      0.00%
+  78  XM_006892442_1_PREDICTED_Elephantulus_edwardii_nuc   63.38%    failed      0.00%
+  79  XM_015594231_2_PREDICTED_Pteropus_alecto_nucleopor   63.31%    failed      0.00%
+  80  XM_042274920_1_PREDICTED_Peromyscus_maniculatus_ba   63.40%    failed      0.31%
+  81  XM_007061048_4_PREDICTED_Chelonia_mydas_nucleopori   63.17%    failed      0.00%
+  82  XM_042964819_1_PREDICTED_Panthera_tigris_nucleopor   63.28%    failed      0.00%
+  83  XM_007115568_4_PREDICTED_Physeter_catodon_nucleopo   64.43%    failed      0.00%
+  84  XM_007194774_2_PREDICTED_Balaenoptera_acutorostrat   66.93%    passed     13.25%
+  85  XM_049465800_1_PREDICTED_Astyanax_mexicanus_nucleo   64.28%    failed      0.00%
+  86  XM_007422313_3_PREDICTED_Python_bivittatus_nucleop   64.42%    failed      0.00%
+  87  XM_007453124_1_PREDICTED_Lipotes_vexillifer_nucleo   63.33%    failed      0.57%
+  88  XM_016191385_1_PREDICTED_Erinaceus_europaeus_nucle   63.61%    failed      0.00%
+  89  XM_016674732_1_PREDICTED_Poecilia_formosa_nucleopo   65.22%    passed     14.65%
+  90  XM_007900373_2_PREDICTED_Callorhinchus_milii_nucle   64.28%    failed      0.02%
+  91  XM_042781459_1_PREDICTED_Orycteropus_afer_afer_nuc   63.38%    failed      0.00%
+  92  XM_008005906_2_PREDICTED_Chlorocebus_sabaeus_nucle   63.93%    failed      0.23%
+  93  XM_008057451_2_PREDICTED_Carlito_syrichta_nucleopo   63.40%    passed     68.54%
+  94  XM_028127069_2_PREDICTED_Eptesicus_fuscus_nucleopo   63.38%    failed      0.00%
+  95  XM_008285570_1_PREDICTED_Stegastes_partitus_nucleo   65.38%    passed     11.95%
+  96  XM_008325965_3_PREDICTED_Cynoglossus_semilaevis_nu   63.82%    passed     62.18%
+  97  XM_008424408_2_PREDICTED_Poecilia_reticulata_nucle   65.03%    failed      0.26%
+  98  XM_030461305_1_PREDICTED_Calypte_anna_nucleoporin_   63.59%    failed      0.08%
+  99  XM_008535420_1_PREDICTED_Equus_przewalskii_nucleop   63.23%    passed     22.90%
+ 100  XM_008583206_1_PREDICTED_Galeopterus_variegatus_nu   63.35%    failed      0.02%
+ 101  XM_017745507_1_PREDICTED_Corvus_brachyrhynchos_nuc   63.75%    passed      8.39%
+ 102  XM_040632079_1_PREDICTED_Ursus_maritimus_nucleopor   62.96%    failed      0.00%
+ 103  XM_008825660_3_PREDICTED_Nannospalax_galili_nucleo   63.66%    passed     67.48%
+ 104  XM_018074190_3_PREDICTED_Manacus_vitellinus_nucleo   63.63%    passed     27.37%
+ 105  XM_008935299_1_PREDICTED_Merops_nubicus_nucleopori   64.17%    passed     19.31%
+ 106  XM_009077434_1_PREDICTED_Acanthisitta_chloris_nucl   63.70%    failed      0.02%
+ 107  XM_009093413_4_PREDICTED_Serinus_canaria_nucleopor   63.51%    passed      8.00%
+ 108  XM_009287021_1_PREDICTED_Aptenodytes_forsteri_nucl   63.52%    failed      0.00%
+ 109  XM_009322178_1_PREDICTED_Pygoscelis_adeliae_nucleo   63.54%    failed      0.00%
+ 110  XM_009477078_1_PREDICTED_Nipponia_nippon_nucleopor   63.54%    failed      0.00%
+ 111  XM_009482638_1_PREDICTED_Pelecanus_crispus_nucleop   63.68%    failed      0.00%
+ 112  XM_009508508_1_PREDICTED_Phalacrocorax_carbo_nucle   63.70%    failed      0.00%
+ 113  XM_054084299_1_PREDICTED_Cuculus_canorus_nucleopor   63.44%    failed      0.00%
+ 114  XM_009586625_1_PREDICTED_Fulmarus_glacialis_nucleo   63.66%    failed      0.00%
+ 115  XM_035898240_1_PREDICTED_Egretta_garzetta_nucleopo   63.49%    failed      0.00%
+ 116  XM_009665832_1_PREDICTED_Struthio_camelus_australi   64.38%    failed      0.00%
+ 117  XM_009697272_1_PREDICTED_Cariama_cristata_nucleopo   63.72%    failed      0.00%
+ 118  XM_009811987_1_PREDICTED_Gavia_stellata_nucleopori   63.65%    failed      0.00%
+ 119  XM_009874886_1_PREDICTED_Apaloderma_vittatum_nucle   70.71%    passed     50.71%
+ 120  XM_009892306_1_PREDICTED_Charadrius_vociferus_nucl   63.47%    failed      0.00%
+ 121  XM_054174325_1_PREDICTED_Dryobates_pubescens_nucle   64.14%    failed      0.00%
+ 122  XM_009918851_1_PREDICTED_Haliaeetus_albicilla_nucl   63.68%    failed      0.00%
+ 123  XM_009934872_1_PREDICTED_Opisthocomus_hoazin_nucle   63.54%    failed      0.00%
+ 124  XM_009950985_1_PREDICTED_Leptosomus_discolor_nucle   64.35%    failed      0.25%
+ 125  XM_033012037_2_PREDICTED_Tyto_alba_nucleoporin_214   63.42%    failed      0.00%
+ 126  XM_009978833_1_PREDICTED_Tauraco_erythrolophus_nuc   63.72%    failed      0.02%
+ 127  XM_009998983_1_PREDICTED_Chaetura_pelagica_nucleop   63.68%    failed      0.04%
+ 128  XM_010010994_1_PREDICTED_Nestor_notabilis_nucleopo   63.63%    failed      0.00%
+ 129  XM_010073208_1_PREDICTED_Pterocles_gutturalis_nucl   63.82%    failed      0.01%
+ 130  XM_010137581_1_PREDICTED_Buceros_rhinoceros_silves   64.17%    failed      2.24%
+ 131  XM_010159295_1_PREDICTED_Eurypyga_helias_nucleopor   64.84%    failed      2.16%
+ 132  XM_029084879_1_PREDICTED_Antrostomus_carolinensis_   63.86%    failed      0.00%
+ 133  XM_010182837_1_PREDICTED_Mesitornis_unicolor_nucle   78.36%    failed      0.00%
+ 134  XM_010207914_1_PREDICTED_Colius_striatus_nucleopor   63.84%    failed      0.00%
+ 135  XM_010212920_1_PREDICTED_Tinamus_guttatus_nucleopo   63.44%    failed      0.06%
+ 136  XM_010289831_1_PREDICTED_Phaethon_lepturus_nucleop   63.40%    failed      0.00%
+ 137  XM_010309868_1_PREDICTED_Balearica_regulorum_gibbe   63.52%    failed      0.00%
+ 138  XM_030919316_1_PREDICTED_Rhinopithecus_roxellana_n   63.42%    failed      0.23%
+ 139  XM_039561673_1_PREDICTED_Corvus_cornix_cornix_nucl   63.54%    passed      9.58%
+ 140  XM_010570899_1_PREDICTED_Haliaeetus_leucocephalus_   63.42%    failed      0.00%
+ 141  XM_010627377_2_PREDICTED_Fukomys_damarensis_nucleo   63.56%    failed      0.00%
+ 142  XM_019276277_2_PREDICTED_Larimichthys_crocea_nucle   65.17%    passed     22.15%
+ 143  XM_010776956_1_PREDICTED_Notothenia_coriiceps_nucl   89.68%    passed      5.58%
+ 144  XM_010856792_1_PREDICTED_Bison_bison_bison_nucleop   63.45%    failed      0.70%
+ 145  XM_020053419_3_PREDICTED_Esox_lucius_nucleoporin_2   64.98%    failed      0.00%
+ 146  XM_010955880_2_PREDICTED_Camelus_bactrianus_nucleo   63.23%    passed     30.73%
+ 147  XM_031450716_1_PREDICTED_Camelus_dromedarius_nucle   62.74%    passed     21.00%
+ 148  XM_023536519_1_PREDICTED_Pteropus_vampyrus_nucleop   70.49%    failed      0.00%
+ 149  XM_024787457_1_PREDICTED_Macaca_nemestrina_nucleop   63.79%    failed      1.43%
+ 150  XM_011931188_1_PREDICTED_Colobus_angolensis_pallia   64.05%    failed      0.44%
+ 151  XM_011971141_1_PREDICTED_Mandrillus_leucophaeus_nu   63.45%    failed      0.57%
+ 152  XM_012038803_1_PREDICTED_Cercocebus_atys_nucleopor   63.96%    failed      0.32%
+ 153  XM_012639836_1_PREDICTED_Propithecus_coquereli_nuc   63.21%    failed      3.15%
+ 154  XM_020289538_1_PREDICTED_Microcebus_murinus_nucleo   63.21%    failed      0.73%
+ 155  XM_031577782_1_PREDICTED_Clupea_harengus_nucleopor   63.63%    failed      0.00%
+ 156  XM_012868962_3_PREDICTED_Fundulus_heteroclitus_nuc   65.47%    passed      8.04%
+ 157  XM_013021291_1_PREDICTED_Dipodomys_ordii_nucleopor   65.45%    failed      0.00%
+ 158  XM_048051800_1_PREDICTED_Anser_cygnoides_nucleopor   63.49%    failed      0.03%
+ 159  XM_014009373_1_PREDICTED_Austrofundulus_limnaeus_n   65.62%    failed      0.00%
+ 160  XM_014068899_1_PREDICTED_Thamnophis_sirtalis_nucle   81.88%    passed     15.39%
+ 161  XM_014133085_2_PREDICTED_Salmo_salar_nucleoporin_2   64.50%    failed      0.00%
+ 162  XM_014863446_2_PREDICTED_Equus_asinus_nucleoporin_   63.24%    passed     30.06%
+ 163  XM_014873230_1_PREDICTED_Sturnus_vulgaris_nucleopo   63.49%    failed      3.78%
+ 164  XM_014943014_1_PREDICTED_Calidris_pugnax_nucleopor   63.35%    failed      0.52%
+ 165  XM_014999804_1_PREDICTED_Poecilia_mexicana_nucleop   65.03%    passed      9.85%
+ 166  XM_015055500_1_PREDICTED_Poecilia_latipinna_nucleo   65.22%    passed     13.73%
+ 167  XM_027035408_2_PREDICTED_Acinonyx_jubatus_nucleopo   63.37%    failed      0.00%
+ 168  XM_015392612_1_PREDICTED_Cyprinodon_variegatus_nuc   65.68%    failed      0.00%
+ 169  XM_015424259_1_PREDICTED_Gekko_japonicus_nucleopor   63.86%    failed      0.00%
+ 170  XM_015497426_2_PREDICTED_Marmota_marmota_marmota_n   63.24%    passed     22.28%
+ 171  XM_015645071_2_PREDICTED_Parus_major_nucleoporin_2   63.52%    failed      0.35%
+ 172  XM_015879155_2_PREDICTED_Coturnix_japonica_nucleop   63.83%    failed      0.00%
+ 173  XM_015942816_2_PREDICTED_Nothobranchius_furzeri_nu   65.89%    passed     30.29%
+ 174  XM_016133847_2_PREDICTED_Rousettus_aegyptiacus_nuc   63.94%    failed      0.00%
+ 175  XM_016196610_1_PREDICTED_Miniopterus_natalensis_nu   63.33%    failed      0.00%
+ 176  XM_016289145_1_PREDICTED_Sinocyclocheilus_grahami_   65.45%    failed      0.42%
+ 177  XM_016469052_1_PREDICTED_Sinocyclocheilus_anshuien   65.08%    failed      0.24%
+ 178  XM_016554251_1_PREDICTED_Sinocyclocheilus_rhinocer   65.27%    failed      0.38%
+ 179  XM_017407835_2_PREDICTED_Kryptolebias_marmoratus_n   65.17%    passed     54.39%
+ 180  XM_017460138_2_PREDICTED_Ictalurus_punctatus_nucle   66.04%    failed      0.00%
+ 181  XM_017499061_2_PREDICTED_Cebus_imitator_nucleopori   63.40%    failed      0.04%
+ 182  XM_037007352_1_PREDICTED_Manis_javanica_nucleopori   63.91%    passed     28.62%
+ 183  XM_017702901_2_PREDICTED_Pygocentrus_nattereri_nuc   65.61%    passed      5.59%
+ 184  XM_017810199_1_PREDICTED_Lepidothrix_coronata_nucl   63.59%    passed     24.11%
+ 185  XM_017849892_1_PREDICTED_Rhinopithecus_bieti_nucle   64.50%    failed      0.28%
+ 186  XM_018662340_2_PREDICTED_Lates_calcarifer_nucleopo   64.68%    failed      4.49%
+ 187  XM_029252794_1_PREDICTED_Scleropages_formosus_nucl   63.93%    failed      0.00%
+ 188  XM_019420787_2_PREDICTED_Panthera_pardus_nucleopor   63.40%    failed      0.00%
+ 189  XM_019510690_1_PREDICTED_Gavialis_gangeticus_nucle   63.47%    failed      0.02%
+ 190  XM_019540813_1_PREDICTED_Crocodylus_porosus_nucleo   63.51%    failed      0.03%
+ 191  XM_019638539_1_PREDICTED_Hipposideros_armiger_nucl   62.63%    failed      0.76%
+ 192  XM_019890466_1_PREDICTED_Hippocampus_comes_nucleop   65.97%    failed      0.00%
+ 193  XM_019971033_1_PREDICTED_Bos_indicus_nucleoporin_2   63.72%    failed      2.04%
+ 194  XM_020081957_1_PREDICTED_Paralichthys_olivaceus_nu   64.87%    failed      1.91%
+ 195  XM_020457347_2_PREDICTED_Oncorhynchus_kisutch_nucl   64.68%    failed      0.00%
+ 196  XM_048613548_1_PREDICTED_Rhincodon_typus_nucleopor   62.61%    failed      0.01%
+ 197  XM_020600842_1_PREDICTED_Monopterus_albus_nucleopo   64.43%    failed      0.00%
+ 198  XM_020638399_2_PREDICTED_Labrus_bergylta_nucleopor   65.22%    failed      1.08%
+ 199  XM_020794890_1_PREDICTED_Pogona_vitticeps_nucleopo   63.82%    failed      0.00%
+ 200  XM_020875551_1_PREDICTED_Odocoileus_virginianus_te   63.33%    failed      0.14%
+ 201  XM_020925110_2_PREDICTED_Boleophthalmus_pectiniros   66.01%    failed      0.00%
+ 202  XM_020973511_1_PREDICTED_Phascolarctos_cinereus_nu   62.95%    failed      0.03%
+ 203  XM_021185394_2_PREDICTED_Mus_caroli_nucleoporin_21   63.72%    passed     80.65%
+ 204  XM_021193519_2_PREDICTED_Mus_pahari_nucleoporin_21   63.75%    passed     75.25%
+ 205  XM_021413569_1_PREDICTED_Numida_meleagris_nucleopo   63.66%    failed      0.10%
+ 206  XM_021543507_1_PREDICTED_Lonchura_striata_domestic   63.52%    failed      1.50%
+ 207  XM_021602472_2_PREDICTED_Oncorhynchus_mykiss_nucle   64.54%    failed      0.00%
+ 208  XM_021654929_1_PREDICTED_Meriones_unguiculatus_nuc   63.68%    passed     62.58%
+ 209  XM_044920505_1_PREDICTED_Neomonachus_schauinslandi   63.56%    failed      0.03%
+ 210  XM_022204048_2_PREDICTED_Acanthochromis_polyacanth   65.54%    passed      5.62%
+ 211  XM_022500410_1_PREDICTED_Enhydra_lutris_kenyoni_nu   64.18%    failed      0.00%
+ 212  XM_022578425_2_PREDICTED_Delphinapterus_leucas_nuc   64.22%    failed      0.07%
+ 213  XM_022768051_1_PREDICTED_Seriola_dumerili_nucleopo   64.94%    failed      0.30%
+ 214  XM_023216929_2_PREDICTED_Piliocolobus_tephrosceles   63.44%    failed      0.43%
+ 215  XM_023283773_3_PREDICTED_Amphiprion_ocellaris_nucl   65.54%    failed      2.97%
+ 216  XM_023419530_1_PREDICTED_Seriola_lalandi_dorsalis_   64.99%    failed      0.20%
+ 217  XM_023818632_1_PREDICTED_Paramormyrops_kingsleyae_   63.56%    failed      0.00%
+ 218  XM_023938209_1_PREDICTED_Cyanistes_caeruleus_nucle   63.52%    failed      0.39%
+ 219  XM_023983975_1_PREDICTED_Salvelinus_alpinus_nuclea   64.70%    failed      0.00%
+ 220  XM_026657258_2_PREDICTED_Terrapene_carolina_triung   63.37%    failed      0.00%
+ 221  XM_024298701_2_PREDICTED_Oryzias_melastigma_nucleo   65.43%    passed     77.06%
+ 222  XM_042302307_1_PREDICTED_Oncorhynchus_tshawytscha_   64.94%    failed      0.00%
+ 223  XM_024562058_3_PREDICTED_Desmodus_rotundus_nucleop   63.28%    failed      0.00%
+ 224  XM_024762151_1_PREDICTED_Neophocaena_asiaeoriental   63.75%    failed      0.94%
+ 225  XM_025359240_1_PREDICTED_Theropithecus_gelada_nucl   63.44%    failed      0.59%
+ 226  XM_025475505_3_PREDICTED_Canis_lupus_dingo_nucleop   63.45%    passed     79.86%
+ 227  XM_025888656_1_PREDICTED_Callorhinus_ursinus_nucle   63.83%    failed      0.04%
+ 228  XM_025913499_1_PREDICTED_Puma_concolor_nucleoporin   73.11%    passed     67.06%
+ 229  XM_026009534_1_PREDICTED_Vulpes_vulpes_nucleoporin   63.37%    passed     63.93%
+ 230  XM_026049333_1_PREDICTED_Nothoprocta_perdicaria_nu   63.42%    passed     23.44%
+ 231  XM_026062146_1_PREDICTED_Apteryx_rowi_nucleoporin_   63.52%    failed      0.00%
+ 232  XM_026101800_1_PREDICTED_Dromaius_novaehollandiae_   63.47%    failed      0.00%
+ 233  XM_026173651_1_PREDICTED_Astatotilapia_calliptera_   65.03%    failed      0.01%
+ 234  XM_026255466_1_PREDICTED_Carassius_auratus_nuclear   64.40%    passed     11.07%
+ 235  XM_026297003_1_PREDICTED_Mastacembelus_armatus_nuc   65.15%    failed      0.00%
+ 236  XM_026354746_1_PREDICTED_Anabas_testudineus_nucleo   64.73%    failed      0.00%
+ 237  XM_026386470_1_PREDICTED_Urocitellus_parryii_nucle   63.31%    passed     35.68%
+ 238  XM_026514203_3_PREDICTED_Ursus_arctos_nucleoporin_   63.49%    failed      0.01%
+ 239  XM_026685730_1_PREDICTED_Notechis_scutatus_nucleop   66.22%    failed      0.00%
+ 240  XM_026712551_1_PREDICTED_Pseudonaja_textilis_nucle   64.05%    failed      0.00%
+ 241  XM_026860665_1_PREDICTED_Athene_cunicularia_nucleo   63.51%    failed      0.01%
+ 242  XM_034300597_2_PREDICTED_Pangasianodon_hypophthalm   65.47%    failed      0.00%
+ 243  XM_035527488_1_PREDICTED_Electrophorus_electricus_   64.40%    failed      0.00%
+ 244  XM_027104488_1_PREDICTED_Lagenorhynchus_obliquiden   63.62%    failed      1.71%
+ 245  XM_027159432_2_PREDICTED_Tachysurus_fulvidraco_nuc   65.94%    failed      0.35%
+ 246  XM_027614894_2_PREDICTED_Zalophus_californianus_nu   63.49%    failed      0.04%
+ 247  XM_027649923_1_PREDICTED_Corapipo_altera_nucleopor   63.59%    passed     19.68%
+ 248  XM_027687818_1_PREDICTED_Neopelma_chrysocephalum_n   63.89%    passed     24.91%
+ 249  XM_027739304_2_PREDICTED_Pipra_filicauda_nucleopor   63.63%    passed     19.19%
+ 250  XM_027869347_1_PREDICTED_Vombatus_ursinus_nucleopo   63.07%    failed      0.03%
+ 251  XM_027911660_1_PREDICTED_Empidonax_traillii_nucleo   63.70%    passed     77.59%
+ 252  XM_027942761_1_PREDICTED_Marmota_flaviventris_nucl   63.02%    passed     20.92%
+ 253  XM_028025314_1_PREDICTED_Xiphophorus_couchianus_nu   65.15%    failed      0.00%
+ 254  XM_028090579_1_PREDICTED_Eumetopias_jubatus_nucleo   63.83%    failed      0.04%
+ 255  XM_028417427_1_PREDICTED_Parambassis_ranga_nucleop   65.03%    failed      0.00%
+ 256  XM_028462848_1_PREDICTED_Gouania_willdenowi_nucleo   64.21%    failed      0.05%
+ 257  XM_028516280_2_PREDICTED_Phyllostomus_discolor_nuc   63.09%    failed      0.00%
+ 258  XM_028601162_1_PREDICTED_Perca_flavescens_nucleopo   65.36%    failed      0.09%
+ 259  XM_028714310_1_PREDICTED_Podarcis_muralis_nucleopo   63.72%    passed     86.04%
+ 260  XM_028757191_1_PREDICTED_Grammomys_surdaster_nucle   63.73%    passed     33.04%
+ 261  XM_028793027_2_PREDICTED_Erpetoichthys_calabaricus   64.50%    failed      0.00%
+ 262  XM_028884666_2_PREDICTED_Peromyscus_leucopus_nucle   63.44%    failed      0.46%
+ 263  XM_028973301_1_PREDICTED_Denticeps_clupeoides_nucl   64.54%    passed      9.80%
+ 264  XM_029169973_3_PREDICTED_Betta_splendens_nucleopor   64.40%    failed      0.00%
+ 265  XM_029201333_1_PREDICTED_Monodon_monoceros_nucleop   64.37%    failed      0.08%
+ 266  XM_029444374_1_PREDICTED_Cottoperca_gobio_nucleopo   65.27%    passed     23.80%
+ 267  XM_029516133_1_PREDICTED_Echeneis_naucrates_nucleo   65.08%    failed      0.00%
+ 268  XM_029612981_1_PREDICTED_Rhinatrema_bivittatum_nuc   64.31%    failed      0.68%
+ 269  XM_029646036_1_PREDICTED_Oncorhynchus_nerka_nuclea   64.49%    failed      0.00%
+ 270  XM_029709342_1_PREDICTED_Salmo_trutta_nuclear_pore   64.61%    failed      0.00%
+ 271  XM_029921055_1_PREDICTED_Suricata_suricatta_nucleo   63.93%    failed      0.00%
+ 272  XM_030000702_2_PREDICTED_Aquila_chrysaetos_chrysae   63.42%    failed      0.00%
+ 273  XM_030065096_1_PREDICTED_Myripristis_murdjan_nucle   64.59%    passed     31.67%
+ 274  XM_030084637_1_PREDICTED_Salarias_fasciatus_nucleo   64.99%    passed     25.25%
+ 275  XM_030148420_1_PREDICTED_Sphaeramia_orbicularis_nu   65.08%    passed     14.01%
+ 276  XM_030207807_1_PREDICTED_Microcaecilia_unicolor_nu   64.28%    failed      0.03%
+ 277  XM_030294494_1_PREDICTED_Lynx_canadensis_nucleopor   63.28%    failed      0.00%
+ 278  XM_030342558_1_PREDICTED_Gadus_morhua_nucleoporin_   63.86%    failed      0.00%
+ 279  XM_030435294_1_PREDICTED_Sparus_aurata_nucleoporin   64.70%    passed     24.32%
+ 280  XM_030506989_1_PREDICTED_Strigops_habroptila_nucle   63.47%    failed      0.01%
+ 281  XM_030536064_1_PREDICTED_Gopherus_evgoodei_nucleop   63.16%    failed      0.00%
+ 282  XM_030742537_1_PREDICTED_Archocentrus_centrarchus_   65.26%    failed      0.01%
+ 283  XM_030838520_1_PREDICTED_Globicephala_melas_nucleo   63.62%    failed      2.33%
+ 284  XM_030961399_1_PREDICTED_Camarhynchus_parvulus_nuc   63.44%    passed      8.43%
+ 285  XM_031317577_2_PREDICTED_Sander_lucioperca_nucleop   65.40%    failed      0.11%
+ 286  XM_031369768_1_PREDICTED_Mastomys_coucha_nucleopor   64.84%    passed      5.60%
+ 287  XM_031601734_1_PREDICTED_Phasianus_colchicus_nucle   63.68%    failed      0.00%
+ 288  XM_039615143_1_PREDICTED_Oreochromis_aureus_nucleo   65.13%    failed      0.01%
+ 289  XM_031860390_1_PREDICTED_Anarrhichthys_ocellatus_n   64.50%    failed      1.13%
+ 290  XM_032130781_1_PREDICTED_Corvus_moneduloides_nucle   63.54%    passed     10.52%
+ 291  XM_032165440_1_PREDICTED_Hylobates_moloch_nucleopo   63.45%    failed      0.47%
+ 292  XM_032200303_1_PREDICTED_Aythya_fuligula_nucleopor   63.45%    failed      2.02%
+ 293  XM_032232728_1_PREDICTED_Thamnophis_elegans_nucleo   64.35%    failed      0.00%
+ 294  XM_032257624_1_PREDICTED_Sapajus_apella_nucleopori   63.37%    failed      0.12%
+ 295  XM_032308153_1_PREDICTED_Mustela_erminea_nucleopor   64.00%    failed      0.00%
+ 296  XM_032418191_1_PREDICTED_Phoca_vitulina_nucleopori   63.51%    failed      0.02%
+ 297  XM_032539890_1_PREDICTED_Etheostoma_spectabile_nuc   65.40%    failed      0.00%
+ 298  XM_032569708_1_PREDICTED_Xiphophorus_hellerii_nucl   65.12%    failed      0.00%
+ 299  XM_032634498_1_PREDICTED_Phocoena_sinus_nucleopori   63.65%    failed      0.20%
+ 300  XM_032708057_1_PREDICTED_Chiroxiphia_lanceolata_nu   63.58%    passed     41.16%
+ 301  XM_032797684_1_PREDICTED_Chelonoidis_abingdonii_nu   62.12%    failed      0.00%
+ 302  XM_032866100_1_PREDICTED_Lontra_canadensis_nucleop   63.52%    failed      0.00%
+ 303  XM_032902803_1_PREDICTED_Rattus_rattus_nucleoporin   63.84%    passed     39.56%
+ 304  XM_032973331_1_PREDICTED_Petromyzon_marinus_nucleo   71.66%    failed      0.00%
+ 305  XM_033048914_1_PREDICTED_Amblyraja_radiata_nucleop   64.12%    failed      0.00%
+ 306  XM_033077686_1_PREDICTED_Catharus_ustulatus_nucleo   63.54%    passed     16.89%
+ 307  XM_033123094_1_PREDICTED_Rhinolophus_ferrumequinum   63.47%    passed     23.28%
+ 308  XM_033137052_1_PREDICTED_Lacerta_agilis_nucleopori   63.54%    passed     80.35%
+ 309  XM_033194190_1_PREDICTED_Trachypithecus_francoisi_   63.94%    failed      0.12%
+ 310  XM_033647272_1_PREDICTED_Epinephelus_lanceolatus_n   59.98%    failed      0.00%
+ 311  XM_033960858_1_PREDICTED_Geotrypetes_seraphini_nuc   64.21%    failed      0.00%
+ 312  XM_033989189_2_PREDICTED_Periophthalmus_magnuspinn   65.92%    failed      0.00%
+ 313  XM_034095612_1_PREDICTED_Pseudochaenichthys_georgi   65.55%    failed      0.36%
+ 314  XM_034123068_1_PREDICTED_Trematomus_bernacchii_nuc   65.20%    failed      0.05%
+ 315  XM_034192224_1_PREDICTED_Thalassophryne_amazonica_   64.98%    failed      0.00%
+ 316  XM_034203485_1_PREDICTED_Gymnodraco_acuticeps_nucl   65.10%    failed      0.19%
+ 317  XM_034427115_1_PREDICTED_Pantherophis_guttatus_nuc   64.36%    failed      0.00%
+ 318  XM_034494937_1_PREDICTED_Arvicanthis_niloticus_nuc   63.72%    passed     51.13%
+ 319  XM_034546462_1_PREDICTED_Cyclopterus_lumpus_nucleo   64.91%    passed      8.16%
+ 320  XM_034602539_1_PREDICTED_Hippoglossus_hippoglossus   64.98%    failed      3.51%
+ 321  XM_034710297_1_PREDICTED_Notolabrus_celidotus_nucl   64.66%    failed      1.47%
+ 322  XM_034793840_1_PREDICTED_Trachemys_scripta_elegans   63.16%    failed      0.00%
+ 323  XM_034896469_1_PREDICTED_Etheostoma_cragini_nucleo   65.36%    failed      0.00%
+ 324  XM_035015597_1_PREDICTED_Mirounga_leonina_nucleopo   63.93%    failed      0.04%
+ 325  XM_035112650_1_PREDICTED_Zootoca_vivipara_nucleopo   63.51%    passed     20.09%
+ 326  XM_035141352_2_PREDICTED_Hippoglossus_stenolepis_n   65.03%    failed      3.10%
+ 327  XM_035341340_1_PREDICTED_Oxyura_jamaicensis_nucleo   63.51%    failed      0.44%
+ 328  XM_035391661_1_PREDICTED_Anguilla_anguilla_nucleop   64.73%    failed      0.00%
+ 329  XM_035555059_2_PREDICTED_Cygnus_atratus_nucleopori   63.49%    failed      0.41%
+ 330  XM_035668533_1_PREDICTED_Morone_saxatilis_nucleopo   65.20%    passed     10.61%
+ 331  XM_036117073_1_PREDICTED_Halichoerus_grypus_nucleo   63.51%    failed      0.05%
+ 332  XM_036183844_1_PREDICTED_Onychomys_torridus_nucleo   63.59%    passed     21.61%
+ 333  XM_036260779_1_PREDICTED_Molossus_molossus_nucleop   63.45%    failed      0.00%
+ 334  XM_036329313_1_PREDICTED_Myotis_myotis_nucleoporin   62.54%    failed      0.00%
+ 335  XM_036393964_1_PREDICTED_Molothrus_ater_nucleopori   63.52%    passed     15.46%
+ 336  XM_036420376_2_PREDICTED_Pipistrellus_kuhlii_nucle   64.05%    failed      0.00%
+ 337  XM_036529984_1_PREDICTED_Megalops_cyprinoides_nucl   63.77%    failed      0.00%
+ 338  XM_036580651_1_PREDICTED_Colossoma_macropomum_nucl   65.68%    failed      1.68%
+ 339  XM_036749435_1_PREDICTED_Trichosurus_vulpecula_nuc   62.70%    failed      0.00%
+ 340  XM_036854675_1_PREDICTED_Balaenoptera_musculus_nuc   64.22%    failed      0.04%
+ 341  XM_036913550_1_PREDICTED_Manis_pentadactyla_nucleo   63.59%    failed      2.04%
+ 342  XM_037036394_1_PREDICTED_Sturnira_hondurensis_nucl   64.29%    failed      0.00%
+ 343  XM_037116683_1_PREDICTED_Acanthopagrus_latus_nucle   64.89%    passed      7.39%
+ 344  XM_037158519_2_PREDICTED_Artibeus_jamaicensis_nucl   63.23%    failed      0.00%
+ 345  XM_037266271_1_PREDICTED_Syngnathus_acus_nucleopor   65.94%    failed      0.03%
+ 346  XM_037399830_1_PREDICTED_Falco_rusticolus_nucleopo   63.42%    failed      0.00%
+ 347  XM_037485053_1_PREDICTED_Pungitius_pungitius_nucle   65.29%    failed      0.00%
+ 348  XM_037492902_2_PREDICTED_Talpa_occidentalis_nucleo   64.61%    failed      0.00%
+ 349  XM_037692501_1_PREDICTED_Nematolebias_whitei_nucle   65.20%    failed      0.01%
+ 350  XM_037752447_1_PREDICTED_Sebastes_umbrosus_nucleop   64.38%    failed      0.11%
+ 351  XM_037798478_1_PREDICTED_Choloepus_didactylus_nucl   63.59%    failed      0.00%
+ 352  XM_038156473_1_PREDICTED_Motacilla_alba_alba_nucle   63.51%    passed      9.08%
+ 353  XM_038294931_1_PREDICTED_Cyprinodon_tularosa_nucle   65.68%    failed      0.00%
+ 354  XM_038336347_2_PREDICTED_Arvicola_amphibius_nucleo   63.77%    passed     15.05%
+ 355  XM_038374392_2_PREDICTED_Dermochelys_coriacea_nucl   63.17%    failed      0.00%
+ 356  XM_038733442_1_PREDICTED_Micropterus_salmoides_nuc   65.03%    failed      3.02%
+ 357  XM_038744806_1_PREDICTED_Tachyglossus_aculeatus_nu   64.01%    failed      0.00%
+ 358  XM_038781701_1_PREDICTED_Scyliorhinus_canicula_nuc   59.27%    failed      0.00%
+ 359  XM_038970306_1_PREDICTED_Salvelinus_namaycush_nucl   64.54%    failed      0.00%
+ 360  XM_039229502_1_PREDICTED_Hyaena_hyaena_nucleoporin   63.26%    failed      0.00%
+ 361  XM_039345171_1_PREDICTED_Crotalus_tigris_nucleopor   64.29%    failed      0.00%
+ 362  XM_039506511_1_PREDICTED_Mauremys_reevesii_nucleop   63.14%    failed      0.00%
+ 363  XM_039661881_1_PREDICTED_Pimephales_promelas_nucle   65.06%    failed      0.00%
+ 364  XM_039720147_1_PREDICTED_Passer_montanus_nucleopor   63.51%    passed     19.77%
+ 365  XM_039764390_1_PREDICTED_Polypterus_senegalus_nucl   64.14%    failed      0.00%
+ 366  XM_039780595_1_PREDICTED_Perca_fluviatilis_nucleop   65.13%    failed      0.03%
+ 367  XM_039862878_1_PREDICTED_Pteropus_giganteus_nucleo   63.31%    failed      0.00%
+ 368  XM_040053291_1_PREDICTED_Simochromis_diagramma_nuc   64.52%    failed      0.00%
+ 369  XM_040083335_1_PREDICTED_Hirundo_rustica_nucleopor   63.54%    passed     99.37%
+ 370  XM_040157349_1_PREDICTED_Xiphias_gladius_nucleopor   64.91%    failed      0.16%
+ 371  XM_040197849_1_PREDICTED_Gasterosteus_aculeatus_ac   65.43%    failed      0.00%
+ 372  XM_040225408_1_PREDICTED_Oryx_dammah_nucleoporin_2   64.35%    failed      0.64%
+ 373  XM_040353063_1_PREDICTED_Rana_temporaria_nucleopor   63.47%    failed      0.00%
+ 374  XM_040442084_1_PREDICTED_Bufo_bufo_nucleoporin_214   63.05%    failed      0.00%
+ 375  XM_040482665_1_PREDICTED_Puma_yagouaroundi_nucleop   63.45%    failed      0.00%
+ 376  XM_040531496_1_PREDICTED_Cygnus_olor_nucleoporin_2   63.49%    failed      0.15%
+ 377  XM_040606349_1_PREDICTED_Falco_naumanni_nucleopori   63.42%    failed      0.00%
+ 378  XM_040963838_1_PREDICTED_Ochotona_curzoniae_nucleo   63.91%    failed      0.00%
+ 379  XM_041194465_1_PREDICTED_Carcharodon_carcharias_nu   62.96%    failed      1.18%
+ 380  XM_041242744_1_PREDICTED_Polyodon_spathula_nucleop   65.38%    failed      1.86%
+ 381  XM_041406678_1_PREDICTED_Onychostruthus_taczanowsk   63.49%    passed      6.67%
+ 382  XM_041474845_1_PREDICTED_Pyrgilauda_ruficollis_nuc   63.47%    passed      6.12%
+ 383  XM_041674541_1_PREDICTED_Microtus_oregoni_nucleopo   63.87%    passed     43.13%
+ 384  XM_041724983_1_PREDICTED_Vulpes_lagopus_nucleopori   63.44%    passed     66.65%
+ 385  XM_041811120_1_PREDICTED_Cheilinus_undulatus_nucle   67.04%    failed      1.58%
+ 386  XM_041960620_1_PREDICTED_Chelmon_rostratus_nucleop   65.17%    failed      1.75%
+ 387  XM_041969906_1_PREDICTED_Melanotaenia_boesemani_nu   65.19%    failed      0.00%
+ 388  XM_042052370_1_PREDICTED_Corvus_kubaryi_nucleopori   63.54%    passed     10.75%
+ 389  XM_042058868_1_PREDICTED_Alosa_sapidissima_nucleop   62.95%    failed      0.00%
+ 390  XM_042396059_1_PREDICTED_Thunnus_maccoyii_nucleopo   64.59%    failed      0.20%
+ 391  XM_042478915_1_PREDICTED_Sceloporus_undulatus_nucl   63.65%    failed      0.34%
+ 392  XM_042508899_1_PREDICTED_Plectropomus_leopardus_nu   64.99%    failed      2.30%
+ 393  XM_042681123_1_PREDICTED_Dipodomys_spectabilis_nuc   63.65%    failed      0.00%
+ 394  XM_042830552_1_PREDICTED_Centrocercus_urophasianus   63.66%    failed      0.00%
+ 395  XM_042879377_1_PREDICTED_Lagopus_leucura_nucleopor   63.68%    failed      0.01%
+ 396  XM_042913514_1_PREDICTED_Panthera_leo_nucleoporin_   64.66%    failed      0.00%
+ 397  XM_043239514_1_PREDICTED_Puntigrus_tetrazona_nucle   65.17%    passed     21.32%
+ 398  XM_043469868_1_PREDICTED_Cervus_canadensis_nucleop   63.30%    failed      2.24%
+ 399  XM_043565657_1_PREDICTED_Prionailurus_bengalensis_   63.38%    failed      0.00%
+ 400  XM_043719712_1_PREDICTED_Chiloscyllium_plagiosum_n   89.78%    failed      0.00%
+ 401  XM_043916573_1_PREDICTED_Cervus_elaphus_nucleopori   63.30%    failed      1.96%
+ 402  XM_044058190_1_PREDICTED_Protopterus_annectens_nuc   64.59%    failed      0.00%
+ 403  XM_044096552_1_PREDICTED_Gambusia_affinis_nucleopo   65.24%    failed      0.17%
+ 404  XM_044173057_1_PREDICTED_Siniperca_chuatsi_nucleop   65.33%    failed      0.18%
+ 405  XM_044269180_1_PREDICTED_Bufo_gargarizans_nucleopo   63.12%    failed      0.00%
+ 406  XM_044333824_1_PREDICTED_Thunnus_albacares_nucleop   64.50%    failed      0.22%
+ 407  XM_044439935_1_PREDICTED_Varanus_komodoensis_nucle   63.56%    failed      0.00%
+ 408  XM_044663974_1_PREDICTED_Gracilinanus_agilis_nucle   63.38%    failed      0.00%
+ 409  XM_044992687_1_PREDICTED_Mauremys_mutica_nucleopor   63.14%    failed      0.00%
+ 410  XM_045468586_1_PREDICTED_Leopardus_geoffroyi_nucle   63.38%    failed      0.00%
+ 411  XM_045563717_1_PREDICTED_Lemur_catta_nucleoporin_2   63.17%    failed      0.29%
+ 412  XM_045771291_1_PREDICTED_Ursus_americanus_nucleopo   63.49%    failed      0.01%
+ 413  XM_045845882_1_PREDICTED_Phyllostomus_hastatus_nuc   62.51%    failed      0.00%
+ 414  XM_045883360_2_PREDICTED_Mirounga_angustirostris_n   63.93%    failed      0.07%
+ 415  XM_046022012_1_PREDICTED_Meles_meles_nucleoporin_2   63.52%    failed      0.00%
+ 416  XM_046066018_1_PREDICTED_Micropterus_dolomieu_nucl   65.03%    failed      3.60%
+ 417  XM_046376060_1_PREDICTED_Scatophagus_argus_nucleop   64.75%    failed      1.03%
+ 418  XM_046451514_1_PREDICTED_Marmota_monax_nucleoporin   63.24%    passed     23.50%
+ 419  XM_046667207_1_PREDICTED_Equus_quagga_nucleoporin_   63.23%    passed     31.75%
+ 420  XM_046839724_1_PREDICTED_Silurus_meridionalis_nucl   65.64%    failed      0.21%
+ 421  XM_047018075_1_PREDICTED_Hypomesus_transpacificus_   64.29%    failed      0.00%
+ 422  XM_047098196_1_PREDICTED_Lynx_rufus_nucleoporin_21   63.33%    failed      0.00%
+ 423  XM_047372207_1_PREDICTED_Girardinichthys_multiradi   65.89%    failed      0.00%
+ 424  XM_047524283_1_PREDICTED_Sciurus_carolinensis_nucl   63.28%    passed     37.08%
+ 425  XM_047570072_1_PREDICTED_Mugil_cephalus_nucleopori   64.85%    passed     27.00%
+ 426  XM_047698766_1_PREDICTED_Lutra_lutra_nucleoporin_2   63.47%    failed      0.00%
+ 427  XM_047768718_1_PREDICTED_Phacochoerus_africanus_nu   63.59%    failed      0.00%
+ 428  XM_047828927_1_PREDICTED_Prionailurus_viverrinus_n   63.38%    failed      0.00%
+ 429  XM_048259276_1_PREDICTED_Alosa_alosa_nucleoporin_2   63.80%    failed      0.00%
+ 430  XM_048325534_1_PREDICTED_Corvus_hawaiiensis_nucleo   63.54%    passed      7.86%
+ 431  XM_048345119_1_PREDICTED_Perognathus_longimembris_   64.70%    failed      0.00%
+ 432  XM_048432047_1_PREDICTED_Myodes_glareolus_nucleopo   63.73%    passed     43.28%
+ 433  XM_048512150_1_PREDICTED_Sphaerodactylus_townsendi   64.82%    failed      0.00%
+ 434  XM_048559141_1_PREDICTED_Stegostoma_fasciatum_nucl   64.07%    failed      0.52%
+ 435  XM_048822631_1_PREDICTED_Caretta_caretta_nucleopor   63.17%    failed      0.00%
+ 436  XM_048965793_1_PREDICTED_Lagopus_muta_nucleoporin_   63.68%    failed      0.01%
+ 437  XM_049019682_1_PREDICTED_Brienomyrus_brachyistius_   64.05%    failed      0.00%
+ 438  XM_049603883_1_PREDICTED_Epinephelus_fuscoguttatus   64.54%    failed      0.79%
+ 439  XM_049630369_1_PREDICTED_Panthera_uncia_nucleopori   64.66%    failed      0.00%
+ 440  XM_049737984_1_PREDICTED_Syngnathus_scovelli_nucle   68.19%    failed      0.50%
+ 441  XM_049772815_1_PREDICTED_Suncus_etruscus_nucleopor   65.21%    failed      0.26%
+ 442  XM_049832130_1_PREDICTED_Accipiter_gentilis_nucleo   63.44%    failed      0.00%
+ 443  XM_049895296_1_PREDICTED_Elephas_maximus_indicus_n   63.23%    failed      0.00%
+ 444  XM_050155361_1_PREDICTED_Microtus_fortis_nucleopor   63.87%    passed     21.68%
+ 445  XM_050320148_1_PREDICTED_Myiozetetes_cayanensis_nu   63.59%    passed     82.25%
+ 446  XM_050759700_1_PREDICTED_Macaca_thibetana_thibetan   63.93%    failed      0.57%
+ 447  XM_050907822_1_PREDICTED_Gymnogyps_californianus_n   63.42%    failed      0.00%
+ 448  XM_050926080_1_PREDICTED_Gopherus_flavomarginatus_   63.16%    failed      0.00%
+ 449  XM_051110066_1_PREDICTED_Labeo_rohita_nucleoporin_   65.17%    failed      0.99%
+ 450  XM_051167195_1_PREDICTED_Acomys_russatus_nucleopor   63.68%    passed     10.40%
+ 451  XM_051185142_1_PREDICTED_Phodopus_roborovskii_nucl   63.68%    passed     17.34%
+ 452  XM_051411593_1_PREDICTED_Dicentrarchus_labrax_nucl   65.36%    failed      0.55%
+ 453  XM_051636584_1_PREDICTED_Apus_apus_nucleoporin_214   63.52%    failed      0.25%
+ 454  XM_051688930_1_PREDICTED_Myxocyprinus_asiaticus_nu   64.71%    passed     75.95%
+ 455  XM_051807803_1_PREDICTED_Manacus_candei_nucleopori   63.63%    passed     33.22%
+ 456  XM_051894733_1_PREDICTED_Ctenopharyngodon_idella_n   65.59%    failed      0.00%
+ 457  XM_051980212_1_PREDICTED_Antechinus_flavipes_nucle   62.32%    failed      0.00%
+ 458  XM_052037469_1_PREDICTED_Pristis_pectinata_nucleop   92.99%    failed      0.00%
+ 459  XM_052050366_1_PREDICTED_Hippocampus_zosterae_nucl   65.78%    failed      0.00%
+ 460  XM_052115632_1_PREDICTED_Xyrauchen_texanus_nucleop   65.29%    passed     69.64%
+ 461  XM_052182142_1_PREDICTED_Apodemus_sylvaticus_nucle   63.80%    passed     37.08%
+ 462  XM_052591666_1_PREDICTED_Carassius_gibelio_nucleop   64.84%    passed     13.84%
+ 463  XM_052647937_1_PREDICTED_Budorcas_taxicolor_nucleo   63.40%    failed      1.09%
+ 464  XM_052669167_1_PREDICTED_Tympanuchus_pallidicinctu   63.68%    failed      0.01%
+ 465  XM_052722601_1_PREDICTED_Peromyscus_californicus_i   63.58%    passed      7.68%
+ 466  XM_052816015_1_PREDICTED_Harpia_harpyja_nucleopori   63.42%    failed      0.00%
+ 467  XM_053282155_1_PREDICTED_Hemicordylus_capensis_nuc   64.35%    failed      0.00%
+ 468  XM_053340284_1_PREDICTED_Scomber_japonicus_nucleop   64.99%    failed      1.80%
+ 469  XM_053373343_1_PREDICTED_Podarcis_raffonei_nucleop   63.79%    passed     69.97%
+ 470  XM_053410781_1_PREDICTED_Pleuronectes_platessa_nuc   65.24%    failed      4.33%
+ 471  XM_053473291_1_PREDICTED_Spea_bombifrons_nucleopor   64.78%    passed     42.30%
+ 472  XM_053485896_1_PREDICTED_Clarias_gariepinus_nucleo   65.27%    failed      0.00%
+ 473  XM_053559302_1_PREDICTED_Nycticebus_coucang_nucleo   63.30%    failed      3.44%
+ 474  XM_053618586_1_PREDICTED_Ictalurus_furcatus_nucleo   65.94%    failed      0.00%
+ 475  XM_053695786_1_PREDICTED_Bombina_bombina_nucleopor   64.87%    failed      0.01%
+ 476  XM_053874182_1_PREDICTED_Synchiropus_splendidus_nu   65.94%    failed      0.00%
+ 477  XM_053962209_1_PREDICTED_Vidua_chalybeata_nucleopo   63.52%    passed      8.12%
+ 478  XM_053996505_1_PREDICTED_Vidua_macroura_nucleopori   63.52%    passed      9.49%
+ 479  XM_054007455_1_PREDICTED_Malaclemys_terrapin_pilea   63.23%    failed      0.00%
+ 480  XM_054221025_1_PREDICTED_Rissa_tridactyla_nucleopo   63.54%    failed      0.01%
+ 481  XM_010587555_2_PREDICTED_Loxodonta_africana_nucleo   63.23%    failed      0.00%
+ 482  XM_031654644_1_PREDICTED_Papio_anubis_nucleoporin_   63.42%    failed      0.60%
+ 483  XM_005660529_3_PREDICTED_Sus_scrofa_nucleoporin_21   63.59%    failed      0.00%
+ 484  XM_030818049_1_PREDICTED_Nomascus_leucogenys_nucle   63.77%    failed      0.11%
+ 485  XM_003822383_5_PREDICTED_Pan_paniscus_nucleoporin_   63.44%    failed      0.83%
+ 486  XM_054284217_1_PREDICTED_Melozone_crissalis_nucleo   63.42%    passed     46.45%
+ 487  XM_054393636_1_PREDICTED_Indicator_indicator_nucle   63.65%    passed     75.58%
+ 488  XM_054500209_1_PREDICTED_Pongo_pygmaeus_nucleopori   63.94%    failed      0.93%
+ 489  XM_054584213_1_PREDICTED_Pteronotus_parnellii_meso   63.26%    failed      0.00%
+ 490  XM_054612448_1_PREDICTED_Anoplopoma_fimbria_nucleo   64.87%    failed      1.09%
+ 491  XM_054646579_1_PREDICTED_Agelaius_phoeniceus_nucle   63.47%    passed     12.43%
+ 492  XM_054757530_1_PREDICTED_Dunckerocampus_dactylioph   65.87%    passed     31.29%
+ 493  XM_054848297_1_PREDICTED_Grus_americana_nucleopori   63.42%    failed      0.00%
+ 494  XM_054997973_1_PREDICTED_Eublepharis_macularius_nu   63.47%    passed     11.09%
+WARNING: 494 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                64.34%  373 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.0224112 secs using 99.99% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.025 seconds
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 16.333 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1935333
+Threads: 2 / Time: 11.400 sec / Speedup: 1.433 / Efficiency: 72% / LogL: -1935333
+Threads: 3 / Time: 9.924 sec / Speedup: 1.646 / Efficiency: 55% / LogL: -1935333
+Threads: 4 / Time: 8.458 sec / Speedup: 1.931 / Efficiency: 48% / LogL: -1935333
+Determining AUTO threadcount: done in 46.1239 secs using 221.2% CPU
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 4.93364 secs using 299.5% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -758579.255
+Optimal log-likelihood: -758578.470
+Rate parameters:  A-C: 1.06097  A-G: 4.37403  A-T: 1.03715  C-G: 1.07141  C-T: 3.44681  G-T: 1.00000
+Base frequencies:  A: 0.231  C: 0.294  G: 0.246  T: 0.229
+Proportion of invariable sites: 0.049
+Gamma shape alpha: 1.065
+Parameters optimization took 1 rounds (2.267 sec)
+Time for fast ML tree search: 29.950 seconds
+
+NOTE: ModelFinder requires 1661 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 17148) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 18.837 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2258983
+Threads: 2 / Time: 11.519 sec / Speedup: 1.635 / Efficiency: 82% / LogL: -2258983
+Threads: 3 / Time: 11.394 sec / Speedup: 1.653 / Efficiency: 55% / LogL: -2258983
+Threads: 4 / Time: 8.404 sec / Speedup: 2.241 / Efficiency: 56% / LogL: -2258983
+Threads: 5 / Time: 7.528 sec / Speedup: 2.502 / Efficiency: 50% / LogL: -2258983
+Threads: 6 / Time: 7.622 sec / Speedup: 2.472 / Efficiency: 41% / LogL: -2258983
+Determining AUTO threadcount: done in 65.3093 secs using 294.3% CPU
+BEST NUMBER OF THREADS: 5
+
+  1  GTR+F         814803.150   993 1631592.300  1631714.504  1639287.690
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 18.432 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2213422
+Threads: 2 / Time: 13.422 sec / Speedup: 1.373 / Efficiency: 69% / LogL: -2213422
+Threads: 3 / Time: 9.786 sec / Speedup: 1.884 / Efficiency: 63% / LogL: -2213422
+Threads: 4 / Time: 9.648 sec / Speedup: 1.910 / Efficiency: 48% / LogL: -2213422
+Determining AUTO threadcount: done in 51.2924 secs using 219.9% CPU
+BEST NUMBER OF THREADS: 3
+
+  2  GTR+F+I       802366.797   994 1606721.593  1606844.051  1614424.732
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 16.214 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1904865
+Threads: 2 / Time: 11.411 sec / Speedup: 1.421 / Efficiency: 71% / LogL: -1904865
+Threads: 3 / Time: 9.521 sec / Speedup: 1.703 / Efficiency: 57% / LogL: -1904865
+Threads: 4 / Time: 8.115 sec / Speedup: 1.998 / Efficiency: 50% / LogL: -1904865
+Determining AUTO threadcount: done in 45.2673 secs using 219.6% CPU
+BEST NUMBER OF THREADS: 3
+
+  3  GTR+F+G4      759572.232   994 1521132.465  1521254.922  1528835.604
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 16.239 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1901067
+Threads: 2 / Time: 11.112 sec / Speedup: 1.461 / Efficiency: 73% / LogL: -1901067
+Threads: 3 / Time: 9.460 sec / Speedup: 1.717 / Efficiency: 57% / LogL: -1901067
+Threads: 4 / Time: 8.198 sec / Speedup: 1.981 / Efficiency: 50% / LogL: -1901067
+Determining AUTO threadcount: done in 45.0165 secs using 219.9% CPU
+BEST NUMBER OF THREADS: 3
+
+  4  GTR+F+I+G4    758578.200   995 1519146.399  1519269.111  1526857.288
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 19.727 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1986901
+Threads: 2 / Time: 13.643 sec / Speedup: 1.446 / Efficiency: 72% / LogL: -1986901
+Threads: 3 / Time: 10.829 sec / Speedup: 1.822 / Efficiency: 61% / LogL: -1986901
+Threads: 4 / Time: 9.966 sec / Speedup: 1.980 / Efficiency: 49% / LogL: -1986901
+Determining AUTO threadcount: done in 54.1718 secs using 219.2% CPU
+BEST NUMBER OF THREADS: 3
+
+  5  GTR+F+R2      769666.283   995 1541322.566  1541445.278  1549033.454
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 18.869 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1937079
+Threads: 2 / Time: 13.168 sec / Speedup: 1.433 / Efficiency: 72% / LogL: -1937079
+Threads: 3 / Time: 10.305 sec / Speedup: 1.831 / Efficiency: 61% / LogL: -1937079
+Threads: 4 / Time: 8.868 sec / Speedup: 2.128 / Efficiency: 53% / LogL: -1937079
+Threads: 5 / Time: 7.858 sec / Speedup: 2.401 / Efficiency: 48% / LogL: -1937079
+Determining AUTO threadcount: done in 59.0741 secs using 254% CPU
+BEST NUMBER OF THREADS: 4
+
+  6  GTR+F+R3      761047.953   997 1524089.907  1524213.127  1531816.295
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 16.098 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1905714
+Threads: 2 / Time: 11.167 sec / Speedup: 1.442 / Efficiency: 72% / LogL: -1905714
+Threads: 3 / Time: 9.530 sec / Speedup: 1.689 / Efficiency: 56% / LogL: -1905714
+Threads: 4 / Time: 8.059 sec / Speedup: 1.997 / Efficiency: 50% / LogL: -1905714
+Determining AUTO threadcount: done in 44.8639 secs using 219.5% CPU
+BEST NUMBER OF THREADS: 3
+
+  7  GTR+F+R4      758448.752   999 1518895.504  1519019.235  1526637.391
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 19.651 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1873971
+Threads: 2 / Time: 12.123 sec / Speedup: 1.621 / Efficiency: 81% / LogL: -1873971
+Threads: 3 / Time: 10.355 sec / Speedup: 1.898 / Efficiency: 63% / LogL: -1873971
+Threads: 4 / Time: 9.644 sec / Speedup: 2.038 / Efficiency: 51% / LogL: -1873971
+Threads: 5 / Time: 8.376 sec / Speedup: 2.346 / Efficiency: 47% / LogL: -1873971
+Determining AUTO threadcount: done in 60.1585 secs using 256.3% CPU
+BEST NUMBER OF THREADS: 4
+
+  8  GTR+F+R5      757346.619   1001 1516695.238  1516819.479  1524452.624
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 23.004 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1881093
+Threads: 2 / Time: 15.337 sec / Speedup: 1.500 / Efficiency: 75% / LogL: -1881093
+Threads: 3 / Time: 12.881 sec / Speedup: 1.786 / Efficiency: 60% / LogL: -1881093
+Threads: 4 / Time: 11.299 sec / Speedup: 2.036 / Efficiency: 51% / LogL: -1881093
+Threads: 5 / Time: 10.352 sec / Speedup: 2.222 / Efficiency: 44% / LogL: -1881093
+Determining AUTO threadcount: done in 72.8852 secs using 257.8% CPU
+BEST NUMBER OF THREADS: 4
+
+  9  GTR+F+R6      756958.906   1003 1515923.812  1516048.566  1523696.698
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 26.459 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1870644
+Threads: 2 / Time: 17.635 sec / Speedup: 1.500 / Efficiency: 75% / LogL: -1870644
+Threads: 3 / Time: 13.744 sec / Speedup: 1.925 / Efficiency: 64% / LogL: -1870644
+Threads: 4 / Time: 11.978 sec / Speedup: 2.209 / Efficiency: 55% / LogL: -1870644
+Threads: 5 / Time: 11.679 sec / Speedup: 2.266 / Efficiency: 45% / LogL: -1870644
+Determining AUTO threadcount: done in 81.5088 secs using 254.8% CPU
+BEST NUMBER OF THREADS: 4
+
+ 10  GTR+F+R7      756829.121   1005 1515668.242  1515793.509  1523456.627
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.256 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1917152
+Threads: 2 / Time: 11.330 sec / Speedup: 1.611 / Efficiency: 81% / LogL: -1917152
+Threads: 3 / Time: 9.143 sec / Speedup: 1.997 / Efficiency: 67% / LogL: -1917152
+Threads: 4 / Time: 7.709 sec / Speedup: 2.368 / Efficiency: 59% / LogL: -1917152
+Threads: 5 / Time: 7.034 sec / Speedup: 2.595 / Efficiency: 52% / LogL: -1917152
+Threads: 6 / Time: 6.700 sec / Speedup: 2.725 / Efficiency: 45% / LogL: -1917152
+Determining AUTO threadcount: done in 60.1907 secs using 285.3% CPU
+BEST NUMBER OF THREADS: 5
+
+ 11  GTR+F+R8      756788.094   1007 1515590.188  1515715.969  1523394.072
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 17.779 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1941292
+Threads: 2 / Time: 11.182 sec / Speedup: 1.590 / Efficiency: 80% / LogL: -1941292
+Threads: 3 / Time: 8.441 sec / Speedup: 2.106 / Efficiency: 70% / LogL: -1941292
+Threads: 4 / Time: 7.186 sec / Speedup: 2.474 / Efficiency: 62% / LogL: -1941292
+Threads: 5 / Time: 6.648 sec / Speedup: 2.674 / Efficiency: 53% / LogL: -1941292
+Threads: 6 / Time: 6.331 sec / Speedup: 2.808 / Efficiency: 47% / LogL: -1941292
+Determining AUTO threadcount: done in 57.5858 secs using 282.4% CPU
+BEST NUMBER OF THREADS: 5
+
+ 12  GTR+F+R9      756779.505   1009 1515577.010  1515703.307  1523396.394
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 18.906 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1956623
+Threads: 2 / Time: 11.586 sec / Speedup: 1.632 / Efficiency: 82% / LogL: -1956623
+Threads: 3 / Time: 12.055 sec / Speedup: 1.568 / Efficiency: 52% / LogL: -1956623
+Threads: 4 / Time: 9.250 sec / Speedup: 2.044 / Efficiency: 51% / LogL: -1956623
+Threads: 5 / Time: 7.975 sec / Speedup: 2.371 / Efficiency: 47% / LogL: -1956623
+Determining AUTO threadcount: done in 59.7762 secs using 258.2% CPU
+BEST NUMBER OF THREADS: 4
+
+ 14  GTR+F+I+I+R2  766772.755   996 1535537.511  1535660.477  1543256.149
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 18.617 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1933244
+Threads: 2 / Time: 11.892 sec / Speedup: 1.565 / Efficiency: 78% / LogL: -1933244
+Threads: 3 / Time: 10.763 sec / Speedup: 1.730 / Efficiency: 58% / LogL: -1933244
+Threads: 4 / Time: 9.135 sec / Speedup: 2.038 / Efficiency: 51% / LogL: -1933244
+Threads: 5 / Time: 7.978 sec / Speedup: 2.334 / Efficiency: 47% / LogL: -1933244
+Determining AUTO threadcount: done in 58.3919 secs using 257.3% CPU
+BEST NUMBER OF THREADS: 4
+
+ 15  GTR+F+I+I+R3  759632.327   998 1521260.653  1521384.129  1528994.791
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 23.651 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1891594
+Threads: 2 / Time: 16.882 sec / Speedup: 1.401 / Efficiency: 70% / LogL: -1891594
+Threads: 3 / Time: 14.444 sec / Speedup: 1.637 / Efficiency: 55% / LogL: -1891594
+Threads: 4 / Time: 12.349 sec / Speedup: 1.915 / Efficiency: 48% / LogL: -1891594
+Determining AUTO threadcount: done in 67.3337 secs using 221.9% CPU
+BEST NUMBER OF THREADS: 3
+
+ 16  GTR+F+I+I+R4  757806.041   1000 1517612.082  1517736.068  1525361.719
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 18.753 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1870051
+Threads: 2 / Time: 11.399 sec / Speedup: 1.645 / Efficiency: 82% / LogL: -1870051
+Threads: 3 / Time: 10.206 sec / Speedup: 1.837 / Efficiency: 61% / LogL: -1870051
+Threads: 4 / Time: 8.862 sec / Speedup: 2.116 / Efficiency: 53% / LogL: -1870051
+Threads: 5 / Time: 8.141 sec / Speedup: 2.304 / Efficiency: 46% / LogL: -1870051
+Determining AUTO threadcount: done in 57.37 secs using 256.4% CPU
+BEST NUMBER OF THREADS: 4
+
+ 17  GTR+F+I+I+R5  757110.717   1002 1516225.435  1516349.932  1523990.571
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 21.865 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1861416
+Threads: 2 / Time: 15.159 sec / Speedup: 1.442 / Efficiency: 72% / LogL: -1861416
+Threads: 3 / Time: 12.580 sec / Speedup: 1.738 / Efficiency: 58% / LogL: -1861416
+Threads: 4 / Time: 10.910 sec / Speedup: 2.004 / Efficiency: 50% / LogL: -1861416
+Threads: 5 / Time: 10.041 sec / Speedup: 2.178 / Efficiency: 44% / LogL: -1861416
+Determining AUTO threadcount: done in 70.5656 secs using 258.5% CPU
+BEST NUMBER OF THREADS: 4
+
+ 18  GTR+F+I+I+R6  756851.773   1004 1515711.546  1515836.556  1523492.181
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 25.190 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1863146
+Threads: 2 / Time: 16.154 sec / Speedup: 1.559 / Efficiency: 78% / LogL: -1863146
+Threads: 3 / Time: 13.444 sec / Speedup: 1.874 / Efficiency: 62% / LogL: -1863146
+Threads: 4 / Time: 11.677 sec / Speedup: 2.157 / Efficiency: 54% / LogL: -1863146
+Threads: 5 / Time: 10.884 sec / Speedup: 2.314 / Efficiency: 46% / LogL: -1863146
+Determining AUTO threadcount: done in 77.3623 secs using 255.2% CPU
+BEST NUMBER OF THREADS: 4
+
+ 19  GTR+F+I+I+R7  756760.006   1006 1515532.012  1515657.537  1523328.147
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.274 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1923599
+Threads: 2 / Time: 11.350 sec / Speedup: 1.610 / Efficiency: 81% / LogL: -1923599
+Threads: 3 / Time: 9.177 sec / Speedup: 1.991 / Efficiency: 66% / LogL: -1923599
+Threads: 4 / Time: 7.807 sec / Speedup: 2.341 / Efficiency: 59% / LogL: -1923599
+Threads: 5 / Time: 7.158 sec / Speedup: 2.553 / Efficiency: 51% / LogL: -1923599
+Threads: 6 / Time: 6.709 sec / Speedup: 2.724 / Efficiency: 45% / LogL: -1923599
+Determining AUTO threadcount: done in 60.492 secs using 286.1% CPU
+BEST NUMBER OF THREADS: 5
+
+ 20  GTR+F+I+I+R8  756734.667   1008 1515485.334  1515611.373  1523296.968
+Measuring multi-threading efficiency up to 16 CPU cores
+7 trees examined
+Threads: 1 / Time: 17.950 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1897695
+Threads: 2 / Time: 11.217 sec / Speedup: 1.600 / Efficiency: 80% / LogL: -1897695
+Threads: 3 / Time: 8.485 sec / Speedup: 2.116 / Efficiency: 71% / LogL: -1897695
+Threads: 4 / Time: 7.239 sec / Speedup: 2.480 / Efficiency: 62% / LogL: -1897695
+Threads: 5 / Time: 6.901 sec / Speedup: 2.601 / Efficiency: 52% / LogL: -1897695
+Threads: 6 / Time: 6.226 sec / Speedup: 2.883 / Efficiency: 48% / LogL: -1897695
+Determining AUTO threadcount: done in 58.0389 secs using 282.3% CPU
+BEST NUMBER OF THREADS: 4
+
+ 21  GTR+F+I+I+R9  756733.209   1010 1515486.418  1515612.973  1523313.551
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.282 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1940634
+Threads: 2 / Time: 11.555 sec / Speedup: 1.582 / Efficiency: 79% / LogL: -1940634
+Threads: 3 / Time: 9.186 sec / Speedup: 1.990 / Efficiency: 66% / LogL: -1940634
+Threads: 4 / Time: 7.754 sec / Speedup: 2.358 / Efficiency: 59% / LogL: -1940634
+Threads: 5 / Time: 7.057 sec / Speedup: 2.591 / Efficiency: 52% / LogL: -1940634
+Threads: 6 / Time: 6.636 sec / Speedup: 2.755 / Efficiency: 46% / LogL: -1940634
+Determining AUTO threadcount: done in 60.4887 secs using 284.7% CPU
+BEST NUMBER OF THREADS: 5
+
+ 42  SYM+I+I+R8    758167.066   1005 1518344.131  1518469.398  1526132.516
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 27.661 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1860730
+Threads: 2 / Time: 18.614 sec / Speedup: 1.486 / Efficiency: 74% / LogL: -1860730
+Threads: 3 / Time: 15.744 sec / Speedup: 1.757 / Efficiency: 59% / LogL: -1860730
+Threads: 4 / Time: 13.546 sec / Speedup: 2.042 / Efficiency: 51% / LogL: -1860730
+Threads: 5 / Time: 12.852 sec / Speedup: 2.152 / Efficiency: 43% / LogL: -1860730
+Determining AUTO threadcount: done in 88.432 secs using 258.8% CPU
+BEST NUMBER OF THREADS: 4
+
+ 64  TVM+F+I+I+R8  757126.498   1007 1516266.996  1516392.778  1524070.881
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.261 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1921775
+Threads: 2 / Time: 11.374 sec / Speedup: 1.606 / Efficiency: 80% / LogL: -1921775
+Threads: 3 / Time: 9.271 sec / Speedup: 1.970 / Efficiency: 66% / LogL: -1921775
+Threads: 4 / Time: 7.891 sec / Speedup: 2.314 / Efficiency: 58% / LogL: -1921775
+Threads: 5 / Time: 7.322 sec / Speedup: 2.494 / Efficiency: 50% / LogL: -1921775
+Determining AUTO threadcount: done in 54.1338 secs using 249.4% CPU
+BEST NUMBER OF THREADS: 4
+
+ 86  TVMe+I+I+R8   758286.285   1004 1518580.569  1518705.579  1526361.204
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 25.237 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1863156
+Threads: 2 / Time: 16.918 sec / Speedup: 1.492 / Efficiency: 75% / LogL: -1863156
+Threads: 3 / Time: 14.309 sec / Speedup: 1.764 / Efficiency: 59% / LogL: -1863156
+Threads: 4 / Time: 12.169 sec / Speedup: 2.074 / Efficiency: 52% / LogL: -1863156
+Threads: 5 / Time: 11.322 sec / Speedup: 2.229 / Efficiency: 45% / LogL: -1863156
+Determining AUTO threadcount: done in 79.9712 secs using 257.1% CPU
+BEST NUMBER OF THREADS: 4
+
+108  TIM3+F+I+I+R8 756737.139   1006 1515486.278  1515611.802  1523282.413
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.283 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1934933
+Threads: 2 / Time: 11.515 sec / Speedup: 1.588 / Efficiency: 79% / LogL: -1934933
+Threads: 3 / Time: 9.113 sec / Speedup: 2.006 / Efficiency: 67% / LogL: -1934933
+Threads: 4 / Time: 7.818 sec / Speedup: 2.338 / Efficiency: 58% / LogL: -1934933
+Threads: 5 / Time: 6.661 sec / Speedup: 2.745 / Efficiency: 55% / LogL: -1934933
+Threads: 6 / Time: 6.673 sec / Speedup: 2.740 / Efficiency: 46% / LogL: -1934933
+Determining AUTO threadcount: done in 60.0815 secs using 283.7% CPU
+BEST NUMBER OF THREADS: 5
+
+130  TIM3e+I+I+R8  758180.235   1003 1518366.470  1518491.224  1526139.356
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 25.326 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1867042
+Threads: 2 / Time: 16.892 sec / Speedup: 1.499 / Efficiency: 75% / LogL: -1867042
+Threads: 3 / Time: 14.318 sec / Speedup: 1.769 / Efficiency: 59% / LogL: -1867042
+Threads: 4 / Time: 12.224 sec / Speedup: 2.072 / Efficiency: 52% / LogL: -1867042
+Threads: 5 / Time: 11.318 sec / Speedup: 2.238 / Efficiency: 45% / LogL: -1867042
+Determining AUTO threadcount: done in 80.0933 secs using 256.9% CPU
+BEST NUMBER OF THREADS: 4
+
+152  TIM2+F+I+I+R8 756740.837   1006 1515493.673  1515619.197  1523289.808
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.393 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1950421
+Threads: 2 / Time: 11.700 sec / Speedup: 1.572 / Efficiency: 79% / LogL: -1950421
+Threads: 3 / Time: 9.231 sec / Speedup: 1.993 / Efficiency: 66% / LogL: -1950421
+Threads: 4 / Time: 7.813 sec / Speedup: 2.354 / Efficiency: 59% / LogL: -1950421
+Threads: 5 / Time: 7.146 sec / Speedup: 2.574 / Efficiency: 51% / LogL: -1950421
+Threads: 6 / Time: 6.749 sec / Speedup: 2.725 / Efficiency: 45% / LogL: -1950421
+Determining AUTO threadcount: done in 61.0511 secs using 285.1% CPU
+BEST NUMBER OF THREADS: 5
+
+174  TIM2e+I+I+R8  758408.874   1003 1518823.748  1518948.502  1526596.634
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 25.287 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1859077
+Threads: 2 / Time: 17.342 sec / Speedup: 1.458 / Efficiency: 73% / LogL: -1859077
+Threads: 3 / Time: 14.137 sec / Speedup: 1.789 / Efficiency: 60% / LogL: -1859077
+Threads: 4 / Time: 12.247 sec / Speedup: 2.065 / Efficiency: 52% / LogL: -1859077
+Threads: 5 / Time: 11.301 sec / Speedup: 2.238 / Efficiency: 45% / LogL: -1859077
+Determining AUTO threadcount: done in 80.33 secs using 256.6% CPU
+BEST NUMBER OF THREADS: 4
+
+196  TIM+F+I+I+R8  756739.776   1006 1515491.551  1515617.075  1523287.686
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.372 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1928976
+Threads: 2 / Time: 11.321 sec / Speedup: 1.623 / Efficiency: 81% / LogL: -1928976
+Threads: 3 / Time: 9.130 sec / Speedup: 2.012 / Efficiency: 67% / LogL: -1928976
+Threads: 4 / Time: 7.741 sec / Speedup: 2.373 / Efficiency: 59% / LogL: -1928976
+Threads: 5 / Time: 7.086 sec / Speedup: 2.593 / Efficiency: 52% / LogL: -1928976
+Threads: 6 / Time: 6.712 sec / Speedup: 2.737 / Efficiency: 46% / LogL: -1928976
+Determining AUTO threadcount: done in 60.3808 secs using 285.3% CPU
+BEST NUMBER OF THREADS: 5
+
+218  TIMe+I+I+R8   758413.234   1003 1518832.468  1518957.222  1526605.354
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 27.628 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1881684
+Threads: 2 / Time: 19.081 sec / Speedup: 1.448 / Efficiency: 72% / LogL: -1881684
+Threads: 3 / Time: 15.565 sec / Speedup: 1.775 / Efficiency: 59% / LogL: -1881684
+Threads: 4 / Time: 13.436 sec / Speedup: 2.056 / Efficiency: 51% / LogL: -1881684
+Threads: 5 / Time: 12.328 sec / Speedup: 2.241 / Efficiency: 45% / LogL: -1881684
+Determining AUTO threadcount: done in 88.0542 secs using 256.7% CPU
+BEST NUMBER OF THREADS: 4
+
+240  TPM3u+F+I+I+R8 757130.076   1005 1516270.152  1516395.419  1524058.537
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.264 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1933338
+Threads: 2 / Time: 11.272 sec / Speedup: 1.620 / Efficiency: 81% / LogL: -1933338
+Threads: 3 / Time: 9.058 sec / Speedup: 2.016 / Efficiency: 67% / LogL: -1933338
+Threads: 4 / Time: 7.640 sec / Speedup: 2.391 / Efficiency: 60% / LogL: -1933338
+Threads: 5 / Time: 7.046 sec / Speedup: 2.592 / Efficiency: 52% / LogL: -1933338
+Threads: 6 / Time: 6.714 sec / Speedup: 2.720 / Efficiency: 45% / LogL: -1933338
+Determining AUTO threadcount: done in 60.013 secs using 285.4% CPU
+BEST NUMBER OF THREADS: 5
+
+262  TPM3+I+I+R8   758297.496   1002 1518598.992  1518723.490  1526364.128
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 27.662 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1868584
+Threads: 2 / Time: 18.164 sec / Speedup: 1.523 / Efficiency: 76% / LogL: -1868584
+Threads: 3 / Time: 15.141 sec / Speedup: 1.827 / Efficiency: 61% / LogL: -1868584
+Threads: 4 / Time: 13.532 sec / Speedup: 2.044 / Efficiency: 51% / LogL: -1868584
+Threads: 5 / Time: 12.563 sec / Speedup: 2.202 / Efficiency: 44% / LogL: -1868584
+Determining AUTO threadcount: done in 87.0782 secs using 258% CPU
+BEST NUMBER OF THREADS: 4
+
+284  TPM2u+F+I+I+R8 757135.054   1005 1516280.107  1516405.374  1524068.493
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.212 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1944029
+Threads: 2 / Time: 11.264 sec / Speedup: 1.617 / Efficiency: 81% / LogL: -1944029
+Threads: 3 / Time: 9.054 sec / Speedup: 2.011 / Efficiency: 67% / LogL: -1944029
+Threads: 4 / Time: 7.717 sec / Speedup: 2.360 / Efficiency: 59% / LogL: -1944029
+Threads: 5 / Time: 6.783 sec / Speedup: 2.685 / Efficiency: 54% / LogL: -1944029
+Threads: 6 / Time: 6.678 sec / Speedup: 2.727 / Efficiency: 45% / LogL: -1944029
+Determining AUTO threadcount: done in 59.7266 secs using 284.5% CPU
+BEST NUMBER OF THREADS: 5
+
+306  TPM2+I+I+R8   758539.430   1002 1519082.860  1519207.358  1526847.996
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 27.706 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1880671
+Threads: 2 / Time: 18.295 sec / Speedup: 1.514 / Efficiency: 76% / LogL: -1880671
+Threads: 3 / Time: 15.167 sec / Speedup: 1.827 / Efficiency: 61% / LogL: -1880671
+Threads: 4 / Time: 13.238 sec / Speedup: 2.093 / Efficiency: 52% / LogL: -1880671
+Threads: 5 / Time: 12.526 sec / Speedup: 2.212 / Efficiency: 44% / LogL: -1880671
+Determining AUTO threadcount: done in 86.9472 secs using 257.2% CPU
+BEST NUMBER OF THREADS: 4
+
+328  K3Pu+F+I+I+R8 757134.839   1005 1516279.678  1516404.945  1524068.064
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.235 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1912077
+Threads: 2 / Time: 11.240 sec / Speedup: 1.622 / Efficiency: 81% / LogL: -1912077
+Threads: 3 / Time: 9.130 sec / Speedup: 1.997 / Efficiency: 67% / LogL: -1912077
+Threads: 4 / Time: 7.687 sec / Speedup: 2.372 / Efficiency: 59% / LogL: -1912077
+Threads: 5 / Time: 7.089 sec / Speedup: 2.572 / Efficiency: 51% / LogL: -1912077
+Threads: 6 / Time: 6.596 sec / Speedup: 2.765 / Efficiency: 46% / LogL: -1912077
+Determining AUTO threadcount: done in 59.9946 secs using 285.2% CPU
+BEST NUMBER OF THREADS: 5
+
+350  K3P+I+I+R8    758542.167   1002 1519088.334  1519212.832  1526853.470
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 25.242 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1859072
+Threads: 2 / Time: 16.663 sec / Speedup: 1.515 / Efficiency: 76% / LogL: -1859072
+Threads: 3 / Time: 13.861 sec / Speedup: 1.821 / Efficiency: 61% / LogL: -1859072
+Threads: 4 / Time: 11.959 sec / Speedup: 2.111 / Efficiency: 53% / LogL: -1859072
+Threads: 5 / Time: 11.459 sec / Speedup: 2.203 / Efficiency: 44% / LogL: -1859072
+Determining AUTO threadcount: done in 79.2007 secs using 257% CPU
+BEST NUMBER OF THREADS: 4
+
+372  TN+F+I+I+R8   756741.735   1005 1515493.470  1515618.737  1523281.855
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.373 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1934049
+Threads: 2 / Time: 11.663 sec / Speedup: 1.575 / Efficiency: 79% / LogL: -1934049
+Threads: 3 / Time: 9.279 sec / Speedup: 1.980 / Efficiency: 66% / LogL: -1934049
+Threads: 4 / Time: 7.734 sec / Speedup: 2.376 / Efficiency: 59% / LogL: -1934049
+Threads: 5 / Time: 7.148 sec / Speedup: 2.570 / Efficiency: 51% / LogL: -1934049
+Threads: 6 / Time: 6.670 sec / Speedup: 2.755 / Efficiency: 46% / LogL: -1934049
+Determining AUTO threadcount: done in 60.8852 secs using 284.8% CPU
+BEST NUMBER OF THREADS: 5
+
+394  TNe+I+I+R8    758418.588   1002 1518841.176  1518965.673  1526606.312
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 27.780 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1876028
+Threads: 2 / Time: 19.249 sec / Speedup: 1.443 / Efficiency: 72% / LogL: -1876028
+Threads: 3 / Time: 15.600 sec / Speedup: 1.781 / Efficiency: 59% / LogL: -1876028
+Threads: 4 / Time: 13.388 sec / Speedup: 2.075 / Efficiency: 52% / LogL: -1876028
+Threads: 5 / Time: 12.787 sec / Speedup: 2.172 / Efficiency: 43% / LogL: -1876028
+Determining AUTO threadcount: done in 88.8197 secs using 257.7% CPU
+BEST NUMBER OF THREADS: 4
+
+416  HKY+F+I+I+R8  757136.673   1004 1516281.347  1516406.357  1524061.982
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.350 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1932291
+Threads: 2 / Time: 11.757 sec / Speedup: 1.561 / Efficiency: 78% / LogL: -1932291
+Threads: 3 / Time: 9.220 sec / Speedup: 1.990 / Efficiency: 66% / LogL: -1932291
+Threads: 4 / Time: 7.725 sec / Speedup: 2.375 / Efficiency: 59% / LogL: -1932291
+Threads: 5 / Time: 7.082 sec / Speedup: 2.591 / Efficiency: 52% / LogL: -1932291
+Threads: 6 / Time: 6.667 sec / Speedup: 2.752 / Efficiency: 46% / LogL: -1932291
+Determining AUTO threadcount: done in 60.8199 secs using 284.5% CPU
+BEST NUMBER OF THREADS: 5
+
+438  K2P+I+I+R8    758547.845   1001 1519097.689  1519221.931  1526855.076
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.148 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1989024
+Threads: 2 / Time: 11.674 sec / Speedup: 1.555 / Efficiency: 78% / LogL: -1989024
+Threads: 3 / Time: 9.028 sec / Speedup: 2.010 / Efficiency: 67% / LogL: -1989024
+Threads: 4 / Time: 7.694 sec / Speedup: 2.359 / Efficiency: 59% / LogL: -1989024
+Threads: 5 / Time: 7.064 sec / Speedup: 2.569 / Efficiency: 51% / LogL: -1989024
+Threads: 6 / Time: 6.751 sec / Speedup: 2.688 / Efficiency: 45% / LogL: -1989024
+Determining AUTO threadcount: done in 60.3773 secs using 285.4% CPU
+BEST NUMBER OF THREADS: 5
+
+460  F81+F+I+I+R8  784894.467   1003 1571794.934  1571919.687  1579567.819
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.046 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1975851
+Threads: 2 / Time: 11.257 sec / Speedup: 1.603 / Efficiency: 80% / LogL: -1975851
+Threads: 3 / Time: 8.954 sec / Speedup: 2.015 / Efficiency: 67% / LogL: -1975851
+Threads: 4 / Time: 7.679 sec / Speedup: 2.350 / Efficiency: 59% / LogL: -1975851
+Threads: 5 / Time: 7.071 sec / Speedup: 2.552 / Efficiency: 51% / LogL: -1975851
+Threads: 6 / Time: 6.599 sec / Speedup: 2.735 / Efficiency: 46% / LogL: -1975851
+Determining AUTO threadcount: done in 59.6254 secs using 285.7% CPU
+BEST NUMBER OF THREADS: 5
+
+482  JC+I+I+R8     786033.475   1000 1574066.949  1574190.935  1581816.586
+Akaike Information Criterion:           GTR+F+I+I+R8
+Corrected Akaike Information Criterion: GTR+F+I+I+R8
+Bayesian Information Criterion:         TN+F+I+I+R8
+Best-fit model: TN+F+I+I+R8 chosen according to BIC
+
+All model information printed to /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.model.gz
+CPU time for ModelFinder: 54035.679 seconds (15h:0m:35s)
+Wall-clock time for ModelFinder: 13496.561 seconds (3h:44m:56s)
+Generating 1000 samples for ultrafast bootstrap (seed: 742690)...
+
+NOTE: 1336 MB RAM (1 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+8 trees examined
+Threads: 1 / Time: 18.268 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1980706
+Threads: 2 / Time: 11.623 sec / Speedup: 1.572 / Efficiency: 79% / LogL: -1980706
+Threads: 3 / Time: 9.291 sec / Speedup: 1.966 / Efficiency: 66% / LogL: -1980706
+Threads: 4 / Time: 7.824 sec / Speedup: 2.335 / Efficiency: 58% / LogL: -1980706
+Threads: 5 / Time: 7.138 sec / Speedup: 2.559 / Efficiency: 51% / LogL: -1980706
+Threads: 6 / Time: 6.718 sec / Speedup: 2.719 / Efficiency: 45% / LogL: -1980706
+Determining AUTO threadcount: done in 60.881 secs using 285.5% CPU
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -756741.735
+2. Current log-likelihood: -756741.633
+Optimal log-likelihood: -756741.506
+Rate parameters:  A-C: 1.00000  A-G: 4.18499  A-T: 1.00000  C-G: 1.00000  C-T: 3.30713  G-T: 1.00000
+Base frequencies:  A: 0.231  C: 0.294  G: 0.246  T: 0.229
+Proportion of invariable sites: 0.042
+Site proportion and rates:  (0.101,0.057) (0.092,0.191) (0.097,0.389) (0.130,0.644) (0.178,0.979) (0.189,1.489) (0.141,2.160) (0.030,3.174)
+Parameters optimization took 2 rounds (11.047 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.17764 secs using 500% CPU
+Computing ML distances took 1.183117 sec (of wall-clock time) 5.912710 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00473295 secs using 349.7% CPU
+Constructing RapidNJ tree: done in 2.15191 secs using 133.4% CPU
+Computing RapidNJ tree took 2.156766 sec (of wall-clock time) 2.888214 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -762435.871
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 113.490 second
+Computing log-likelihood of 98 initial trees ... 75.600 seconds
+Current best score: -756741.506
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 5.36829 secs using 499.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -756739.259
+Optimizing NNI: done in 17.7026 secs using 499.6% CPU
+Optimizing NNI: done in 14.906 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -756706.128
+Optimizing NNI: done in 15.8619 secs using 499.6% CPU
+Optimizing NNI: done in 15.0867 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -756657.438
+Optimizing NNI: done in 15.3604 secs using 499.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -756597.785
+Optimizing NNI: done in 14.5823 secs using 499.6% CPU
+Optimizing NNI: done in 14.4837 secs using 499.6% CPU
+Optimizing NNI: done in 15.1223 secs using 499.6% CPU
+Optimizing NNI: done in 14.9442 secs using 499.7% CPU
+Iteration 10 / LogL: -756722.547 / Time: 0h:11m:32s
+Optimizing NNI: done in 14.7134 secs using 499.6% CPU
+Optimizing NNI: done in 13.7246 secs using 499.6% CPU
+Optimizing NNI: done in 20.9484 secs using 499.7% CPU
+Optimizing NNI: done in 13.535 secs using 499.6% CPU
+Optimizing NNI: done in 16.1752 secs using 499.7% CPU
+Optimizing NNI: done in 14.8848 secs using 499.6% CPU
+Optimizing NNI: done in 15.6398 secs using 499.6% CPU
+Optimizing NNI: done in 15.038 secs using 499.6% CPU
+Optimizing NNI: done in 21.7931 secs using 499.6% CPU
+Optimizing NNI: done in 15.9337 secs using 499.6% CPU
+Iteration 20 / LogL: -756710.265 / Time: 0h:14m:15s
+Finish initializing candidate tree set (20)
+Current best tree score: -756597.785 / CPU time: 766.173
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 13.6691 secs using 499.5% CPU
+Optimizing NNI: done in 13.5516 secs using 499.5% CPU
+Optimizing NNI: done in 13.7989 secs using 499.4% CPU
+Optimizing NNI: done in 12.2648 secs using 499.4% CPU
+Optimizing NNI: done in 14.2896 secs using 499.5% CPU
+Optimizing NNI: done in 12.1709 secs using 499.5% CPU
+Optimizing NNI: done in 13.9079 secs using 499.4% CPU
+Optimizing NNI: done in 12.2296 secs using 499.5% CPU
+Optimizing NNI: done in 13.9639 secs using 499.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -756524.082
+Optimizing NNI: done in 13.156 secs using 499.5% CPU
+Iteration 30 / LogL: -756625.626 / Time: 0h:16m:59s (0h:58m:0s left)
+Optimizing NNI: done in 13.9711 secs using 499.5% CPU
+Optimizing NNI: done in 13.5878 secs using 499.5% CPU
+Optimizing NNI: done in 13.311 secs using 499.5% CPU
+Optimizing NNI: done in 13.7657 secs using 499.4% CPU
+Optimizing NNI: done in 14.7459 secs using 499.4% CPU
+Optimizing NNI: done in 12.6642 secs using 499.5% CPU
+Optimizing NNI: done in 12.5118 secs using 499.4% CPU
+Optimizing NNI: done in 14.0148 secs using 499.4% CPU
+Optimizing NNI: done in 13.4751 secs using 499.5% CPU
+Optimizing NNI: done in 14.7799 secs using 499.5% CPU
+Iteration 40 / LogL: -756631.115 / Time: 0h:19m:17s (0h:44m:2s left)
+Optimizing NNI: done in 13.6532 secs using 499.4% CPU
+Optimizing NNI: done in 12.8264 secs using 499.5% CPU
+Optimizing NNI: done in 12.8208 secs using 499.4% CPU
+Optimizing NNI: done in 14.8351 secs using 499.5% CPU
+Optimizing NNI: done in 14.304 secs using 499.5% CPU
+Optimizing NNI: done in 13.4894 secs using 499.4% CPU
+Optimizing NNI: done in 13.0851 secs using 499.4% CPU
+Optimizing NNI: done in 13.5547 secs using 499.5% CPU
+Optimizing NNI: done in 13.4713 secs using 499.6% CPU
+Optimizing NNI: done in 14.9307 secs using 499.3% CPU
+Iteration 50 / LogL: -756559.479 / Time: 0h:21m:36s (0h:34m:49s left)
+Log-likelihood cutoff on original alignment: -756686.533
+Optimizing NNI: done in 14.4208 secs using 499.5% CPU
+Optimizing NNI: done in 13.3089 secs using 499.4% CPU
+Optimizing NNI: done in 15.0301 secs using 499.5% CPU
+Optimizing NNI: done in 13.4118 secs using 499.5% CPU
+Optimizing NNI: done in 15.253 secs using 499.5% CPU
+Optimizing NNI: done in 14.1919 secs using 499.6% CPU
+Optimizing NNI: done in 13.8722 secs using 499.5% CPU
+Optimizing NNI: done in 13.1307 secs using 499.5% CPU
+Optimizing NNI: done in 14.1991 secs using 499.5% CPU
+Optimizing NNI: done in 13.3396 secs using 499.4% CPU
+Iteration 60 / LogL: -756532.914 / Time: 0h:23m:59s (0h:28m:3s left)
+Optimizing NNI: done in 14.3149 secs using 499.6% CPU
+Optimizing NNI: done in 13.3512 secs using 499.5% CPU
+Optimizing NNI: done in 13.5737 secs using 499.5% CPU
+Optimizing NNI: done in 15.0167 secs using 499.5% CPU
+Optimizing NNI: done in 15.2937 secs using 499.4% CPU
+Optimizing NNI: done in 13.0142 secs using 499.4% CPU
+Optimizing NNI: done in 15.1719 secs using 499.3% CPU
+Optimizing NNI: done in 13.7187 secs using 499.5% CPU
+Optimizing NNI: done in 14.5051 secs using 499.5% CPU
+Optimizing NNI: done in 14.1009 secs using 499.5% CPU
+Iteration 70 / LogL: -756531.687 / Time: 0h:26m:22s (0h:22m:33s left)
+Optimizing NNI: done in 14.5938 secs using 499.4% CPU
+Optimizing NNI: done in 13.2335 secs using 499.5% CPU
+Optimizing NNI: done in 15.2129 secs using 499.5% CPU
+Optimizing NNI: done in 13.558 secs using 499.5% CPU
+Optimizing NNI: done in 15.4162 secs using 499.4% CPU
+Optimizing NNI: done in 14.6192 secs using 499.5% CPU
+Optimizing NNI: done in 12.8981 secs using 499.5% CPU
+Optimizing NNI: done in 15.1626 secs using 499.5% CPU
+Optimizing NNI: done in 16.2132 secs using 499.4% CPU
+Optimizing NNI: done in 13.1123 secs using 499.4% CPU
+Iteration 80 / LogL: -756533.582 / Time: 0h:28m:48s (0h:17m:51s left)
+Optimizing NNI: done in 13.7294 secs using 499.4% CPU
+Optimizing NNI: done in 14.2893 secs using 499.5% CPU
+Optimizing NNI: done in 12.6418 secs using 499.4% CPU
+Optimizing NNI: done in 13.0522 secs using 499.4% CPU
+Optimizing NNI: done in 14.2594 secs using 499.6% CPU
+Optimizing NNI: done in 14.2646 secs using 499.5% CPU
+Optimizing NNI: done in 12.8533 secs using 499.4% CPU
+Optimizing NNI: done in 12.586 secs using 499.6% CPU
+Optimizing NNI: done in 14.449 secs using 499.5% CPU
+Optimizing NNI: done in 13.4107 secs using 499.5% CPU
+Iteration 90 / LogL: -756535.003 / Time: 0h:31m:5s (0h:13m:37s left)
+Optimizing NNI: done in 14.2029 secs using 499.5% CPU
+Optimizing NNI: done in 14.0455 secs using 499.4% CPU
+Optimizing NNI: done in 15.4635 secs using 499.5% CPU
+Optimizing NNI: done in 15.0132 secs using 499.6% CPU
+Optimizing NNI: done in 12.8606 secs using 499.4% CPU
+Optimizing NNI: done in 13.4484 secs using 499.5% CPU
+Optimizing NNI: done in 14.2248 secs using 499.4% CPU
+Optimizing NNI: done in 12.2204 secs using 499.4% CPU
+Optimizing NNI: done in 15.5724 secs using 499.5% CPU
+Optimizing NNI: done in 14.4398 secs using 499.4% CPU
+Iteration 100 / LogL: -756526.860 / Time: 0h:33m:28s (0h:9m:48s left)
+Log-likelihood cutoff on original alignment: -756681.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Optimizing NNI: done in 12.8729 secs using 499.4% CPU
+Optimizing NNI: done in 13.7798 secs using 499.4% CPU
+Optimizing NNI: done in 14.9079 secs using 499.5% CPU
+Optimizing NNI: done in 14.6691 secs using 499.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -756520.133
+Optimizing NNI: done in 14.0188 secs using 499.4% CPU
+Optimizing NNI: done in 14.0105 secs using 499.5% CPU
+Optimizing NNI: done in 14.4034 secs using 499.6% CPU
+Optimizing NNI: done in 13.9151 secs using 499.5% CPU
+Optimizing NNI: done in 13.6837 secs using 499.5% CPU
+Optimizing NNI: done in 13.2159 secs using 499.5% CPU
+Iteration 110 / LogL: -756563.655 / Time: 0h:36m:11s (0h:31m:12s left)
+Optimizing NNI: done in 14.3999 secs using 499.5% CPU
+Optimizing NNI: done in 16.4648 secs using 499.5% CPU
+Optimizing NNI: done in 15.2529 secs using 499.4% CPU
+Optimizing NNI: done in 12.8962 secs using 499.5% CPU
+Optimizing NNI: done in 12.9948 secs using 499.5% CPU
+Optimizing NNI: done in 13.6219 secs using 499.4% CPU
+Optimizing NNI: done in 14.4175 secs using 499.4% CPU
+Optimizing NNI: done in 12.6637 secs using 499.6% CPU
+Optimizing NNI: done in 13.9905 secs using 499.5% CPU
+Optimizing NNI: done in 13.6405 secs using 499.4% CPU
+Iteration 120 / LogL: -756539.596 / Time: 0h:38m:33s (0h:27m:12s left)
+Optimizing NNI: done in 15.0333 secs using 499.5% CPU
+Optimizing NNI: done in 14.1443 secs using 499.6% CPU
+Optimizing NNI: done in 15.112 secs using 499.5% CPU
+Optimizing NNI: done in 15.3644 secs using 499.6% CPU
+Optimizing NNI: done in 13.2861 secs using 499.5% CPU
+Optimizing NNI: done in 14.5905 secs using 499.4% CPU
+Optimizing NNI: done in 14.978 secs using 499.5% CPU
+Optimizing NNI: done in 12.5017 secs using 499.6% CPU
+Optimizing NNI: done in 14.0331 secs using 499.4% CPU
+Optimizing NNI: done in 13.5942 secs using 499.5% CPU
+Iteration 130 / LogL: -756536.565 / Time: 0h:40m:57s (0h:23m:29s left)
+Optimizing NNI: done in 16.0949 secs using 499.5% CPU
+Optimizing NNI: done in 13.8486 secs using 499.5% CPU
+Optimizing NNI: done in 14.4924 secs using 499.5% CPU
+Optimizing NNI: done in 13.5634 secs using 499.5% CPU
+Optimizing NNI: done in 14.6978 secs using 499.6% CPU
+Optimizing NNI: done in 15.5827 secs using 499.4% CPU
+Optimizing NNI: done in 14.9627 secs using 499.4% CPU
+Optimizing NNI: done in 13.7506 secs using 499.5% CPU
+Optimizing NNI: done in 12.2306 secs using 499.5% CPU
+Optimizing NNI: done in 14.4432 secs using 499.5% CPU
+Iteration 140 / LogL: -756550.110 / Time: 0h:43m:22s (0h:19m:58s left)
+Optimizing NNI: done in 12.8667 secs using 499.5% CPU
+Optimizing NNI: done in 13.0061 secs using 499.5% CPU
+Optimizing NNI: done in 13.586 secs using 499.5% CPU
+Optimizing NNI: done in 13.1923 secs using 499.5% CPU
+Optimizing NNI: done in 14.7194 secs using 499.5% CPU
+Optimizing NNI: done in 13.6883 secs using 499.5% CPU
+Optimizing NNI: done in 15.1885 secs using 499.5% CPU
+Optimizing NNI: done in 13.8217 secs using 499.5% CPU
+Optimizing NNI: done in 14.2851 secs using 499.5% CPU
+Optimizing NNI: done in 13.9527 secs using 499.4% CPU
+Iteration 150 / LogL: -756523.247 / Time: 0h:45m:42s (0h:16m:33s left)
+Log-likelihood cutoff on original alignment: -756681.737
+Optimizing NNI: done in 14.0868 secs using 499.4% CPU
+Optimizing NNI: done in 13.7485 secs using 499.6% CPU
+Optimizing NNI: done in 14.254 secs using 499.5% CPU
+Optimizing NNI: done in 13.8481 secs using 499.5% CPU
+Optimizing NNI: done in 14.2106 secs using 499.5% CPU
+Optimizing NNI: done in 14.2774 secs using 499.5% CPU
+Optimizing NNI: done in 16.2753 secs using 499.6% CPU
+Optimizing NNI: done in 14.567 secs using 499.4% CPU
+Optimizing NNI: done in 14.1611 secs using 499.4% CPU
+Optimizing NNI: done in 13.8912 secs using 499.5% CPU
+Iteration 160 / LogL: -756529.675 / Time: 0h:48m:8s (0h:13m:19s left)
+Optimizing NNI: done in 16.3733 secs using 499.5% CPU
+Optimizing NNI: done in 14.326 secs using 499.6% CPU
+Optimizing NNI: done in 12.8477 secs using 499.5% CPU
+Optimizing NNI: done in 14.7529 secs using 499.5% CPU
+Optimizing NNI: done in 14.2607 secs using 499.5% CPU
+Optimizing NNI: done in 13.7322 secs using 499.4% CPU
+Optimizing NNI: done in 13.0863 secs using 499.4% CPU
+Optimizing NNI: done in 13.0727 secs using 499.4% CPU
+Optimizing NNI: done in 14.6449 secs using 499.6% CPU
+Optimizing NNI: done in 13.5174 secs using 499.5% CPU
+Iteration 170 / LogL: -756532.863 / Time: 0h:50m:30s (0h:10m:9s left)
+Optimizing NNI: done in 14.0249 secs using 499.4% CPU
+Optimizing NNI: done in 13.3703 secs using 499.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 172: -756517.911
+Optimizing NNI: done in 15.0346 secs using 499.5% CPU
+Optimizing NNI: done in 12.9171 secs using 499.5% CPU
+Optimizing NNI: done in 14.2211 secs using 499.5% CPU
+Optimizing NNI: done in 14.7249 secs using 499.5% CPU
+Optimizing NNI: done in 13.5361 secs using 499.4% CPU
+Optimizing NNI: done in 14.2781 secs using 499.6% CPU
+Optimizing NNI: done in 14.1202 secs using 499.5% CPU
+Optimizing NNI: done in 13.17 secs using 499.5% CPU
+Iteration 180 / LogL: -756670.281 / Time: 0h:53m:5s (0h:27m:17s left)
+Optimizing NNI: done in 14.6026 secs using 499.5% CPU
+Optimizing NNI: done in 15.1583 secs using 499.5% CPU
+Optimizing NNI: done in 13.5944 secs using 499.5% CPU
+Optimizing NNI: done in 15.0757 secs using 499.4% CPU
+Optimizing NNI: done in 15.2243 secs using 499.5% CPU
+Optimizing NNI: done in 13.0856 secs using 499.5% CPU
+Optimizing NNI: done in 15.0773 secs using 499.4% CPU
+Optimizing NNI: done in 13.9769 secs using 499.4% CPU
+Optimizing NNI: done in 13.887 secs using 499.5% CPU
+Optimizing NNI: done in 14.0429 secs using 499.4% CPU
+Iteration 190 / LogL: -756528.942 / Time: 0h:55m:30s (0h:24m:4s left)
+Optimizing NNI: done in 15.0327 secs using 499.6% CPU
+Optimizing NNI: done in 13.0586 secs using 499.4% CPU
+Optimizing NNI: done in 13.9933 secs using 499.5% CPU
+Optimizing NNI: done in 15.1736 secs using 499.4% CPU
+Optimizing NNI: done in 14.2053 secs using 499.5% CPU
+Optimizing NNI: done in 13.1292 secs using 499.6% CPU
+Optimizing NNI: done in 13.5577 secs using 499.4% CPU
+Optimizing NNI: done in 14.7683 secs using 499.5% CPU
+Optimizing NNI: done in 13.8519 secs using 499.6% CPU
+Optimizing NNI: done in 13.388 secs using 499.5% CPU
+Iteration 200 / LogL: -756810.260 / Time: 0h:57m:52s (0h:20m:56s left)
+Log-likelihood cutoff on original alignment: -756681.737
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Optimizing NNI: done in 13.6105 secs using 499.4% CPU
+Optimizing NNI: done in 13.5534 secs using 499.6% CPU
+Optimizing NNI: done in 12.6778 secs using 499.4% CPU
+Optimizing NNI: done in 14.0328 secs using 499.5% CPU
+Optimizing NNI: done in 14.118 secs using 499.5% CPU
+Optimizing NNI: done in 14.1939 secs using 499.4% CPU
+Optimizing NNI: done in 16.0069 secs using 499.4% CPU
+Optimizing NNI: done in 14.9575 secs using 499.5% CPU
+Optimizing NNI: done in 14.8578 secs using 499.5% CPU
+Optimizing NNI: done in 13.8766 secs using 499.5% CPU
+Iteration 210 / LogL: -756679.232 / Time: 1h:0m:17s (0h:25m:57s left)
+Optimizing NNI: done in 13.4837 secs using 499.4% CPU
+Optimizing NNI: done in 14.0847 secs using 499.5% CPU
+Optimizing NNI: done in 13.7349 secs using 499.5% CPU
+Optimizing NNI: done in 14.2134 secs using 499.4% CPU
+Optimizing NNI: done in 13.3828 secs using 499.5% CPU
+Optimizing NNI: done in 14.5656 secs using 499.5% CPU
+Optimizing NNI: done in 15.855 secs using 499.5% CPU
+Optimizing NNI: done in 13.5801 secs using 499.6% CPU
+Optimizing NNI: done in 13.6591 secs using 499.5% CPU
+Optimizing NNI: done in 13.8531 secs using 499.5% CPU
+Iteration 220 / LogL: -756538.843 / Time: 1h:2m:39s (0h:22m:53s left)
+Optimizing NNI: done in 14.6068 secs using 499.5% CPU
+Optimizing NNI: done in 13.1927 secs using 499.5% CPU
+Optimizing NNI: done in 14.1662 secs using 499.3% CPU
+Optimizing NNI: done in 13.5482 secs using 499.5% CPU
+Optimizing NNI: done in 13.5638 secs using 499.4% CPU
+Optimizing NNI: done in 14.7987 secs using 499.5% CPU
+Optimizing NNI: done in 14.6254 secs using 499.5% CPU
+Optimizing NNI: done in 13.7191 secs using 499.5% CPU
+Optimizing NNI: done in 13.8048 secs using 499.4% CPU
+Optimizing NNI: done in 14.9385 secs using 499.5% CPU
+Iteration 230 / LogL: -756527.871 / Time: 1h:5m:1s (0h:19m:52s left)
+Optimizing NNI: done in 13.1817 secs using 499.4% CPU
+Optimizing NNI: done in 14.4985 secs using 499.5% CPU
+Optimizing NNI: done in 13.2794 secs using 499.6% CPU
+Optimizing NNI: done in 13.6942 secs using 499.5% CPU
+Optimizing NNI: done in 13.048 secs using 499.5% CPU
+Optimizing NNI: done in 14.632 secs using 499.5% CPU
+Optimizing NNI: done in 15.0201 secs using 499.5% CPU
+Optimizing NNI: done in 13.1078 secs using 499.4% CPU
+Optimizing NNI: done in 15.8656 secs using 499.6% CPU
+Optimizing NNI: done in 12.1669 secs using 499.5% CPU
+Iteration 240 / LogL: -756561.484 / Time: 1h:7m:21s (0h:16m:54s left)
+Optimizing NNI: done in 12.4974 secs using 499.5% CPU
+Optimizing NNI: done in 13.4869 secs using 499.5% CPU
+Optimizing NNI: done in 13.6383 secs using 499.6% CPU
+Optimizing NNI: done in 14.9053 secs using 499.5% CPU
+Optimizing NNI: done in 14.7318 secs using 499.5% CPU
+Optimizing NNI: done in 15.1121 secs using 499.5% CPU
+Optimizing NNI: done in 13.7989 secs using 499.4% CPU
+Optimizing NNI: done in 14.5246 secs using 499.5% CPU
+Optimizing NNI: done in 13.4504 secs using 499.6% CPU
+Optimizing NNI: done in 12.669 secs using 499.5% CPU
+Iteration 250 / LogL: -756529.066 / Time: 1h:9m:41s (0h:13m:59s left)
+Log-likelihood cutoff on original alignment: -756681.737
+Optimizing NNI: done in 13.7703 secs using 499.5% CPU
+Optimizing NNI: done in 13.8955 secs using 499.5% CPU
+Optimizing NNI: done in 14.5337 secs using 499.5% CPU
+Optimizing NNI: done in 13.6549 secs using 499.4% CPU
+Optimizing NNI: done in 14.2413 secs using 499.5% CPU
+Optimizing NNI: done in 12.9221 secs using 499.5% CPU
+Optimizing NNI: done in 17.1387 secs using 499.6% CPU
+Optimizing NNI: done in 17.8306 secs using 499.6% CPU
+Optimizing NNI: done in 13.5387 secs using 499.6% CPU
+Optimizing NNI: done in 14.4405 secs using 499.4% CPU
+Iteration 260 / LogL: -756521.798 / Time: 1h:12m:11s (0h:11m:8s left)
+Optimizing NNI: done in 15.4587 secs using 499.5% CPU
+Optimizing NNI: done in 13.8984 secs using 499.5% CPU
+Optimizing NNI: done in 15.9678 secs using 499.4% CPU
+Optimizing NNI: done in 14.6821 secs using 499.5% CPU
+Optimizing NNI: done in 14.7941 secs using 499.5% CPU
+Optimizing NNI: done in 14.7138 secs using 499.5% CPU
+Optimizing NNI: done in 13.5611 secs using 499.6% CPU
+Optimizing NNI: done in 13.0622 secs using 499.5% CPU
+Optimizing NNI: done in 12.1837 secs using 499.5% CPU
+Optimizing NNI: done in 14.6415 secs using 499.5% CPU
+Iteration 270 / LogL: -756647.929 / Time: 1h:14m:35s (0h:8m:19s left)
+Optimizing NNI: done in 14.4186 secs using 499.6% CPU
+Optimizing NNI: done in 14.5675 secs using 499.4% CPU
+Optimizing NNI: done in 13.9791 secs using 499.5% CPU
+TREE SEARCH COMPLETED AFTER 273 ITERATIONS / Time: 1h:15m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -756517.911
+2. Current log-likelihood: -756517.842
+3. Current log-likelihood: -756517.771
+4. Current log-likelihood: -756517.714
+5. Current log-likelihood: -756517.664
+6. Current log-likelihood: -756517.633
+7. Current log-likelihood: -756517.596
+8. Current log-likelihood: -756517.550
+9. Current log-likelihood: -756517.523
+10. Current log-likelihood: -756517.509
+11. Current log-likelihood: -756517.496
+12. Current log-likelihood: -756517.485
+13. Current log-likelihood: -756517.472
+14. Current log-likelihood: -756517.461
+15. Current log-likelihood: -756517.451
+Optimal log-likelihood: -756517.436
+Rate parameters:  A-C: 1.00000  A-G: 4.18937  A-T: 1.00000  C-G: 1.00000  C-T: 3.30820  G-T: 1.00000
+Base frequencies:  A: 0.231  C: 0.294  G: 0.246  T: 0.229
+Proportion of invariable sites: 0.040
+Site proportion and rates:  (0.097,0.052) (0.093,0.182) (0.099,0.382) (0.132,0.642) (0.179,0.982) (0.189,1.494) (0.139,2.162) (0.030,3.158)
+Parameters optimization took 15 rounds (69.475 sec)
+BEST SCORE FOUND : -756517.436
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.splits.nex
+Total tree length: 45.623
+
+Total number of iterations: 273
+CPU time used for tree search: 21599.507 sec (5h:59m:59s)
+Wall-clock time used for tree search: 4429.368 sec (1h:13m:49s)
+Total CPU time used: 22252.992 sec (6h:10m:52s)
+Total wall-clock time used: 4590.116 sec (1h:16m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.splits.nex...
+494 taxa and 1365 splits.
+Consensus tree written to /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.contree
+Reading input trees file /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.contree
+Log-likelihood of consensus tree: -756519.254
+
+Analysis results written to: 
+  IQ-TREE report:                /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.iqtree
+  Maximum-likelihood tree:       /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.treefile
+  Likelihood distances:          /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.splits.nex
+  Consensus tree:                /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.contree
+  Screen log file:               /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t /home/aglucaci/AOC-Nup214/results/Craniata/RDP/nup214_processed_distributed_recombinationfree.fas.treefile -m "TN{4.18937,3.3082}+F{0.23088,0.294456,0.245872,0.228792}+I{0.0401683}+R8{0.0972251,0.0516864,0.093251,0.181798,0.0994612,0.381571,0.132288,0.64154,0.179162,0.981673,0.188583,1.49394,0.139442,2.1625,0.0304188,3.15754}" --length 17148
+
+Date and Time: Sat Jul 15 22:03:26 2023

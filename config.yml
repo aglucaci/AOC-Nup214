@@ -7,10 +7,16 @@ Taxon: Craniata
 Nucleotide: NUP214_refseq_transcript.fasta
 Protein: NUP214_refseq_protein.fasta
 CSV: NUP214_orthologs.csv
-TN93_Threshold: 0.1
+TN93_Threshold: 0.4
 
 # User settings for NCBI Entrez
-EMAIL: ""
+EMAIL: "agl4001@med.cornell.edu"
+
+# -------------------------------------------------------------
+# Recombination-Free file
+# -------------------------------------------------------------
+
+RECOMBINATION_FREE: Craniata/nup214_processed_distributed_recombinationfree.fas
 
 # -------------------------------------------------------------
 # For Debugging
